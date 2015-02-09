@@ -10,32 +10,32 @@
   <question id="2" text="Test2?">
     <answers>
       <answer>Teste1</answer>
-      <answer correct="YES">Teste2</answer>
-      <answer>Teste3</answer>
+      <answer>Teste2</answer>
+      <answer correct="YES">Teste3</answer>
       <answer>Teste4</answer>
     </answer>
   </question>
   <question id="3" text="Test3?">
     <answers>
       <answer>Teste1</answer>
-      <answer correct="YES">Teste2</answer>
+      <answer>Teste2</answer>
       <answer>Teste3</answer>
-      <answer>Teste4</answer>
+      <answer correct="YES">Teste4</answer>
     </answer>
   </question>
   <question id="4" text="Test4?">
     <answers>
-      <answer>Teste1</answer>
-      <answer correct="YES">Teste2</answer>
+      <answer correct="YES">Teste1</answer>
+      <answer>Teste2</answer>
       <answer>Teste3</answer>
       <answer>Teste4</answer>
     </answer>
   </question>
-  <question id="5" text="Test5?">
+  <question id="5" text="Test2?">
     <answers>
       <answer>Teste1</answer>
-      <answer correct="YES">Teste2</answer>
-      <answer>Teste3</answer>
+      <answer>Teste2</answer>
+      <answer correct="YES">Teste3</answer>
       <answer>Teste4</answer>
     </answer>
   </question>
