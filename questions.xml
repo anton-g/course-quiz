@@ -1,0 +1,42 @@
+<questions>
+  <question id="1" text="Test?">
+    <answers>
+      <answer>Test1</answer>
+      <answer correct="YES">Test2</answer>
+      <answer>Test3</answer>
+      <answer>Test4</answer>
+    </answer>
+  </question>
+  <question id="2" text="Test2?">
+    <answers>
+      <answer>Teste1</answer>
+      <answer correct="YES">Teste2</answer>
+      <answer>Teste3</answer>
+      <answer>Teste4</answer>
+    </answer>
+  </question>
+  <question id="3" text="Test3?">
+    <answers>
+      <answer>Teste1</answer>
+      <answer correct="YES">Teste2</answer>
+      <answer>Teste3</answer>
+      <answer>Teste4</answer>
+    </answer>
+  </question>
+  <question id="4" text="Test4?">
+    <answers>
+      <answer>Teste1</answer>
+      <answer correct="YES">Teste2</answer>
+      <answer>Teste3</answer>
+      <answer>Teste4</answer>
+    </answer>
+  </question>
+  <question id="5" text="Test5?">
+    <answers>
+      <answer>Teste1</answer>
+      <answer correct="YES">Teste2</answer>
+      <answer>Teste3</answer>
+      <answer>Teste4</answer>
+    </answer>
+  </question>
+</questions>
