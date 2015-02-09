@@ -22,7 +22,6 @@ $(function() {
   * SETUP
   */
   var questions = new Array();
-  var userAnswers;
 
   fetchQuestions(function() {
     showQuestions();
@@ -38,8 +37,14 @@ $(function() {
 
       $(this).addClass('active');
 
-      /* TODO: Save selected answer to answers */
+      didSelectAnswer($(this).closest('.question').attr('data-questionID'), $(this).attr('data-answerID'));
     });
+  });
+
+  $('#answerBtn').click(function(e) {
+    e.preventDefault();
+
+    correctAnswers();
   });
 
   function showQuestions() {
@@ -48,8 +53,14 @@ $(function() {
     });
   }
 
+  //TODO: Add support for images and videos in XML
   function showQuestion(question) {
-    var htmlQuestion = '<!-- Question START --><div class="row" id="' + question.number + '"><div class="col-xs-12"><div class="panel panel-default"><div class="panel-heading"><h2 class="panel-title question">' + question.question + '</h2></div><div class="panel-body"><ul class="nav nav-pills nav-justified answers"><li role="presentation" class="answer"><a href="#">' + question.answers[0] + '</a></li><li role="presentation" class="answer"><a href="#">' + question.answers[1] + '</a></li><li role="presentation" class="answer"><a href="#">' + question.answers[2] + '</a></li><li role="presentation" class="answer"><a href="#">' + question.answers[3] + '</a></li></ul></div></div></div></div><!-- Question END -->';
+    var htmlQuestion = '<!-- Question START --><div class="row question" data-questionID="' + question.number + '"><div class="col-xs-12"><div class="panel panel-default"><div class="panel-heading"><h2 class="panel-title">' + question.question + '</h2></div><div class="panel-body"><ul class="nav nav-pills nav-justified answers">';
+    $(question.answers).each(function(index) {
+      htmlQuestion = htmlQuestion + '<li role="presentation" class="answer" data-answerID="' + (index + 1) + '"><a href="#">' + question.answers[index] + '</a></li>';
+    });
+
+    htmlQuestion = htmlQuestion + '</ul></div></div></div></div><!-- Question END -->';
 
     $('#questions').append(htmlQuestion);
   }
@@ -58,7 +69,6 @@ $(function() {
   * BACKEND
   */
 
-  /* TODO: Fetch questions from data source */
   function fetchQuestions(complete) {
     $.get('questions.xml', function(data) {
       $(data).find('question').each(function() {
@@ -86,12 +96,21 @@ $(function() {
     });
     question.answers = answers;
 
-    console.log (question);
-
     return question;
   }
 
-  function didSelectAnswer(answer, questionID) {
+  function didSelectAnswer(questionID, answerID) {
+    var question = questionFromID(questionID);
+    question.userAnswer = answerID;
+  }
 
+  function questionFromID(id) {
+    var q = new Object();
+    questions.forEach(function(question) {
+      if (question.number == id) {
+        q = question;
+      }
+    });
+    return q;
   }
 });
