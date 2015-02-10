@@ -47,7 +47,6 @@ $(function() {
     var justified = question.images ? '' : 'nav-justified';
     var htmlQuestion = '<!-- Question START --><div class="row question" data-questionID="' + question.number + '"><div class="col-xs-12"><div class="panel panel-default"><div class="panel-heading"><h2 class="panel-title">' + question.question + '</h2></div><div class="panel-body"><ul class="nav nav-pills ' + justified + ' answers">';
 
-
     $(question.answers).each(function(index) {
       var htmlAnswer = question.answers[index];
       htmlQuestion = htmlQuestion + '<li role="presentation" class="answer " data-answerID="' + (index + 1) + '"><a href="#">' + htmlAnswer + '</a></li>';
@@ -115,8 +114,6 @@ $(function() {
   function correctAnswers() {
     var questions = $('#questions').find('.question');
 
-    //TODO: Kontrollera att alla frågor är besvarade
-
     $(questions).each(function() {
       var questionID = $(this).attr('data-questionID');
       var question = questionFromID(questionID);
@@ -130,21 +127,19 @@ $(function() {
         numCorrectAnswers++;
 
         $(this).find('.panel').removeClass('panel-default').addClass('panel-success');
-        //TODO: Important css? ;<
         $(selectedAnswerButton).addClass('green');
 
-        $(selectedAnswerButton).find('a').html('<span class="glyphicon glyphicon-ok pull-left" aria-hidden="true"></span>' + $(selectedAnswerButton).find('a').html());
+        //$(selectedAnswerButton).find('a').html('<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>' + $(selectedAnswerButton).find('a').html());
       }
       else {
         $(this).find('.panel').removeClass('panel-default').addClass('panel-danger');
-        //TODO: Important css? ;<
         $(selectedAnswerButton).addClass('red');
 
-        $(selectedAnswerButton).find('a').html('<span class="glyphicon glyphicon-remove pull-left" aria-hidden="true"></span>' + $(selectedAnswerButton).find('a').html());
+        $(selectedAnswerButton).find('a').html('<span class="glyphicon glyphicon-remove icon" aria-hidden="true"></span>' + $(selectedAnswerButton).find('a').html());
 
         //Show correct answer
         var incorrectAnswer = $(this).find('li[data-answerid=' + question.correctAnswer + '] a');
-        incorrectAnswer.html('<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>  ' + incorrectAnswer.html());
+        incorrectAnswer.html('<span class="glyphicon glyphicon-ok icon" aria-hidden="true"></span>  ' + incorrectAnswer.html());
       }
 
       //Disable stuff
