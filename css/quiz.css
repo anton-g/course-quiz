@@ -5,3 +5,12 @@
 .green a {
   background-color: green !important;
 }
+
+.answer-img {
+  max-height: 150px;
+  margin: 0 auto;
+}
+
+.answers {
+  margin: 0 auto 0;
+}

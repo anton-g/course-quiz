@@ -30,6 +30,10 @@ $(function() {
     e.preventDefault();
 
     correctAnswers();
+
+    $("html, body").animate({
+      scrollTop:0
+    },"slow");
   });
 
   function showQuestions() {
@@ -40,9 +44,13 @@ $(function() {
 
   //TODO: Add support for images and videos in XML
   function showQuestion(question) {
-    var htmlQuestion = '<!-- Question START --><div class="row question" data-questionID="' + question.number + '"><div class="col-xs-12"><div class="panel panel-default"><div class="panel-heading"><h2 class="panel-title">' + question.question + '</h2></div><div class="panel-body"><ul class="nav nav-pills nav-justified answers">';
+    var justified = question.images ? '' : 'nav-justified';
+    var htmlQuestion = '<!-- Question START --><div class="row question" data-questionID="' + question.number + '"><div class="col-xs-12"><div class="panel panel-default"><div class="panel-heading"><h2 class="panel-title">' + question.question + '</h2></div><div class="panel-body"><ul class="nav nav-pills ' + justified + ' answers">';
+
+
     $(question.answers).each(function(index) {
-      htmlQuestion = htmlQuestion + '<li role="presentation" class="answer " data-answerID="' + (index + 1) + '"><a href="#">' + question.answers[index] + '</a></li>';
+      var htmlAnswer = question.answers[index];
+      htmlQuestion = htmlQuestion + '<li role="presentation" class="answer " data-answerID="' + (index + 1) + '"><a href="#">' + htmlAnswer + '</a></li>';
     });
 
     htmlQuestion = htmlQuestion + '</ul></div></div></div></div><!-- Question END -->';
@@ -72,12 +80,26 @@ $(function() {
     var answerData = $(data).find('answer');
 
     var answers = new Array();
+
     $(answerData).each(function(index) {
       if ($(this).attr('correct') == 'YES') {
         question.correctAnswer = index + 1;
       }
 
-      answers.push($(this).text());
+      var answer;
+      var answerType = $(this).attr('data-type');
+      if (answerType == 'image') {
+        question.images = true;
+        answer = '<img class="img-responsive answer-img" src="img/' + $(this).text() + '" />'
+      }
+      else if (answerType == 'video') {
+        //TODO: Support för videos
+      }
+      else if (answerType == 'text') {
+        answer = $(this).text();
+      }
+
+      answers.push(answer);
     });
     question.answers = answers;
 
@@ -122,7 +144,7 @@ $(function() {
 
         //Show correct answer
         var incorrectAnswer = $(this).find('li[data-answerid=' + question.correctAnswer + '] a');
-        incorrectAnswer.html(incorrectAnswer.html() + ' <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>');
+        incorrectAnswer.html('<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>  ' + incorrectAnswer.html());
       }
 
       //Disable stuff
