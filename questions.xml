@@ -1,5 +1,5 @@
 <questions>
-  <question id="1" text="Test?" category="media">
+  <question id="1" text="lorem?" category="media" image="temp2.png">
     <answers>
       <answer data-type="image">temp2.png</answer>
       <answer data-type="image" correct="YES">temp.png</answer>
