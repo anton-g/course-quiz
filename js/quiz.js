@@ -12,25 +12,16 @@ $(function() {
     showQuestions(questions);
     showCategories();
 
-    $('.answer').click(function(e) {
-      e.preventDefault();
-
-      if ($(this).hasClass('disabled')) {
-        return;
-      }
-      var parent = $(this).parent();
-
-      parent.children().each(function(a) {
-        $(this).removeClass('active');
-      });
-
-      $(this).addClass('active');
-
-      didSelectAnswer($(this).closest('.question').attr('data-questionID'), $(this).attr('data-answerID'));
-    });
+    setupEventHandlers();
 
     $('.category').click(function(e) {
       e.preventDefault();
+      var answers = $('.question').find('.active');
+      if (answers.length > 0) {
+        if (!confirm('Vill du verkligen fortsätta? Dina svar kommer då försvinna.')) {
+          return;
+        }
+      }
 
       if ($(this).hasClass('disabled')) {
         return;
@@ -69,13 +60,19 @@ $(function() {
   function showQuestion(question) {
     var justified = question.images ? '' : 'nav-justified';
 
-    var image = '';
     //If question contains an image we want to show it
+    var image = '';
     if (typeof question.image !== typeof undefined && question.image !== false) {
       image = '<img src="img/' + question.image + '" class="img-responsive question-image" />';
     }
 
-    var htmlQuestion = '<!-- Question START --><div class="row question" data-questionID="' + question.number + '"><div class="col-xs-12"><div class="panel panel-default"><div class="panel-heading"><h2 class="panel-title">' + question.question + '<span class="pull-right categoryName">' + question.category + '</span>' + image +'</h2></div><div class="panel-body"><ul class="nav nav-pills ' + justified + ' answers">';
+    //If question contains an sound we want to show it
+    var sound = '';
+    if (typeof question.sound !== typeof undefined && question.sound !== false) {
+      sound = '<audio controls><source src="sound/' + question.sound + '.mp3" type="audio/mpeg">Kan inte spela upp ljud.</audio>';
+    }
+
+    var htmlQuestion = '<!-- Question START --><div class="row question" data-questionID="' + question.number + '"><div class="col-xs-12"><div class="panel panel-default"><div class="panel-heading"><h2 class="panel-title">' + question.question + '<span class="pull-right categoryName">' + question.category + '</span>' + image + sound +'</h2></div><div class="panel-body"><ul class="nav nav-pills ' + justified + ' answers">';
 
     $(question.answers).each(function(index) {
       var htmlAnswer = question.answers[index];
@@ -154,11 +151,17 @@ $(function() {
         question.images = true;
         answer = '<img class="img-responsive answer-img" src="img/' + $(this).text() + '" />'
       }
+      else if (answerType == 'sound') {
+        answer = '<audio controls><source src="sound/' + $(this).text() + '.mp3" type="audio/mpeg">Kan inte spela upp ljud.</audio>';
+      }
       else if (answerType == 'video') {
         //TODO: Support för videos
       }
       else if (answerType == 'text') {
         answer = $(this).text();
+      }
+      else if (answerType == 'code') {
+        answer = '<code>' + $(this).text() + '</code>';
       }
 
       answers.push(answer);
@@ -187,6 +190,8 @@ $(function() {
     } else {
       showQuestions(questions);
     }
+
+    setupEventHandlers();
   }
 
   //TODO: Är lite lång alltså, refaktorera
@@ -244,6 +249,25 @@ $(function() {
       question.correct = true;
     }
     else question.correct = false;
+  }
+
+  function setupEventHandlers() {
+    $('.answer').click(function(e) {
+      e.preventDefault();
+
+      if ($(this).hasClass('disabled')) {
+        return;
+      }
+      var parent = $(this).parent();
+
+      parent.children().each(function(a) {
+        $(this).removeClass('active');
+      });
+
+      $(this).addClass('active');
+
+      didSelectAnswer($(this).closest('.question').attr('data-questionID'), $(this).attr('data-answerID'));
+    });
   }
 
   function resetDOM() {
