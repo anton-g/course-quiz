@@ -3,7 +3,6 @@
     <answers>
       <answer data-type="text" correct="YES">Objekt-orienterade bilder</answer>
       <answer data-type="text" > Pixel-orienterade bilder</answer>
-
     </answer>
   </question>
   <question id="2" text="Bézierkurvor är en slags vektorgrafik. Vad är det som bestämmer utseendet på en sådan kurva?" image="img/Bezier_cubic_anim.gif" category="Vektorgrafik">

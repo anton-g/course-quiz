@@ -68,7 +68,14 @@ $(function() {
   //TODO: Add support for videos in XML
   function showQuestion(question) {
     var justified = question.images ? '' : 'nav-justified';
-    var htmlQuestion = '<!-- Question START --><div class="row question" data-questionID="' + question.number + '"><div class="col-xs-12"><div class="panel panel-default"><div class="panel-heading"><h2 class="panel-title">' + question.question + '<span class="pull-right categoryName">' + question.category + '</span></h2></div><div class="panel-body"><ul class="nav nav-pills ' + justified + ' answers">';
+
+    var image = '';
+    //If question contains an image we want to show it
+    if (typeof question.image !== typeof undefined && question.image !== false) {
+      image = '<img src="img/' + question.image + '" class="img-responsive question-image" />';
+    }
+
+    var htmlQuestion = '<!-- Question START --><div class="row question" data-questionID="' + question.number + '"><div class="col-xs-12"><div class="panel panel-default"><div class="panel-heading"><h2 class="panel-title">' + question.question + '<span class="pull-right categoryName">' + question.category + '</span>' + image +'</h2></div><div class="panel-body"><ul class="nav nav-pills ' + justified + ' answers">';
 
     $(question.answers).each(function(index) {
       var htmlAnswer = question.answers[index];
@@ -125,6 +132,8 @@ $(function() {
 
     question.number = data.attr('id');
     question.question = data.attr('text');
+    question.image = data.attr('image');
+
     question.category = data.attr('category');
     if ($.inArray(question.category, categories) == -1) {
       categories.push(question.category);
