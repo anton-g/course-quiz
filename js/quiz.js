@@ -2,12 +2,14 @@ $(function() {
   /*
   * SETUP
   */
+  var filteredQuestions = new Array();
   var questions = new Array();
   var categories = new Array();
   var numCorrectAnswers = 0;
+  var dataSource = 'questions.xml';
 
-  fetchQuestions(function() {
-    showQuestions();
+  setup(function() {
+    showQuestions(questions);
     showCategories();
 
     $('.answer').click(function(e) {
@@ -41,8 +43,9 @@ $(function() {
 
       $(this).addClass('active');
 
-      //Did select category
-      //didSelectAnswer($(this).closest('.question').attr('data-questionID'), $(this).attr('data-answerID'));
+      var categoryName = $(this).find('a').html();
+
+      didSelectCategory(categoryName);
     });
   });
 
@@ -56,8 +59,8 @@ $(function() {
     },"slow");
   });
 
-  function showQuestions() {
-    questions.forEach(function(q) {
+  function showQuestions(q) {
+    q.forEach(function(q) {
       showQuestion(q);
     });
   }
@@ -79,7 +82,7 @@ $(function() {
 
   function showCategories() {
     $(categories).each(function(index, category) {
-      var htmlCategory = '<li role="presentation" class="category"><a href="#"> ' + category + '</a></li>';
+      var htmlCategory = '<li role="presentation" class="category"><a href="#">' + category + '</a></li>';
       $('.categories').append(htmlCategory);
     });
   }
@@ -107,8 +110,8 @@ $(function() {
   * BACKEND
   */
 
-  function fetchQuestions(complete) {
-    $.get('questions.xml', function(data) {
+  function setup(complete) {
+    $.get(dataSource, function(data) {
       $(data).find('question').each(function() {
         questions.push(createQuestionWith($(this)));
       });
@@ -159,6 +162,22 @@ $(function() {
   function didSelectAnswer(questionID, answerID) {
     var question = questionFromID(questionID);
     question.userAnswer = answerID;
+  }
+
+  function didSelectCategory(category) {
+    resetDOM();
+    if (category != 'Alla kategorier') {
+      filteredQuestions = new Array();
+
+      $(questions).each(function(index, question) {
+        if (question.category == category) {
+          filteredQuestions.push(question);
+        }
+      });
+      showQuestions(filteredQuestions);
+    } else {
+      showQuestions(questions);
+    }
   }
 
   //TODO: Är lite lång alltså, refaktorera
@@ -217,4 +236,10 @@ $(function() {
     }
     else question.correct = false;
   }
+
+  function resetDOM() {
+    $('.result').remove();
+    $('.question').remove();
+  }
+
 });
