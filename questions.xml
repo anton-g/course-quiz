@@ -1,5 +1,5 @@
 <questions>
-  <question id="1" text="Test?">
+  <question id="1" text="Test?" category="media">
     <answers>
       <answer data-type="image">temp2.png</answer>
       <answer data-type="image" correct="YES">temp.png</answer>
@@ -7,7 +7,7 @@
       <answer data-type="image">temp.png</answer>
     </answer>
   </question>
-  <question id="2" text="Test2?">
+  <question id="2" text="Test2?" category="media2">
     <answers>
       <answer data-type="text">Lorem ipsum dolor sit amet, consowiuefyectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</answer>
       <answer data-type="text">Middagen underligt tycker hycklat, tyst ur flesta. Vitt supa menar förbarmande jagade måttade tjänst skogsträsken. Kommit herrn år efteråt. Fulla läsa kuvat fått djupt bergh när.</answer>
@@ -15,7 +15,7 @@
       <answer data-type="text">Brännvinets bundna åhörarna satt bär hälsa. Himmelen på vrede. Från lyftes båt. Tycker allesammans sina. Vaken jag prisade druvor sitter.</answer>
     </answer>
   </question>
-  <question id="3" text="Test3?">
+  <question id="3" text="Test3?" category="media">
     <answers>
       <answer data-type="text">Innan uttrycksfullt genom himmelen starke. Himlen vrede tankarna. Fålar böjde sjönk lät jätte dysterhet ständigt först. Såg starke kyrkan dumma kunna foro sådan.</answer>
       <answer data-type="text">Socknemännen nej trogna vi. Vilket avgrunder prästens måttade måste, sköljde måtte festen. Andligt dagen andlös blygdes bundna, visst tänka. Rosor banden prost gräns. Foro försvarade mil. Spänna ni förnämsta svarta. Kristian bana sköta tunna brännvinet sänkt enris fönsterrutorna. </answer>
@@ -23,7 +23,7 @@
       <answer data-type="text" correct="YES">Tystnad folket igen "suspendera gjort fick" 1 144 497.7 andligt flesta. Kyrkvaktaren tystnad hustru sjöngs 485 367 kalla, övergav skakade. </answer>
     </answer>
   </question>
-  <question id="4" text="Test4?">
+  <question id="4" text="Test4?" category="media2">
     <answers>
       <answer data-type="text" correct="YES">Bröstet mörk brukspatronerna två prästkappan vise tänkte glans. Höga mitt diktare. Läpparna flamma ju morgonen skalds glans. </answer>
       <answer data-type="text">Spänna rissäters visitationsresa sutto, 84 vänta uppkalla taken granskogen. Flera björkar kommo vänta betyder. Bordet ville falla.</answer>
@@ -31,7 +31,7 @@
       <answer data-type="text">Grannfruarna att mera slitande. År släpat åt fukten "åstad oförväntade". </answer>
     </answer>
   </question>
-  <question id="5" text="Test2?">
+  <question id="5" text="Test2?" category="media3">
     <answers>
       <answer data-type="text">Spänna prästens sätt klockaren utsänd ack måste. Ena kommo sinne sedan stängda kom. Hugga förbarmande bänkar prostarna, på predikstolstrappan 643 tillåtnas sänkte. Körde.</answer>
       <answer data-type="text">Brutna gravölet sjöngs huvuden förhand 100.5 stå huvudet alla. Dag hungern brytt gör täckta svart.</answer>

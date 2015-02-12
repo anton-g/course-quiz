@@ -3,10 +3,12 @@ $(function() {
   * SETUP
   */
   var questions = new Array();
+  var categories = new Array();
   var numCorrectAnswers = 0;
 
   fetchQuestions(function() {
     showQuestions();
+    showCategories();
 
     $('.answer').click(function(e) {
       e.preventDefault();
@@ -23,6 +25,24 @@ $(function() {
       $(this).addClass('active');
 
       didSelectAnswer($(this).closest('.question').attr('data-questionID'), $(this).attr('data-answerID'));
+    });
+
+    $('.category').click(function(e) {
+      e.preventDefault();
+
+      if ($(this).hasClass('disabled')) {
+        return;
+      }
+      var parent = $(this).parent();
+
+      parent.children().each(function(a) {
+        $(this).removeClass('active');
+      });
+
+      $(this).addClass('active');
+
+      //Did select category
+      //didSelectAnswer($(this).closest('.question').attr('data-questionID'), $(this).attr('data-answerID'));
     });
   });
 
@@ -42,10 +62,10 @@ $(function() {
     });
   }
 
-  //TODO: Add support for images and videos in XML
+  //TODO: Add support for videos in XML
   function showQuestion(question) {
     var justified = question.images ? '' : 'nav-justified';
-    var htmlQuestion = '<!-- Question START --><div class="row question" data-questionID="' + question.number + '"><div class="col-xs-12"><div class="panel panel-default"><div class="panel-heading"><h2 class="panel-title">' + question.question + '</h2></div><div class="panel-body"><ul class="nav nav-pills ' + justified + ' answers">';
+    var htmlQuestion = '<!-- Question START --><div class="row question" data-questionID="' + question.number + '"><div class="col-xs-12"><div class="panel panel-default"><div class="panel-heading"><h2 class="panel-title">' + question.question + '<span class="pull-right categoryName">' + question.category + '</span></h2></div><div class="panel-body"><ul class="nav nav-pills ' + justified + ' answers">';
 
     $(question.answers).each(function(index) {
       var htmlAnswer = question.answers[index];
@@ -55,6 +75,32 @@ $(function() {
     htmlQuestion = htmlQuestion + '</ul></div></div></div></div><!-- Question END -->';
 
     $('#questions').append(htmlQuestion);
+  }
+
+  function showCategories() {
+    $(categories).each(function(index, category) {
+      var htmlCategory = '<li role="presentation" class="category"><a href="#"> ' + category + '</a></li>';
+      $('.categories').append(htmlCategory);
+    });
+  }
+
+  function showResults() {
+    var numCorrect = numCorrectAnswers + '/' + questions.length;
+    var percent = ((numCorrectAnswers / questions.length) * 100);
+
+    var htmlStart = '<div class="row result"><div class="col-xs-12"><div class="panel panel-primary"><div class="panel-heading"><h2 class="panel-title">Resultat</h2></div><div class="panel-body">'
+    var htmlBody = '<div class="row"><div class="col-xs-9">Antal rätt: ' + numCorrect + ' (' + percent +'%)</div><div class="col-xs-3"><button class="btn btn-large btn-primary pull-right" id="resetBtn">Try again!</button></div></div>';
+    var htmlEnd = '</div></div></div></div>';
+
+    var htmlResult = htmlStart + htmlBody + htmlEnd;
+
+    $('#questions').prepend(htmlResult);
+
+    $('#resetBtn').click(function(e) {
+      e.preventDefault();
+
+      location.reload();
+    });
   }
 
   /*
@@ -76,6 +122,11 @@ $(function() {
 
     question.number = data.attr('id');
     question.question = data.attr('text');
+    question.category = data.attr('category');
+    if ($.inArray(question.category, categories) == -1) {
+      categories.push(question.category);
+    }
+
     var answerData = $(data).find('answer');
 
     var answers = new Array();
@@ -148,25 +199,6 @@ $(function() {
     });
 
     showResults();
-  }
-
-  function showResults() {
-    var numCorrect = numCorrectAnswers + '/' + questions.length;
-    var percent = ((numCorrectAnswers / questions.length) * 100);
-
-    var htmlStart = '<div class="row result"><div class="col-xs-12"><div class="panel panel-primary"><div class="panel-heading"><h2 class="panel-title">Resultat</h2></div><div class="panel-body">'
-    var htmlBody = '<div class="row"><div class="col-xs-9">Antal rätt: ' + numCorrect + ' (' + percent +'%)</div><div class="col-xs-3"><button class="btn btn-large btn-primary pull-right" id="resetBtn">Try again!</button></div></div>';
-    var htmlEnd = '</div></div></div></div>';
-
-    var htmlResult = htmlStart + htmlBody + htmlEnd;
-
-    $('#questions').prepend(htmlResult);
-
-    $('#resetBtn').click(function(e) {
-      e.preventDefault();
-
-      location.reload();
-    });
   }
 
   function questionFromID(id) {

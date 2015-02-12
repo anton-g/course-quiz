@@ -12,6 +12,7 @@
 }
 
 .icon {
+  z-index: 1;
   position:absolute !important;
   width: 100%;
   left: 0;
@@ -19,4 +20,8 @@
   font-size: 8em;
   text-align: center;
   opacity: .5;
+}
+
+.categoryName {
+  color: grey;
 }
