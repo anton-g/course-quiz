@@ -5,7 +5,7 @@
       <answer data-type="text" > Pixel-orienterade bilder</answer>
     </answer>
   </question>
-  <question id="2" text="Bézierkurvor är en slags vektorgrafik. Vad är det som bestämmer utseendet på en sådan kurva?" image="img/Bezier_cubic_anim.gif" category="Vektorgrafik">
+  <question id="2" text="Bézierkurvor är en slags vektorgrafik. Vad är det som bestämmer utseendet på en sådan kurva?" image=Bezier_cubic_anim.gif" category="Vektorgrafik">
     <answers>
       <answer data-type="text">Startpunkten</answer>
       <answer data-type="text">Ändpunkten<answer>
@@ -15,9 +15,9 @@
   </question>
   <question id="3" text="Vilken bild visar så kallad anti-aliasing?" category="Vektorgrafik">
     <answers>
-      <answer data-type="image">img/antianalising1.png</answer>
-      <answer data-type="image">img/antianalising2.png </answer>
-      <answer data-type="image" correct="YES">img/antianalising3.png</answer>
+      <answer data-type="image">antianalising1.png</answer>
+      <answer data-type="image">antianalising2.png </answer>
+      <answer data-type="image" correct="YES">antianalising3.png</answer>
     </answer>
   </question>
   <question id="4" text="Vad är anledningen att vektorgrafik oftast resulterar i mindre bildfiler än bitmapgrafik?" category="Vektorgrafik">
