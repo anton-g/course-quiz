@@ -92,7 +92,8 @@ $(function() {
   }
 
   function showResults() {
-    var numCorrect = numCorrectAnswers + '/' + questions.length;
+    var numQuestions = filteredQuestions.length > 0 ? filteredQuestions.length : questions.length;
+    var numCorrect = numCorrectAnswers + '/' + numQuestions;
     var percent = ((numCorrectAnswers / questions.length) * 100);
 
     var htmlStart = '<div class="row result"><div class="col-xs-12"><div class="panel panel-primary"><div class="panel-heading"><h2 class="panel-title">Resultat</h2></div><div class="panel-body">'
@@ -190,7 +191,7 @@ $(function() {
     } else {
       showQuestions(questions);
     }
-
+    $('#answerBtn').prop('disabled', false);
     setupEventHandlers();
   }
 
