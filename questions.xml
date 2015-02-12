@@ -16,7 +16,7 @@
   <question id="3" text="Vilken bild visar så kallad anti-aliasing?" category="Vektorgrafik">
     <answers>
       <answer data-type="image">antialiasing1.png</answer>
-      <answer data-type="image">antialisaing2.png </answer>
+      <answer data-type="image">antialiasing2.png </answer>
       <answer data-type="image" correct="YES">antialiasing3.png</answer>
     </answer>
   </question>
@@ -101,7 +101,7 @@
   </question>
   <question id="14" text="Visuell hierarki handlar om att element arrangeras i en ordning, skapad genom att ge elementen olika visuell vikt, med hjälp av kontrastförhållanden.Vilket av följande skapar inte ett såndant?" category="Mediadesign">
     <answers>
-      <answer data-type="text">Storlek<a/nswer>
+      <answer data-type="text">Storlek</answer>
       <answer data-type="text" correct="YES">Kontinuitet</answer>
       <answer data-type="text">Färg</answer>
       <answer data-type="text">Styrka</answer>
@@ -154,7 +154,7 @@
       <answer data-type="text">Samplingsfrekvensen ska vara exakt 44,1 kHz</answer>
     </answer>
   </question>  
-  <question id="21" text="Det första ljudet som spelas upp har en låg bitrate, och det andra ljudet har en högre bitrate. Vad är egentligen bitrate?" category="Bitmapgrafik" Sound="bitrates.mp3">
+  <question id="21" text="Det första ljudet som spelas upp har en låg bitrate, och det andra ljudet har en högre bitrate. Vad är egentligen bitrate?" category="Ljud" sound="bitrates.mp3">
     <answers>
       <answer data-type="text">Uppfattad frekvens hos ljudet</answer>
       <answer data-type="text">Bitrate har att göra med toners klangfärg</answer>
