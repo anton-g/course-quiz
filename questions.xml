@@ -5,10 +5,10 @@
       <answer data-type="text" > Pixel-orienterade bilder</answer>
     </answer>
   </question>
-  <question id="2" text="Bézierkurvor är en slags vektorgrafik. Vad är det som bestämmer utseendet på en sådan kurva?" image=Bezier_cubic_anim.gif" category="Vektorgrafik">
+  <question id="2" text="Bézierkurvor är en slags vektorgrafik. Vad är det som bestämmer utseendet på en sådan kurva?" image="Bezier_cubic_anim.gif" category="Vektorgrafik">
     <answers>
       <answer data-type="text">Startpunkten</answer>
-      <answer data-type="text">Ändpunkten<answer>
+      <answer data-type="text">Ändpunkten</answer>
       <answer data-type="text" correct="YES">Kontrollpunkterna</answer>
       <answer data-type="text">Medelpunkten<answer>
     </answer>
@@ -23,7 +23,7 @@
   <question id="4" text="Vad är anledningen att vektorgrafik oftast resulterar i mindre bildfiler än bitmapgrafik?" category="Vektorgrafik">
     <answers>
       <answer data-type="text">Bitmapgrafik använder sig av matematiska modeller och blir därför större</answer>
-      <answer data-type="text">Vektorgrafik kodar varje pixel för sig och blir därför mindre<answer>
+      <answer data-type="text">Vektorgrafik kodar varje pixel för sig och blir därför mindre</answer>
       <answer data-type="text">Bitmapgrafik kodar varje pixel för sig och blir därför mindre</answer>
       <answer data-type="text" correct="YES">Vektorgrafik använder sig av matematiska modeller och blir därför mindre</answer>
     </answer>
