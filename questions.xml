@@ -218,12 +218,12 @@
       <answer data-type="text">20</answer>
     </answer>
   </question>
-  <question id="29" text="Vad är speciellt med UNICODE?" category="Text">
+  <question id="29" text="Vad stämmer inte med med UNICODE?" category="Text">
     <answers>
       <answer data-type="text">Man kan blanda olika språk med olika alfabet (ex. Svenska och Grekiska)</answer>
       <answer data-type="text" correct="YES"> Det är bara till för asiatiska alfabet</answer>
       <answer data-type="text"> Man kan blanda olika språk som har samma alfabet (ex. Engelska och Svenska)</answer>
-      <answer data-type="text"> Version 3.0 är tvådimensionell</answer>
+      <answer data-type="text"> Version 3.0 är tredimensionell</answer>
     </answer>
   </question>
 </questions>
