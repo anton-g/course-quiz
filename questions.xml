@@ -34,7 +34,7 @@
       <answer data-type="text" correct="YES">Pixel-orienterade bilder</answer>
     </answer>
   </question>
-  
+
   <question id="6" text="För att minska ner filstorleken hos bitmapgrafik använder man olika komprimeringstekniker. Vilken av följande är icke-förstörande(lossless)?" category="Bitmapgrafik">
     <answers>
       <answer data-type="text" correct="YES">Huffman</answer>
@@ -49,8 +49,8 @@
       <answer data-type="text" correct="YES">JPG</answer>
       <answer data-type="text">Huffman</answer>
     </answer>
-  </question> 
-  
+  </question>
+
   <question id="8" text="Vilken kod utgör bilden (bortse från bakgrunden och färger)? Bilden är 400 * 400." image="svg.png" category="Bitmapgrafik">
     <answers>
       <answer data-type="code"><circle cx="200" cy="150" r="50" /><rect x="50" y="200" width="100" height ="200" /><rect x="100" y="300" width="300" height ="100 "/></answer>
@@ -58,7 +58,7 @@
       <answer data-type="code"><circle cx="300" cy="150" r="100" /><rect x="50" y="200" width="100" height ="200" /><rect x="0" y="0" width="200" height ="100 "/></answer>
       <answer data-type="code" correct="YES"><circle cx="300" cy="150" r="75" /><rect x="50" y="200" width="100" height ="200" /><rect x="0" y="0" width="300" height ="100 "/></answer>
     </answer>
-  </question> 
+  </question>
   <question id="9" text="Vilka är primärfärgerna för additiv färgsyntes?" category="Färg">
     <answers>
       <answer data-type="text">Gul, magenta, cyan</answer>
@@ -66,7 +66,7 @@
       <answer data-type="text" correct="YES">Rött, grönt, blått</answer>
       <answer data-type="text">Gul, Indigo, cyan</answer>
     </answer>
-  </question> 
+  </question>
   <question id="10" text="Vilka är primärfärgerna i subtraktiv färgsyntes?" category="Färg">
     <answers>
       <answer data-type="text" correct="YES">Gul, magenta, cyan</answer>
@@ -74,7 +74,7 @@
       <answer data-type="text">Rött, grönt, blått</answer>
       <answer data-type="text">Gul, Indigo, cyan</answer>
     </answer>
-  </question> 
+  </question>
   <question id="11" text="Nedan ser du de två färgsynteserna, vilket alternativ stämmer om dessa?" image="färgsyntes.jpg" category="Färg">
     <answers>
       <answer data-type="text">A: Färg skapas genom att blanda färgpigment och är det som används vid tryck.<br>B: Färg skapas genom att blanda färgat ljus och är det som används  i en datorskärm</answer>
@@ -82,7 +82,7 @@
       <answer data-type="text">A: Färg skapas genom att blanda färgpigment och är det som används i  en datorskärm.<br>B: Färg skapas genom att blanda färgat ljus och är det som används vid tryck.</answer>
       <answer data-type="text"> A: Färg skapas genom att blanda färgat ljus och är det som används vid tryck.<br>B: Färg skapas genom att blanda färgpigment och är det som används i en datorskärm.</answer>
     </answer>
-  </question> 
+  </question>
   <question id="12" text="Vilket av följande alternativ är inte en färgrymd?" category="Färg">
     <answers>
       <answer data-type="text">CIE</answer>
@@ -90,7 +90,7 @@
       <answer data-type="text" correct="YES">CMM</answer>
       <answer data-type="text">CMYK</answer>
     </answer>
-  </question> 
+  </question>
   <question id="13" text="Hur representeras färgen svart med RGB?" category="Färg">
     <answers>
       <answer data-type="text"> rgb(255, 255, 255)</answer>
@@ -106,7 +106,7 @@
       <answer data-type="text">Färg</answer>
       <answer data-type="text">Styrka</answer>
     </answer>
-  </question>   
+  </question>
   <question id="15" text="Vad innebär Responsive web design (RWD)?" category="Mediadesign">
     <answers>
       <answer data-type="text">Man automatiserar vanliga handlingar</answer>
@@ -114,7 +114,7 @@
       <answer data-type="text">En uppsättning riktlinjer hur man ska designa en websida</answer>
       <answer data-type="text" correct="YES">Designen anpassas efter målplattformens displ</answer>
     </answer>
-  </question>   
+  </question>
   <question id="16" text="WCAG 2, (Web Accessibility Initiative’s Web Content Accessibility Guidelines) baserar sig på fyra principer som går under akronymen POUR. Vad står POUR för?" category="Mediadesign">
     <answers>
       <answer data-type="text">Perspective, operable, unique, responsive</answer>
@@ -130,7 +130,7 @@
       <answer data-type="text">Slutenhet</answer>
       <answer data-type="text">Likhet</answer>
     </answer>
-  </question>  
+  </question>
     <question id="18" text="Ljud kan presenteras på två sätt i datorn; som digitalt ljud och som MIDI. Nedan följer fördelar och nackdelar med de båda sättet. Det har dock smugit sig in ett falskt påstående. Vilket?" image="ljud.jpg" category="Ljud">
     <answers>
       <answer data-type="text">Digitalt ljud har bra kvalitet oavsett målplattform</answer>
@@ -138,7 +138,7 @@
       <answer data-type="text">MIDI kan redigeras till minsta detalj</answer>
       <answer data-type="text" correct="YES">MIDI kan återge tal</answer>
     </answer>
-  </question>  
+  </question>
     <question id="19" text="Vad menas med samplingsteoremet?" category="Ljud">
     <answers>
       <answer data-type="text" correct="YES">Samplingsfrekvensen ska vara den dubbla av högsta hörbara frekvens</answer>
@@ -146,14 +146,14 @@
       <answer data-type="text">Samplingsfrekvensen ska medelvärdet av alla frekvenser</answer>
       <answer data-type="text">Samplingsfrekvensen ska vara hälften av den lägsta hörbara frekvensen</answer>
     </answer>
-  </question>  
+  </question>
     <question id="20" text="Komprimeringsstandarden MPEG Audio använder sig av psykoakustiska modeller för att komprimera ljud. Vad är det man “utnyttjar” när man använder denna komprimeringsteknik?" category="Ljud">
     <answers>
       <answer data-type="text">Varierande precision (stegstorlek) mellan samplen</answer>
       <answer data-type="text" correct="YES">Begränsningar hos den mänskliga hörseln</answer>
       <answer data-type="text">Samplingsfrekvensen ska vara exakt 44,1 kHz</answer>
     </answer>
-  </question>  
+  </question>
   <question id="21" text="Det första ljudet som spelas upp har en låg bitrate, och det andra ljudet har en högre bitrate. Vad är egentligen bitrate?" category="Ljud" sound="bitrates.mp3">
     <answers>
       <answer data-type="text">Uppfattad frekvens hos ljudet</answer>
@@ -161,7 +161,7 @@
       <answer data-type="text">Förändringen av en tons spektrum över tid</answer>
       <answer data-type="text" correct="YES">Den mängd data som en dator kan överföra från en enhet till en annan under en viss tid</answer>
     </answer>
-  </question>  
+  </question>
   <question id="22" text="Vid MP3-komprimering förekommmer begreppet group of pictures (GOP), vilket innebär att de olika frametyperna förekommer i en viss sekvens som repeteras. Vilket alternativ är korrekt display order?" category="Animation">
     <answers>
       <answer data-type="text">P I I B I I P</answer>
@@ -169,7 +169,7 @@
       <answer data-type="text">I P P B P P B</answer>
       <answer data-type="text">B I P B I P</answer>
     </answer>
-  </question>  
+  </question>
   <question id="23" text="Vid komprimering av video använder man dels intra-frame komprimering, dels inter-frame komprimering. Vilket påstående är falskt?" category="Animation">
     <answers>
       <answer data-type="text">Intra-frame komprimerar varje frame för sig </answer>
@@ -177,7 +177,7 @@
       <answer data-type="text">Intra-frame är en slags spatial komprimering</answer>
       <answer data-type="text">Inter-frame är en slags temporal komprimering</answer>
     </answer>
-  </question>  
+  </question>
   <question id="24" text="Vad är inte exempel på en traditionell animeringteknik?" category="Animation">
     <answers>
       <answer data-type="text">Cut-outs</answer>
@@ -193,7 +193,7 @@
       <answer data-type="text" correct="YES">Tröghet i det visuella systemet gör att en bild dröjer sig kvar en stund på näthinnan</answer>
       <answer data-type="text">Om man visualiserar varje frame två eller tre gånger upplevs inte det som en rörelse</answer>
     </answer>
-  </question> 
+  </question>
   <question id="26" text="Vilket av följande är ett ideogram?" category="Text">
     <answers>
       <answer data-type="image">A.png</answer>
@@ -201,7 +201,7 @@
       <answer data-type="image">Question_mark_alternate.png</answer>
       <answer data-type="image" correct="YES">amulett02b.gif</answer>
     </answer>
-  </question> 
+  </question>
   <question id="27" text="Vad är stämmer om ASCII?" category="Text">
     <answers>
       <answer data-type="text">Man kan blanda olika språk med olika alfabet (ex. Svenska och Grekiska)</answer>
@@ -209,7 +209,7 @@
       <answer data-type="text" correct="YES">Man kan blanda olika språk som har samma alfabet (ex. Engelska och Svenska)</answer>
       <answer data-type="text">Alla alfabet får plats</answer>
     </answer>
-  </question> 
+  </question>
   <question id="28" text="Hur många uppsättningar av ASCII finns det?" category="Text">
     <answers>
       <answer data-type="text">2</answer>
@@ -217,7 +217,7 @@
       <answer data-type="text" correct="YES">10</answer>
       <answer data-type="text">20</answer>
     </answer>
-  </question> 
+  </question>
   <question id="29" text="Vad är speciellt med UNICODE?" category="Text">
     <answers>
       <answer data-type="text">Man kan blanda olika språk med olika alfabet (ex. Svenska och Grekiska)</answer>
@@ -225,5 +225,5 @@
       <answer data-type="text"> Man kan blanda olika språk som har samma alfabet (ex. Engelska och Svenska)</answer>
       <answer data-type="text"> Version 3.0 är tvådimensionell</answer>
     </answer>
-  </question> 
+  </question>
 </questions>

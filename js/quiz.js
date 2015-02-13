@@ -214,7 +214,7 @@ $(function() {
         $(this).find('.panel').removeClass('panel-default').addClass('panel-success');
         $(selectedAnswerButton).addClass('green');
 
-        //$(selectedAnswerButton).find('a').html('<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>' + $(selectedAnswerButton).find('a').html());
+        //$(selectedAnswerButton).find('a').html('<span class="glyphicon glyphicon-ok icon" aria-hidden="true"></span>  ' + incorrectAnswer.html());
       }
       else {
         $(this).find('.panel').removeClass('panel-default').addClass('panel-danger');
