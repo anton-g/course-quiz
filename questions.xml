@@ -181,7 +181,7 @@
   <question id="24" text="Vad är inte exempel på en traditionell animeringteknik?" category="Animation">
     <answers>
       <answer data-type="text">Cut-outs</answer>
-      <answer data-type="text"">Stop motion</answer>
+      <answer data-type="text">Stop motion</answer>
       <answer data-type="text">Målad/skrapad film</answer>
       <answer data-type="text" correct="YES">Morphing</answer>
     </answer>

@@ -69,7 +69,7 @@ $(function() {
     //If question contains an sound we want to show it
     var sound = '';
     if (typeof question.sound !== typeof undefined && question.sound !== false) {
-      sound = '<audio controls><source src="sound/' + question.sound + '.mp3" type="audio/mpeg">Kan inte spela upp ljud.</audio>';
+      sound = '<audio controls><source src="sound/' + question.sound + '" type="audio/mpeg">Kan inte spela upp ljud.</audio>';
     }
 
     var htmlQuestion = '<!-- Question START --><div class="row question" data-questionID="' + question.number + '"><div class="col-xs-12"><div class="panel panel-default"><div class="panel-heading"><h2 class="panel-title">' + question.question + '<span class="pull-right categoryName">' + question.category + '</span>' + image + sound +'</h2></div><div class="panel-body"><ul class="nav nav-pills ' + justified + ' answers">';
@@ -131,6 +131,7 @@ $(function() {
     question.number = data.attr('id');
     question.question = data.attr('text');
     question.image = data.attr('image');
+    question.sound = data.attr('sound');
 
     question.category = data.attr('category');
     if ($.inArray(question.category, categories) == -1) {
@@ -141,7 +142,7 @@ $(function() {
 
     var answers = new Array();
 
-    $(answerData).each(function(index) {
+    $(answerData).each(function(index, answer) {
       if ($(this).attr('correct') == 'YES') {
         question.correctAnswer = index + 1;
       }
@@ -153,7 +154,7 @@ $(function() {
         answer = '<img class="img-responsive answer-img" src="img/' + $(this).text() + '" />'
       }
       else if (answerType == 'sound') {
-        answer = '<audio controls><source src="sound/' + $(this).text() + '.mp3" type="audio/mpeg">Kan inte spela upp ljud.</audio>';
+        answer = '<audio controls><source src="sound/' + $(this).text() + '" type="audio/mpeg">Kan inte spela upp ljud.</audio>';
       }
       else if (answerType == 'video') {
         //TODO: Support för videos
@@ -162,7 +163,7 @@ $(function() {
         answer = $(this).text();
       }
       else if (answerType == 'code') {
-        answer = '<code>' + $(this).text() + '</code>';
+        answer = '<code>' + $(answer).html() + '</code>';
       }
 
       answers.push(answer);
@@ -214,7 +215,8 @@ $(function() {
         $(this).find('.panel').removeClass('panel-default').addClass('panel-success');
         $(selectedAnswerButton).addClass('green');
 
-        //$(selectedAnswerButton).find('a').html('<span class="glyphicon glyphicon-ok icon" aria-hidden="true"></span>  ' + incorrectAnswer.html());
+        correctAnswer = $(this).find('li[data-answerid=' + question.correctAnswer + '] a');
+        correctAnswer.html('<span class="glyphicon glyphicon-ok icon" aria-hidden="true"></span>  ' + correctAnswer.html());
       }
       else {
         $(this).find('.panel').removeClass('panel-default').addClass('panel-danger');
