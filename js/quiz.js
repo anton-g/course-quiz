@@ -93,8 +93,11 @@ $(function() {
 
   function showResults() {
     var numQuestions = filteredQuestions.length > 0 ? filteredQuestions.length : questions.length;
+
+    console.log (numCorrectAnswers  + ' ' + numQuestions);
+
     var numCorrect = numCorrectAnswers + '/' + numQuestions;
-    var percent = ((numCorrectAnswers / questions.length) * 100);
+    var percent = ((numCorrectAnswers / numQuestions) * 100);
 
     var htmlStart = '<div class="row result"><div class="col-xs-12"><div class="panel panel-primary"><div class="panel-heading"><h2 class="panel-title">Resultat</h2></div><div class="panel-body">'
     var htmlBody = '<div class="row"><div class="col-xs-9">Antal rätt: ' + numCorrect + ' (' + percent +'%)</div><div class="col-xs-3"><button class="btn btn-large btn-primary pull-right" id="resetBtn">Try again!</button></div></div>';
