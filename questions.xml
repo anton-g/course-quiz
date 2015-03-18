@@ -52,10 +52,10 @@
     </question>
     <question id="8" text="Vilken kod utgör bilden (bortse från bakgrunden och färger)? Bilden är 400 * 400." image="svg.png" category="Bitmapgrafik">
       <answers>
-        <answer data-type="code">&lt;circle cx="200" cy="150" r="50" /&gt;&lt;/br&gt;&lt;rect x="50" y="200" width="100" height ="200" /&gt;&lt;/br&gt;&lt;rect x="100" y="300" width="300" height ="100 "/&gt;</answer>
-        <answer data-type="code">&lt;circle cx="200" cy="150" r="75" /&gt;&lt;/br&gt;&lt;rect x="100" y="200" width="100" height ="200" /&gt;&lt;/br&gt;&lt;rect x="0" y="0" width="300" height ="100 "/&gt;</answer>
-        <answer data-type="code">&lt;circle cx="300" cy="150" r="100" /&gt;&lt;/br&gt;&lt;rect x="50" y="200" width="100" height ="200" /&gt;&lt;/br&gt;&lt;rect x="0" y="0" width="200" height ="100 "/&gt;</answer>
-        <answer data-type="code" correct="YES">&lt;circle cx="300" cy="150" r="75" /&gt;&lt;/br&gt;&lt;rect x="50" y="200" width="100" height ="200" /&gt;&lt;/br&gt;&lt;rect x="0" y="0" width="300" height ="100 "/&gt;</answer>
+        <answer data-type="code">&lt;circle cx="200" cy="150" r="50" /&gt;<br/>&lt;rect x="50" y="200" width="100" height ="200" /&gt;<br/>&lt;rect x="100" y="300" width="300" height ="100 "/&gt;</answer>
+        <answer data-type="code">&lt;circle cx="200" cy="150" r="75" /&gt;<br/>&lt;rect x="100" y="200" width="100" height ="200" /&gt;<br/>&lt;rect x="0" y="0" width="300" height ="100 "/&gt;</answer>
+        <answer data-type="code">&lt;circle cx="300" cy="150" r="100" /&gt;<br/>&lt;rect x="50" y="200" width="100" height ="200" /&gt;<br/>&lt;rect x="0" y="0" width="200" height ="100 "/&gt;</answer>
+        <answer data-type="code" correct="YES">&lt;circle cx="300" cy="150" r="75" /&gt;<br/>&lt;rect x="50" y="200" width="100" height ="200" /&gt;<br/>&lt;rect x="0" y="0" width="300" height ="100 "/&gt;</answer>
       </answers>
     </question>
     <question id="9" text="Vilka är primärfärgerna för additiv färgsyntes?" category="Färg">
@@ -76,10 +76,10 @@
     </question>
     <question id="11" text="Nedan ser du de två färgsynteserna, vilket alternativ stämmer om dessa?" image="färgsyntes.jpg" category="Färg">
       <answers>
-        <answer data-type="text">A: Färg skapas genom att blanda färgpigment och är det som används vid tryck.&lt;/br&gt;B: Färg skapas genom att blanda färgat ljus och är det som används  i en datorskärm</answer>
-        <answer data-type="text" correct="YES"> A: Färg skapas genom att blanda färgat ljus och är det som används  i en datorskärm.&lt;/br&gt;B: Färg skapas genom att blanda färgpigment och är det som används vid try</answer>
-        <answer data-type="text">A: Färg skapas genom att blanda färgpigment och är det som används i  en datorskärm.&lt;/br&gt;B: Färg skapas genom att blanda färgat ljus och är det som används vid tryck.</answer>
-        <answer data-type="text"> A: Färg skapas genom att blanda färgat ljus och är det som används vid tryck.&lt;/br&gt;B: Färg skapas genom att blanda färgpigment och är det som används i en datorskärm.</answer>
+        <answer data-type="text">A: Färg skapas genom att blanda färgpigment och är det som används vid tryck.<br/>B: Färg skapas genom att blanda färgat ljus och är det som används  i en datorskärm</answer>
+        <answer data-type="text" correct="YES"> A: Färg skapas genom att blanda färgat ljus och är det som används  i en datorskärm.<br/>B: Färg skapas genom att blanda färgpigment och är det som används vid try</answer>
+        <answer data-type="text">A: Färg skapas genom att blanda färgpigment och är det som används i  en datorskärm.<br/>B: Färg skapas genom att blanda färgat ljus och är det som används vid tryck.</answer>
+        <answer data-type="text"> A: Färg skapas genom att blanda färgat ljus och är det som används vid tryck.<br/>B: Färg skapas genom att blanda färgpigment och är det som används i en datorskärm.</answer>
       </answers>
     </question>
     <question id="12" text="Vilket av följande alternativ är inte en färgrymd?" category="Färg">

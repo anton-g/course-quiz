@@ -23,79 +23,6 @@ $(function() {
     },"slow");
   });
 
-  function showQuestions(q) {
-    q.forEach(function(q) {
-      showQuestion(q);
-    });
-  }
-
-  //TODO: Add support for videos in XML
-  function showQuestion(question) {
-    var justified = question.images ? '' : 'nav-justified';
-
-    //If question contains an image we want to show it
-    var image = '';
-    if (typeof question.image !== typeof undefined && question.image !== false) {
-      image = '<img src="img/' + question.image + '" class="img-responsive question-image" />';
-    }
-
-    //If question contains an sound we want to show it
-    var sound = '';
-    if (typeof question.sound !== typeof undefined && question.sound !== false) {
-      sound = '<audio controls><source src="sound/' + question.sound + '" type="audio/mpeg">Kan inte spela upp ljud.</audio>';
-    }
-
-    var htmlQuestion = '<!-- Question START --><div class="row question" data-questionID="' + question.number + '"><div class="col-xs-12"><div class="panel panel-default"><div class="panel-heading"><h2 class="panel-title">' + question.question + '<span class="pull-right categoryName">' + question.category + '</span>' + image + sound +'</h2></div><div class="panel-body"><ul class="nav nav-pills ' + justified + ' answers">';
-
-    $(question.answers).each(function(index) {
-      var htmlAnswer = question.answers[index];
-      htmlQuestion = htmlQuestion + '<li role="presentation" class="answer " data-answerID="' + (index + 1) + '"><a href="#">' + htmlAnswer + '</a></li>';
-    });
-
-    htmlQuestion = htmlQuestion + '</ul></div></div></div></div><!-- Question END -->';
-
-    $('#questions').append(htmlQuestion);
-  }
-
-  function showCategories() {
-    $(categories).each(function(index, category) {
-      var htmlCategory = '<li role="presentation" class="category ctg-dyn"><a href="#">' + category + '</a></li>';
-      $('.categories').append(htmlCategory);
-    });
-  }
-
-  function showResults() {
-    var numQuestions = filteredQuestions.length > 0 ? filteredQuestions.length : questions.length;
-
-    console.log (numCorrectAnswers  + ' ' + numQuestions);
-
-    var numCorrect = numCorrectAnswers + '/' + numQuestions;
-    var percent = ((numCorrectAnswers / numQuestions) * 100);
-
-    var htmlStart = '<div class="row result"><div class="col-xs-12"><div class="panel panel-primary"><div class="panel-heading"><h2 class="panel-title">Resultat</h2></div><div class="panel-body">'
-    var htmlBody = '<div class="row"><div class="col-xs-9">Antal rätt: ' + numCorrect + ' (' + percent +'%)</div><div class="col-xs-3"><button class="btn btn-large btn-primary pull-right" id="resetBtn">Try again!</button></div></div>';
-    var htmlEnd = '</div></div></div></div>';
-
-    var htmlResult = htmlStart + htmlBody + htmlEnd;
-
-    $('#questions').prepend(htmlResult);
-
-    $('#resetBtn').click(function(e) {
-      e.preventDefault();
-
-      removeContent();
-      removeCategories();
-      setupQuestions(currentCourse, function() {
-        setupUI();
-      });
-    });
-  }
-
-  function showCourse(course) {
-    var htmlCourseButton = '<a class="btn btn-primary btn-lg btn-block selectCourseBtn">' + course + '</a>';
-    $('#selectCourseModalBody').append(htmlCourseButton);
-  }
-
   function setupUI() {
     showQuestions(questions);
     showCategories();
@@ -128,6 +55,88 @@ $(function() {
       didSelectCategory(categoryName);
     });
   }
+
+  function showQuestions(q) {
+    q.forEach(function(q) {
+      showQuestion(q);
+    });
+  }
+
+  //TODO: Add support for videos in XML
+  function showQuestion(question) {
+    var justified = question.images ? '' : 'nav-justified';
+    var code = question.code ? 'nav-stacked' : '';
+
+    //If question contains an image we want to show it
+    var image = '';
+    if (typeof question.image !== typeof undefined && question.image !== false) {
+      image = '<img src="img/' + question.image + '" class="img-responsive question-image" />';
+    }
+
+    //If question contains an sound we want to show it
+    var sound = '';
+    if (typeof question.sound !== typeof undefined && question.sound !== false) {
+      sound = '<audio controls><source src="sound/' + question.sound + '" type="audio/mpeg">Kan inte spela upp ljud.</audio>';
+    }
+
+    var htmlQuestion = '<!-- Question START --><div class="row question" data-questionID="' + question.number + '"><div class="col-xs-12"><div class="panel panel-default"><div class="panel-heading"><h2 class="panel-title">' + question.question + '<span class="pull-right categoryName">' + question.category + '</span>' + image + sound +'</h2></div><div class="panel-body"><ul class="nav nav-pills ' + justified + code + ' answers">';
+
+    $(question.answers).each(function(index) {
+      var htmlAnswer = question.answers[index];
+      htmlQuestion = htmlQuestion + '<li role="presentation" class="answer " data-answerID="' + (index + 1) + '"><a href="#">' + htmlAnswer + '</a></li>';
+    });
+
+    htmlQuestion = htmlQuestion + '</ul></div></div></div></div><!-- Question END -->';
+
+    $('#questions').append(htmlQuestion);
+  }
+
+  function showCategories() {
+    $(categories).each(function(index, category) {
+      var htmlCategory = '<li role="presentation" class="category ctg-dyn"><a href="#">' + category + '</a></li>';
+      $('.categories').append(htmlCategory);
+    });
+  }
+
+  function showResults() {
+    var numQuestions = filteredQuestions.length > 0 ? filteredQuestions.length : questions.length;
+
+    var numCorrect = numCorrectAnswers + '/' + numQuestions;
+    var percent = ((numCorrectAnswers / numQuestions) * 100);
+
+    var htmlStart = '<div class="row result"><div class="col-xs-12"><div class="panel panel-primary"><div class="panel-heading"><h2 class="panel-title">Resultat</h2></div><div class="panel-body">'
+    var htmlBody = '<div class="row"><div class="col-xs-9">Antal rätt: ' + numCorrect + ' (' + percent +'%)</div><div class="col-xs-3"><button class="btn btn-large btn-primary pull-right" id="resetBtn">Try again!</button></div></div>';
+    var htmlEnd = '</div></div></div></div>';
+
+    var htmlResult = htmlStart + htmlBody + htmlEnd;
+
+    $('#questions').prepend(htmlResult);
+
+    $('#resetBtn').click(function(e) {
+      e.preventDefault();
+
+      removeContent();
+      removeCategories();
+      setupQuestions(currentCourse, function() {
+        setupUI();
+      });
+    });
+  }
+
+  function showCourse(course) {
+    var htmlCourseButton = '<a class="btn btn-primary btn-lg btn-block selectCourseBtn">' + course + '</a>';
+    $('#selectCourseModalBody').append(htmlCourseButton);
+  }
+
+  function removeContent() {
+    $('.result').remove();
+    $('.question').remove();
+  }
+
+  function removeCategories() {
+    $('.ctg-dyn').remove();
+  }
+
 
   /*
   * BACKEND
@@ -222,6 +231,7 @@ $(function() {
         answer = $(this).text();
       }
       else if (answerType == 'code') {
+        question.code = true;
         answer = '<code>' + $(answer).html() + '</code>';
       }
 
@@ -331,15 +341,6 @@ $(function() {
 
       didSelectAnswer($(this).closest('.question').attr('data-questionID'), $(this).attr('data-answerID'));
     });
-  }
-
-  function removeContent() {
-    $('.result').remove();
-    $('.question').remove();
-  }
-
-  function removeCategories() {
-    $('.ctg-dyn').remove();
   }
 
   function resetAllQuestions() {
