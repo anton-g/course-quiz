@@ -225,7 +225,7 @@
         <answer data-type="text"> Version 3.0 är tredimensionell</answer>
       </answers>
     </question>
-  </class>
+  </course>
   <course name="IT-säkerhet">
     <question id="1" text="Vad är informationstillgångar?" category="LIS">
       <answers>
