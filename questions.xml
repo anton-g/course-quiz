@@ -1,229 +1,339 @@
 <questions>
-  <question id="1" text="Bilder skapade med vektorgrafik är…" category="Vektorgrafik">
-    <answers>
-      <answer data-type="text" correct="YES">Objekt-orienterade bilder</answer>
-      <answer data-type="text" > Pixel-orienterade bilder</answer>
-    </answer>
-  </question>
-  <question id="2" text="Bézierkurvor är en slags vektorgrafik. Vad är det som bestämmer utseendet på en sådan kurva?" image="Bezier_cubic_anim.gif" category="Vektorgrafik">
-    <answers>
-      <answer data-type="text">Startpunkten</answer>
-      <answer data-type="text">Ändpunkten</answer>
-      <answer data-type="text" correct="YES">Kontrollpunkterna</answer>
-      <answer data-type="text">Medelpunkten</answer>
-    </answer>
-  </question>
-  <question id="3" text="Vilken bild visar så kallad anti-aliasing?" category="Vektorgrafik">
-    <answers>
-      <answer data-type="image">antialiasing1.png</answer>
-      <answer data-type="image">antialiasing2.png </answer>
-      <answer data-type="image" correct="YES">antialiasing3.png</answer>
-    </answer>
-  </question>
-  <question id="4" text="Vad är anledningen att vektorgrafik oftast resulterar i mindre bildfiler än bitmapgrafik?" category="Vektorgrafik">
-    <answers>
-      <answer data-type="text">Bitmapgrafik använder sig av matematiska modeller och blir därför större</answer>
-      <answer data-type="text">Vektorgrafik kodar varje pixel för sig och blir därför mindre</answer>
-      <answer data-type="text">Bitmapgrafik kodar varje pixel för sig och blir därför mindre</answer>
-      <answer data-type="text" correct="YES">Vektorgrafik använder sig av matematiska modeller och blir därför mindre</answer>
-    </answer>
-  </question>
-  <question id="5" text="Bilder skapade med bitmapgrafik är..." category="Bitmapgrafik">
-    <answers>
-      <answer data-type="text">Objekt-orienterade bilder</answer>
-      <answer data-type="text" correct="YES">Pixel-orienterade bilder</answer>
-    </answer>
-  </question>
-
-  <question id="6" text="För att minska ner filstorleken hos bitmapgrafik använder man olika komprimeringstekniker. Vilken av följande är icke-förstörande(lossless)?" category="Bitmapgrafik">
-    <answers>
-      <answer data-type="text" correct="YES">Huffman</answer>
-      <answer data-type="text">JPEG</answer>
-      <answer data-type="text">PNG</answer>
-    </answer>
-  </question>
-  <question id="7" text="För att minska ner filstorleken hos bitmapgrafik använder man olika komprimeringstekniker. Vilken av följande är förstörande (lossy)?" category="Bitmapgrafik">
-    <answers>
-      <answer data-type="text">RLE</answer>
-      <answer data-type="text">LZW</answer>
-      <answer data-type="text" correct="YES">JPG</answer>
-      <answer data-type="text">Huffman</answer>
-    </answer>
-  </question>
-
-  <question id="8" text="Vilken kod utgör bilden (bortse från bakgrunden och färger)? Bilden är 400 * 400." image="svg.png" category="Bitmapgrafik">
-    <answers>
-      <answer data-type="code">&lt;circle cx="200" cy="150" r="50" /&gt;</br>&lt;rect x="50" y="200" width="100" height ="200" /&gt;</br>&lt;rect x="100" y="300" width="300" height ="100 "/&gt;</answer>
-      <answer data-type="code">&lt;circle cx="200" cy="150" r="75" /&gt;</br>&lt;rect x="100" y="200" width="100" height ="200" /&gt;</br>&lt;rect x="0" y="0" width="300" height ="100 "/&gt;</answer>
-      <answer data-type="code">&lt;circle cx="300" cy="150" r="100" /&gt;</br>&lt;rect x="50" y="200" width="100" height ="200" /&gt;</br>&lt;rect x="0" y="0" width="200" height ="100 "/&gt;</answer>
-      <answer data-type="code" correct="YES">&lt;circle cx="300" cy="150" r="75" /&gt;</br>&lt;rect x="50" y="200" width="100" height ="200" /&gt;</br>&lt;rect x="0" y="0" width="300" height ="100 "/&gt;</answer>
-    </answer>
-  </question>
-  <question id="9" text="Vilka är primärfärgerna för additiv färgsyntes?" category="Färg">
-    <answers>
-      <answer data-type="text">Gul, magenta, cyan</answer>
-      <answer data-type="text"> Rött, gult, blått</answer>
-      <answer data-type="text" correct="YES">Rött, grönt, blått</answer>
-      <answer data-type="text">Gul, Indigo, cyan</answer>
-    </answer>
-  </question>
-  <question id="10" text="Vilka är primärfärgerna i subtraktiv färgsyntes?" category="Färg">
-    <answers>
-      <answer data-type="text" correct="YES">Gul, magenta, cyan</answer>
-      <answer data-type="text">Rött, gult, blått</answer>
-      <answer data-type="text">Rött, grönt, blått</answer>
-      <answer data-type="text">Gul, Indigo, cyan</answer>
-    </answer>
-  </question>
-  <question id="11" text="Nedan ser du de två färgsynteserna, vilket alternativ stämmer om dessa?" image="färgsyntes.jpg" category="Färg">
-    <answers>
-      <answer data-type="text">A: Färg skapas genom att blanda färgpigment och är det som används vid tryck.<br>B: Färg skapas genom att blanda färgat ljus och är det som används  i en datorskärm</answer>
-      <answer data-type="text" correct="YES"> A: Färg skapas genom att blanda färgat ljus och är det som används  i en datorskärm.<br>B: Färg skapas genom att blanda färgpigment och är det som används vid try</answer>
-      <answer data-type="text">A: Färg skapas genom att blanda färgpigment och är det som används i  en datorskärm.<br>B: Färg skapas genom att blanda färgat ljus och är det som används vid tryck.</answer>
-      <answer data-type="text"> A: Färg skapas genom att blanda färgat ljus och är det som används vid tryck.<br>B: Färg skapas genom att blanda färgpigment och är det som används i en datorskärm.</answer>
-    </answer>
-  </question>
-  <question id="12" text="Vilket av följande alternativ är inte en färgrymd?" category="Färg">
-    <answers>
-      <answer data-type="text">CIE</answer>
-      <answer data-type="text">RGB</answer>
-      <answer data-type="text" correct="YES">CMM</answer>
-      <answer data-type="text">CMYK</answer>
-    </answer>
-  </question>
-  <question id="13" text="Hur representeras färgen svart med RGB?" category="Färg">
-    <answers>
-      <answer data-type="text"> rgb(255, 255, 255)</answer>
-      <answer data-type="text">rgb(50, 50, 50)</answer>
-      <answer data-type="text" correct="YES"> rgb(0, 0, 0)</answer>
-      <answer data-type="text">rgb(0, 0, 255)</answer>
-    </answer>
-  </question>
-  <question id="14" text="Visuell hierarki handlar om att element arrangeras i en ordning, skapad genom att ge elementen olika visuell vikt, med hjälp av kontrastförhållanden.Vilket av följande skapar inte ett såndant?" category="Mediadesign">
-    <answers>
-      <answer data-type="text">Storlek</answer>
-      <answer data-type="text" correct="YES">Kontinuitet</answer>
-      <answer data-type="text">Färg</answer>
-      <answer data-type="text">Styrka</answer>
-    </answer>
-  </question>
-  <question id="15" text="Vad innebär Responsive web design (RWD)?" category="Mediadesign">
-    <answers>
-      <answer data-type="text">Man automatiserar vanliga handlingar</answer>
-      <answer data-type="text">Flera olika kanaler kombineras, t.ex. kan man få sidan uppläst</answer>
-      <answer data-type="text">En uppsättning riktlinjer hur man ska designa en websida</answer>
-      <answer data-type="text" correct="YES">Designen anpassas efter målplattformens displ</answer>
-    </answer>
-  </question>
-  <question id="16" text="WCAG 2, (Web Accessibility Initiative’s Web Content Accessibility Guidelines) baserar sig på fyra principer som går under akronymen POUR. Vad står POUR för?" category="Mediadesign">
-    <answers>
-      <answer data-type="text">Perspective, operable, unique, responsive</answer>
-      <answer data-type="text" correct="YES">Perceivable, operable, understandable, robus</answer>
-      <answer data-type="text">Perceivable, operative, unique, robust</answer>
-      <answer data-type="text">Perspective, operative, understandable, responsive</answer>
-    </answer>
-  </question>
-  <question id="17" text="Vilket av följande alternativ är inte ett exempel på en gestaltlag?" category="Mediadesign">
-    <answers>
-      <answer data-type="text" correct="YES">Paritet</answer>
-      <answer data-type="text">Symmetri</answer>
-      <answer data-type="text">Slutenhet</answer>
-      <answer data-type="text">Likhet</answer>
-    </answer>
-  </question>
+  <course name="Multimedia">
+    <question id="1" text="Bilder skapade med vektorgrafik är…" category="Vektorgrafik">
+      <answers>
+        <answer data-type="text" correct="YES">Objekt-orienterade bilder</answer>
+        <answer data-type="text" > Pixel-orienterade bilder</answer>
+      </answer>
+    </question>
+    <question id="2" text="Bézierkurvor är en slags vektorgrafik. Vad är det som bestämmer utseendet på en sådan kurva?" image="Bezier_cubic_anim.gif" category="Vektorgrafik">
+      <answers>
+        <answer data-type="text">Startpunkten</answer>
+        <answer data-type="text">Ändpunkten</answer>
+        <answer data-type="text" correct="YES">Kontrollpunkterna</answer>
+        <answer data-type="text">Medelpunkten</answer>
+      </answer>
+    </question>
+    <question id="3" text="Vilken bild visar så kallad anti-aliasing?" category="Vektorgrafik">
+      <answers>
+        <answer data-type="image">antialiasing1.png</answer>
+        <answer data-type="image">antialiasing2.png </answer>
+        <answer data-type="image" correct="YES">antialiasing3.png</answer>
+      </answer>
+    </question>
+    <question id="4" text="Vad är anledningen att vektorgrafik oftast resulterar i mindre bildfiler än bitmapgrafik?" category="Vektorgrafik">
+      <answers>
+        <answer data-type="text">Bitmapgrafik använder sig av matematiska modeller och blir därför större</answer>
+        <answer data-type="text">Vektorgrafik kodar varje pixel för sig och blir därför mindre</answer>
+        <answer data-type="text">Bitmapgrafik kodar varje pixel för sig och blir därför mindre</answer>
+        <answer data-type="text" correct="YES">Vektorgrafik använder sig av matematiska modeller och blir därför mindre</answer>
+      </answer>
+    </question>
+    <question id="5" text="Bilder skapade med bitmapgrafik är..." category="Bitmapgrafik">
+      <answers>
+        <answer data-type="text">Objekt-orienterade bilder</answer>
+        <answer data-type="text" correct="YES">Pixel-orienterade bilder</answer>
+      </answer>
+    </question>
+    <question id="6" text="För att minska ner filstorleken hos bitmapgrafik använder man olika komprimeringstekniker. Vilken av följande är icke-förstörande(lossless)?" category="Bitmapgrafik">
+      <answers>
+        <answer data-type="text" correct="YES">Huffman</answer>
+        <answer data-type="text">JPEG</answer>
+        <answer data-type="text">PNG</answer>
+      </answer>
+    </question>
+    <question id="7" text="För att minska ner filstorleken hos bitmapgrafik använder man olika komprimeringstekniker. Vilken av följande är förstörande (lossy)?" category="Bitmapgrafik">
+      <answers>
+        <answer data-type="text">RLE</answer>
+        <answer data-type="text">LZW</answer>
+        <answer data-type="text" correct="YES">JPG</answer>
+        <answer data-type="text">Huffman</answer>
+      </answer>
+    </question>
+    <question id="8" text="Vilken kod utgör bilden (bortse från bakgrunden och färger)? Bilden är 400 * 400." image="svg.png" category="Bitmapgrafik">
+      <answers>
+        <answer data-type="code">&lt;circle cx="200" cy="150" r="50" /&gt;</br>&lt;rect x="50" y="200" width="100" height ="200" /&gt;</br>&lt;rect x="100" y="300" width="300" height ="100 "/&gt;</answer>
+        <answer data-type="code">&lt;circle cx="200" cy="150" r="75" /&gt;</br>&lt;rect x="100" y="200" width="100" height ="200" /&gt;</br>&lt;rect x="0" y="0" width="300" height ="100 "/&gt;</answer>
+        <answer data-type="code">&lt;circle cx="300" cy="150" r="100" /&gt;</br>&lt;rect x="50" y="200" width="100" height ="200" /&gt;</br>&lt;rect x="0" y="0" width="200" height ="100 "/&gt;</answer>
+        <answer data-type="code" correct="YES">&lt;circle cx="300" cy="150" r="75" /&gt;</br>&lt;rect x="50" y="200" width="100" height ="200" /&gt;</br>&lt;rect x="0" y="0" width="300" height ="100 "/&gt;</answer>
+      </answer>
+    </question>
+    <question id="9" text="Vilka är primärfärgerna för additiv färgsyntes?" category="Färg">
+      <answers>
+        <answer data-type="text">Gul, magenta, cyan</answer>
+        <answer data-type="text"> Rött, gult, blått</answer>
+        <answer data-type="text" correct="YES">Rött, grönt, blått</answer>
+        <answer data-type="text">Gul, Indigo, cyan</answer>
+      </answer>
+    </question>
+    <question id="10" text="Vilka är primärfärgerna i subtraktiv färgsyntes?" category="Färg">
+      <answers>
+        <answer data-type="text" correct="YES">Gul, magenta, cyan</answer>
+        <answer data-type="text">Rött, gult, blått</answer>
+        <answer data-type="text">Rött, grönt, blått</answer>
+        <answer data-type="text">Gul, Indigo, cyan</answer>
+      </answer>
+    </question>
+    <question id="11" text="Nedan ser du de två färgsynteserna, vilket alternativ stämmer om dessa?" image="färgsyntes.jpg" category="Färg">
+      <answers>
+        <answer data-type="text">A: Färg skapas genom att blanda färgpigment och är det som används vid tryck.</br>B: Färg skapas genom att blanda färgat ljus och är det som används  i en datorskärm</answer>
+        <answer data-type="text" correct="YES"> A: Färg skapas genom att blanda färgat ljus och är det som används  i en datorskärm.</br>B: Färg skapas genom att blanda färgpigment och är det som används vid try</answer>
+        <answer data-type="text">A: Färg skapas genom att blanda färgpigment och är det som används i  en datorskärm.</br>B: Färg skapas genom att blanda färgat ljus och är det som används vid tryck.</answer>
+        <answer data-type="text"> A: Färg skapas genom att blanda färgat ljus och är det som används vid tryck.</br>B: Färg skapas genom att blanda färgpigment och är det som används i en datorskärm.</answer>
+      </answer>
+    </question>
+    <question id="12" text="Vilket av följande alternativ är inte en färgrymd?" category="Färg">
+      <answers>
+        <answer data-type="text">CIE</answer>
+        <answer data-type="text">RGB</answer>
+        <answer data-type="text" correct="YES">CMM</answer>
+        <answer data-type="text">CMYK</answer>
+      </answer>
+    </question>
+    <question id="13" text="Hur representeras färgen svart med RGB?" category="Färg">
+      <answers>
+        <answer data-type="text"> rgb(255, 255, 255)</answer>
+        <answer data-type="text">rgb(50, 50, 50)</answer>
+        <answer data-type="text" correct="YES"> rgb(0, 0, 0)</answer>
+        <answer data-type="text">rgb(0, 0, 255)</answer>
+      </answer>
+    </question>
+    <question id="14" text="Visuell hierarki handlar om att element arrangeras i en ordning, skapad genom att ge elementen olika visuell vikt, med hjälp av kontrastförhållanden.Vilket av följande skapar inte ett såndant?" category="Mediadesign">
+      <answers>
+        <answer data-type="text">Storlek</answer>
+        <answer data-type="text" correct="YES">Kontinuitet</answer>
+        <answer data-type="text">Färg</answer>
+        <answer data-type="text">Styrka</answer>
+      </answer>
+    </question>
+    <question id="15" text="Vad innebär Responsive web design (RWD)?" category="Mediadesign">
+      <answers>
+        <answer data-type="text">Man automatiserar vanliga handlingar</answer>
+        <answer data-type="text">Flera olika kanaler kombineras, t.ex. kan man få sidan uppläst</answer>
+        <answer data-type="text">En uppsättning riktlinjer hur man ska designa en websida</answer>
+        <answer data-type="text" correct="YES">Designen anpassas efter målplattformens displ</answer>
+      </answer>
+    </question>
+    <question id="16" text="WCAG 2, (Web Accessibility Initiative’s Web Content Accessibility Guidelines) baserar sig på fyra principer som går under akronymen POUR. Vad står POUR för?" category="Mediadesign">
+      <answers>
+        <answer data-type="text">Perspective, operable, unique, responsive</answer>
+        <answer data-type="text" correct="YES">Perceivable, operable, understandable, robus</answer>
+        <answer data-type="text">Perceivable, operative, unique, robust</answer>
+        <answer data-type="text">Perspective, operative, understandable, responsive</answer>
+      </answer>
+    </question>
+    <question id="17" text="Vilket av följande alternativ är inte ett exempel på en gestaltlag?" category="Mediadesign">
+      <answers>
+        <answer data-type="text" correct="YES">Paritet</answer>
+        <answer data-type="text">Symmetri</answer>
+        <answer data-type="text">Slutenhet</answer>
+        <answer data-type="text">Likhet</answer>
+      </answer>
+    </question>
     <question id="18" text="Ljud kan presenteras på två sätt i datorn; som digitalt ljud och som MIDI. Nedan följer fördelar och nackdelar med de båda sättet. Det har dock smugit sig in ett falskt påstående. Vilket?" image="ljud.jpg" category="Ljud">
-    <answers>
-      <answer data-type="text">Digitalt ljud har bra kvalitet oavsett målplattform</answer>
-      <answer data-type="text">Digitalt ljud kan bli stora filer</answer>
-      <answer data-type="text">MIDI kan redigeras till minsta detalj</answer>
-      <answer data-type="text" correct="YES">MIDI kan återge tal</answer>
-    </answer>
-  </question>
+      <answers>
+        <answer data-type="text">Digitalt ljud har bra kvalitet oavsett målplattform</answer>
+        <answer data-type="text">Digitalt ljud kan bli stora filer</answer>
+        <answer data-type="text">MIDI kan redigeras till minsta detalj</answer>
+        <answer data-type="text" correct="YES">MIDI kan återge tal</answer>
+      </answer>
+    </question>
     <question id="19" text="Vad menas med samplingsteoremet?" category="Ljud">
-    <answers>
-      <answer data-type="text" correct="YES">Samplingsfrekvensen ska vara den dubbla av högsta hörbara frekvens</answer>
-      <answer data-type="text" >Samplingsfrekvensen ska vara exakt samma som den högsta hörbara frekvensen</answer>
-      <answer data-type="text">Samplingsfrekvensen ska medelvärdet av alla frekvenser</answer>
-      <answer data-type="text">Samplingsfrekvensen ska vara hälften av den lägsta hörbara frekvensen</answer>
-    </answer>
-  </question>
+      <answers>
+        <answer data-type="text" correct="YES">Samplingsfrekvensen ska vara den dubbla av högsta hörbara frekvens</answer>
+        <answer data-type="text" >Samplingsfrekvensen ska vara exakt samma som den högsta hörbara frekvensen</answer>
+        <answer data-type="text">Samplingsfrekvensen ska medelvärdet av alla frekvenser</answer>
+        <answer data-type="text">Samplingsfrekvensen ska vara hälften av den lägsta hörbara frekvensen</answer>
+      </answer>
+    </question>
     <question id="20" text="Komprimeringsstandarden MPEG Audio använder sig av psykoakustiska modeller för att komprimera ljud. Vad är det man “utnyttjar” när man använder denna komprimeringsteknik?" category="Ljud">
-    <answers>
-      <answer data-type="text">Varierande precision (stegstorlek) mellan samplen</answer>
-      <answer data-type="text" correct="YES">Begränsningar hos den mänskliga hörseln</answer>
-      <answer data-type="text">Samplingsfrekvensen ska vara exakt 44,1 kHz</answer>
-    </answer>
-  </question>
-  <question id="21" text="Det första ljudet som spelas upp har en låg bitrate, och det andra ljudet har en högre bitrate. Vad är egentligen bitrate?" category="Ljud" sound="bitrates.mp3">
-    <answers>
-      <answer data-type="text">Uppfattad frekvens hos ljudet</answer>
-      <answer data-type="text">Bitrate har att göra med toners klangfärg</answer>
-      <answer data-type="text">Förändringen av en tons spektrum över tid</answer>
-      <answer data-type="text" correct="YES">Den mängd data som en dator kan överföra från en enhet till en annan under en viss tid</answer>
-    </answer>
-  </question>
-  <question id="22" text="Vid MP3-komprimering förekommmer begreppet group of pictures (GOP), vilket innebär att de olika frametyperna förekommer i en viss sekvens som repeteras. Vilket alternativ är korrekt display order?" category="Animation">
-    <answers>
-      <answer data-type="text">P I I B I I P</answer>
-      <answer data-type="text" correct="YES">I B B P B B P</answer>
-      <answer data-type="text">I P P B P P B</answer>
-      <answer data-type="text">B I P B I P</answer>
-    </answer>
-  </question>
-  <question id="23" text="Vid komprimering av video använder man dels intra-frame komprimering, dels inter-frame komprimering. Vilket påstående är falskt?" category="Animation">
-    <answers>
-      <answer data-type="text">Intra-frame komprimerar varje frame för sig </answer>
-      <answer data-type="text" correct="YES">Inter-frame komprimerar skillnaderna mellan varje frame</answer>
-      <answer data-type="text">Intra-frame är en slags spatial komprimering</answer>
-      <answer data-type="text">Inter-frame är en slags temporal komprimering</answer>
-    </answer>
-  </question>
-  <question id="24" text="Vad är inte exempel på en traditionell animeringteknik?" category="Animation">
-    <answers>
-      <answer data-type="text">Cut-outs</answer>
-      <answer data-type="text">Stop motion</answer>
-      <answer data-type="text">Målad/skrapad film</answer>
-      <answer data-type="text" correct="YES">Morphing</answer>
-    </answer>
-  </question>
-  <question id="25" text="Att uppfatta stillbilder som film har att göra med perceptionen. Det grundar sig på tre fenomen: phi-fenomenet, rörelsesammansmältning och frånvaro av flimmer. Vad menas med phi-fenomenet?" category="Animation">
-    <answers>
-      <answer data-type="text">En sekvens stillbilder av ett objekt som rör sig ger illusionen av rörelse hos objektet om två bilder i följd är till synes lika</answer>
-      <answer data-type="text">Ögat uppfattar inte någon skillnad mellan kontinuerligt ljus och flimmer om frekvensen hos flimret är tillräckligt högt.</answer>
-      <answer data-type="text" correct="YES">Tröghet i det visuella systemet gör att en bild dröjer sig kvar en stund på näthinnan</answer>
-      <answer data-type="text">Om man visualiserar varje frame två eller tre gånger upplevs inte det som en rörelse</answer>
-    </answer>
-  </question>
-  <question id="26" text="Vilket av följande är ett ideogram?" category="Text">
-    <answers>
-      <answer data-type="image">A.png</answer>
-      <answer data-type="image">5.jpg</answer>
-      <answer data-type="image">Question_mark_alternate.png</answer>
-      <answer data-type="image" correct="YES">amulett02b.gif</answer>
-    </answer>
-  </question>
-  <question id="27" text="Vad är stämmer om ASCII?" category="Text">
-    <answers>
-      <answer data-type="text">Man kan blanda olika språk med olika alfabet (ex. Svenska och Grekiska)</answer>
-      <answer data-type="text">Asiatiska alfabet får plats</answer>
-      <answer data-type="text" correct="YES">Man kan blanda olika språk som har samma alfabet (ex. Engelska och Svenska)</answer>
-      <answer data-type="text">Alla alfabet får plats</answer>
-    </answer>
-  </question>
-  <question id="28" text="Hur många uppsättningar av ASCII finns det?" category="Text">
-    <answers>
-      <answer data-type="text">2</answer>
-      <answer data-type="text">5</answer>
-      <answer data-type="text" correct="YES">10</answer>
-      <answer data-type="text">20</answer>
-    </answer>
-  </question>
-  <question id="29" text="Vad stämmer inte med med UNICODE?" category="Text">
-    <answers>
-      <answer data-type="text">Man kan blanda olika språk med olika alfabet (ex. Svenska och Grekiska)</answer>
-      <answer data-type="text" correct="YES"> Det är bara till för asiatiska alfabet</answer>
-      <answer data-type="text"> Man kan blanda olika språk som har samma alfabet (ex. Engelska och Svenska)</answer>
-      <answer data-type="text"> Version 3.0 är tredimensionell</answer>
-    </answer>
-  </question>
+      <answers>
+        <answer data-type="text">Varierande precision (stegstorlek) mellan samplen</answer>
+        <answer data-type="text" correct="YES">Begränsningar hos den mänskliga hörseln</answer>
+        <answer data-type="text">Samplingsfrekvensen ska vara exakt 44,1 kHz</answer>
+      </answer>
+    </question>
+    <question id="21" text="Det första ljudet som spelas upp har en låg bitrate, och det andra ljudet har en högre bitrate. Vad är egentligen bitrate?" category="Ljud" sound="bitrates.mp3">
+      <answers>
+        <answer data-type="text">Uppfattad frekvens hos ljudet</answer>
+        <answer data-type="text">Bitrate har att göra med toners klangfärg</answer>
+        <answer data-type="text">Förändringen av en tons spektrum över tid</answer>
+        <answer data-type="text" correct="YES">Den mängd data som en dator kan överföra från en enhet till en annan under en viss tid</answer>
+      </answer>
+    </question>
+    <question id="22" text="Vid MP3-komprimering förekommmer begreppet group of pictures (GOP), vilket innebär att de olika frametyperna förekommer i en viss sekvens som repeteras. Vilket alternativ är korrekt display order?" category="Animation">
+      <answers>
+        <answer data-type="text">P I I B I I P</answer>
+        <answer data-type="text" correct="YES">I B B P B B P</answer>
+        <answer data-type="text">I P P B P P B</answer>
+        <answer data-type="text">B I P B I P</answer>
+      </answer>
+    </question>
+    <question id="23" text="Vid komprimering av video använder man dels intra-frame komprimering, dels inter-frame komprimering. Vilket påstående är falskt?" category="Animation">
+      <answers>
+        <answer data-type="text">Intra-frame komprimerar varje frame för sig </answer>
+        <answer data-type="text" correct="YES">Inter-frame komprimerar skillnaderna mellan varje frame</answer>
+        <answer data-type="text">Intra-frame är en slags spatial komprimering</answer>
+        <answer data-type="text">Inter-frame är en slags temporal komprimering</answer>
+      </answer>
+    </question>
+    <question id="24" text="Vad är inte exempel på en traditionell animeringteknik?" category="Animation">
+      <answers>
+        <answer data-type="text">Cut-outs</answer>
+        <answer data-type="text">Stop motion</answer>
+        <answer data-type="text">Målad/skrapad film</answer>
+        <answer data-type="text" correct="YES">Morphing</answer>
+      </answer>
+    </question>
+    <question id="25" text="Att uppfatta stillbilder som film har att göra med perceptionen. Det grundar sig på tre fenomen: phi-fenomenet, rörelsesammansmältning och frånvaro av flimmer. Vad menas med phi-fenomenet?" category="Animation">
+      <answers>
+        <answer data-type="text">En sekvens stillbilder av ett objekt som rör sig ger illusionen av rörelse hos objektet om två bilder i följd är till synes lika</answer>
+        <answer data-type="text">Ögat uppfattar inte någon skillnad mellan kontinuerligt ljus och flimmer om frekvensen hos flimret är tillräckligt högt.</answer>
+        <answer data-type="text" correct="YES">Tröghet i det visuella systemet gör att en bild dröjer sig kvar en stund på näthinnan</answer>
+        <answer data-type="text">Om man visualiserar varje frame två eller tre gånger upplevs inte det som en rörelse</answer>
+      </answer>
+    </question>
+    <question id="26" text="Vilket av följande är ett ideogram?" category="Text">
+      <answers>
+        <answer data-type="image">A.png</answer>
+        <answer data-type="image">5.jpg</answer>
+        <answer data-type="image">Question_mark_alternate.png</answer>
+        <answer data-type="image" correct="YES">amulett02b.gif</answer>
+      </answer>
+    </question>
+    <question id="27" text="Vad är stämmer om ASCII?" category="Text">
+      <answers>
+        <answer data-type="text">Man kan blanda olika språk med olika alfabet (ex. Svenska och Grekiska)</answer>
+        <answer data-type="text">Asiatiska alfabet får plats</answer>
+        <answer data-type="text" correct="YES">Man kan blanda olika språk som har samma alfabet (ex. Engelska och Svenska)</answer>
+        <answer data-type="text">Alla alfabet får plats</answer>
+      </answer>
+    </question>
+    <question id="28" text="Hur många uppsättningar av ASCII finns det?" category="Text">
+      <answers>
+        <answer data-type="text">2</answer>
+        <answer data-type="text">5</answer>
+        <answer data-type="text" correct="YES">10</answer>
+        <answer data-type="text">20</answer>
+      </answer>
+    </question>
+    <question id="29" text="Vad stämmer inte med med UNICODE?" category="Text">
+      <answers>
+        <answer data-type="text">Man kan blanda olika språk med olika alfabet (ex. Svenska och Grekiska)</answer>
+        <answer data-type="text" correct="YES"> Det är bara till för asiatiska alfabet</answer>
+        <answer data-type="text"> Man kan blanda olika språk som har samma alfabet (ex. Engelska och Svenska)</answer>
+        <answer data-type="text"> Version 3.0 är tredimensionell</answer>
+      </answer>
+    </question>
+  </class>
+  <course name="IT-säkerhet">
+    <question id="1" text="Vad är informationstillgångar?" category="LIS">
+      <answers>
+        <answer data-type="text">Samtliga resurser som använts för att kommunicera och lagra information.</answer>
+        <answer data-type="text" correct="YES">Allt som har ett värde för organisationen.</answer>
+        <answer data-type="text">Det som finns upptaget som värden i en organisations förteckningar över tillgångar</answer>
+        <answer data-type="text">Information och de resurser som används för att hantera information.</answer>
+        <answer data-type="text">Informationen som organisationen betraktar som värdefull.</answer>
+      </answers>
+    </question>
+    <question id="2" text="Vad svarar bäst mot de åtgärder som en IPS vidtar vid misstänkt attack mot ett datorsystem?" category="Systemsäkerhet">
+      <answers>
+        <answer data-type="text" correct="YES">Identifierar, rapporterar samt stoppar attack.</answer>
+        <answer data-type="text">Stoppar attack och startar antivirusprogram.</answer>
+        <answer data-type="text">Stoppar attack och informerar administratör.</answer>
+        <answer data-type="text">Rapporterar attack och stänger automatiskt av datorsystemet.</answer>
+      </answers>
+    </question>
+    <question id="3" text="Vilket av detta är inte klassat som cyberkriminalitet?" category="Hot och risker">
+      <answers>
+        <answer data-type="text">Cyberterrorism</answer>
+        <answer data-type="text">Spionage</answer>
+        <answer data-type="text">Stöld av data</answer>
+        <answer data-type="text" correct="YES">Portskanning</answer>
+        <answer data-type="text">Bedrägeri</answer>
+      </answers>
+    </question>
+    <question id="3" text="Vad är en hash-algoritm?" category="Kryptering">
+      <answers>
+        <answer data-type="text" correct="YES">Ett matematiskt extrakt som alltid genererar samma värde för ett visst input</answer>
+        <answer data-type="text">Ett påhitt</answer>
+        <answer data-type="text">En metod för kodknäckning</answer>
+        <answer data-type="text">En säkerhetsalgoritm som används i hårdvarubrandväggar</answer>
+      </answers>
+    </question>
+    <question id="4" text="Ur vilka aspekter bör man klassificera information enligt SS-ISO/IEC 27002??" category="LIS">
+      <answers>
+        <answer data-type="text">Konfidentialitet, tillförlitlighet och riktighet</answer>
+        <answer data-type="text">Sekretess, riktighet och tillgänglighet</answer>
+        <answer data-type="text">Sekretess, tillförlitlighet och tillgänglighet</answer>
+        <answer data-type="text" correct="YES">Konfidentialitet, riktighet och tillgänglighet</answer>
+        <answer data-type="text">Säkerhet, sekretess och tillgänglighet</answer>
+      </answers>
+    </question>
+    <question id="5" text="Vad är ett botnet?" category="Hot och risker">
+      <answers>
+        <answer data-type="text">En dator infekterad av en zombie</answer>
+        <answer data-type="text">Ett system som tagits över av en hacker</answer>
+        <answer data-type="text" correct="YES">Ett nätverk med datorer som tagits över med skadlig kod som kopplar upp dem mot en central nod där någon kan styra dem</answer>
+      </answers>
+    </question>
+    <question id="6" text="Omfattas information av teknisk, kommersiell eller administrativ karaktär av begreppet företagshemlighet i 1§ FHL?" category="Författningskrav">
+      <answers>
+        <answer data-type="text">Nej, bara teknisk information.</answer>
+        <answer data-type="text">Nej, bara teknisk och kommersiell information</answer>
+        <answer data-type="text" correct="YES">Ja, information av teknisk, kommersiell och administrativ karaktär omfattas av begreppet</answer>
+      </answers>
+    </question>
+    <question id="7" text="Vad skall säkerhetskrav på informationssystem omfatta?" category="LIS">
+      <answers>
+        <answer data-type="text">Administrativ säkerhet</answer>
+        <answer data-type="text">IT-säkerhet</answer>
+        <answer data-type="text">Fysisk säkerhet</answer>
+        <answer data-type="text">Administrativ, IT och fysisk säkerhet</answer>
+        <answer data-type="text" correct="YES">Administrativ och IT säkerhet</answer>
+      </answers>
+    </question>
+    <question id="8" text="Vad anses vara en god inställning till IT-säkerhet?" category="Hot och risker">
+      <answers>
+        <answer data-type="text">Fokus på teknik</answer>
+        <answer data-type="text">Fokus på människor, attityder och organisation</answer>
+        <answer data-type="text">Fokus på processer</answer>
+        <answer data-type="text" correct="YES">Lika mycket fokus på teknik, människor, attityder, organisation och processer</answer>
+        <answer data-type="text">Fokus på intrångsskydd</answer>
+      </answers>
+    </question>
+    <question id="9" text="Cross-site scripting(XSS) är en attack som angriper..?" category="Hot och risker">
+      <answers>
+        <answer data-type="text">Nätverk</answer>
+        <answer data-type="text">Server</answer>
+        <answer data-type="text" correct="YES">Klient</answer>
+        <answer data-type="text">Trådlös kommunikation</answer>
+        <answer data-type="text">Google</answer>
+      </answers>
+    </question>
+    <question id="10" text="För 27000-serien och LIS så finns det en speciell koppling mellan SS-ISO/IEC 27001 och 27002, vilken?" category="LIS">
+      <answers>
+        <answer data-type="text">Kravet på revisioner finns i båda.</answer>
+        <answer data-type="text" correct="YES">Appendix A är ett normativt krav på SS-ISO/IEC 27001 och de är baserade på åtgärder i 27002.</answer>
+        <answer data-type="text">Att implementering av SS-ISO/IEC 27001 och 27002 skall vara i projektform.</answer>
+        <answer data-type="text">Det finns ingen unik koppling. 27000-serien är likadant uppbyggd som andra ledningssystem inom ISO.</answer>
+        <answer data-type="text">Att 27001 har "skall" medan 27002 står det "bör". Annars är de lika.</answer>
+      </answers>
+    </question>
+    <question id="11" text="Vad svarar bäst mot en beskrivning av en säkerhetsåtgärd?" category="Systemsäkerhet">
+      <answers>
+        <answer data-type="text">Oavvislig, autentiserad, verifierad</answer>
+        <answer data-type="text" correct="YES">Rapporterande, begränsande, förebyggande</answer>
+        <answer data-type="text">Begränsande, kontrollerande, logisk</answer>
+        <answer data-type="text">Autentiserad, logisk, oavvislig</answer>
+      </answers>
+    </question>
+    <question id="12" text="Vad styr möjligheterna att avtalsvägen reglera krav på säkerhetsnivåer?" category="Författningskrav">
+      <answers>
+        <answer data-type="text">Lagstiftning styr helt.</answer>
+        <answer data-type="text">Standarder styr helt.</answer>
+        <answer data-type="text" correct="YES">Avtalsfriheten styr stora delar, det vill säga parterna har stora möjligheter att själva styra över de egna avtalen. Standarder och lagstiftning kan dock inverka.</answer>
+      </answers>
+    </question>
+  </course>
 </questions>

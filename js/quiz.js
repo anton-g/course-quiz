@@ -5,40 +5,22 @@ $(function() {
   var filteredQuestions = new Array();
   var questions = new Array();
   var categories = new Array();
+  var courses = new Array();
+  var currentCourse;
   var numCorrectAnswers = 0;
   var dataSource = 'questions.xml';
 
-  setup(function() {
-    showQuestions(questions);
-    showCategories();
+/*
 
-    setupEventHandlers();
+1. Visa modal
+2. Hämta alla kurser och deras frågor
+3. Visa alla kurser
+4. Välj en kurs
+5. Visa kursens frågor
 
-    $('.category').click(function(e) {
-      e.preventDefault();
-      var answers = $('.question').find('.active');
-      if (answers.length > 0) {
-        if (!confirm('Vill du verkligen fortsätta? Dina svar kommer då försvinna.')) {
-          return;
-        }
-      }
+*/
 
-      if ($(this).hasClass('disabled')) {
-        return;
-      }
-      var parent = $(this).parent();
-
-      parent.children().each(function(a) {
-        $(this).removeClass('active');
-      });
-
-      $(this).addClass('active');
-
-      var categoryName = $(this).find('a').html();
-
-      didSelectCategory(categoryName);
-    });
-  });
+  setup();
 
   $('#answerBtn').click(function(e) {
     e.preventDefault();
@@ -114,18 +96,89 @@ $(function() {
     });
   }
 
+  function showCourse(course) {
+    var htmlCourseButton = '<a class="btn btn-primary btn-lg btn-block selectCourseBtn">' + course + '</a>';
+    $('#selectCourseModalBody').append(htmlCourseButton);
+  }
+
   /*
   * BACKEND
   */
 
-  function setup(complete) {
+  function setup() {
     $.get(dataSource, function(data) {
-      $(data).find('question').each(function() {
+      $(data).find('course').each(function() {
+        var courseName = $(this).attr('name');
+        courses.push(courseName);
+      });
+
+      $(courses).each(function() {
+        showCourse(this);
+      });
+
+      $('.selectCourseBtn').click(function() {
+        var selectedCourse = $(this).html();
+        setCourse(selectedCourse);
+      });
+
+      $('#selectCourseModal').modal({
+        keyboard: false,
+        backdrop: 'static'
+      })
+    });
+  }
+
+  function setupQuestions(course, complete) {
+    $.get(dataSource, function(data) {
+      var courseData = ($(data).find('course[name=' + course + ']'));
+
+      $(courseData).find('question').each(function() {
         questions.push(createQuestionWith($(this)));
       });
 
       complete();
     });
+  }
+
+  function setCourse(course) {
+    currentCourse = course;
+
+    $('#titleLabel').html(currentCourse + ' Quiz');
+
+    setupQuestions(currentCourse, function() {
+      showQuestions(questions);
+      showCategories();
+
+      setupEventHandlers();
+
+      $('.category').click(function(e) {
+        e.preventDefault();
+        var answers = $('.question').find('.active');
+        if (answers.length > 0) {
+          if (!confirm('Vill du verkligen fortsätta? Dina svar kommer då försvinna.')) {
+            return;
+          }
+          numCorrectAnswers = 0;
+        }
+
+        if ($(this).hasClass('disabled')) {
+          return;
+        }
+        var parent = $(this).parent();
+
+        parent.children().each(function(a) {
+          $(this).removeClass('active');
+        });
+
+        $(this).addClass('active');
+
+        var categoryName = $(this).find('a').html();
+
+        didSelectCategory(categoryName);
+      });
+    });
+
+    $('#selectCourseModal').modal('hide');
   }
 
   function createQuestionWith(data) {
@@ -183,6 +236,7 @@ $(function() {
 
   function didSelectCategory(category) {
     resetDOM();
+    resetAllQuestions();
     if (category != 'Alla kategorier') {
       filteredQuestions = new Array();
 
@@ -279,6 +333,15 @@ $(function() {
   function resetDOM() {
     $('.result').remove();
     $('.question').remove();
+  }
+
+  function resetAllQuestions() {
+    $(questions).each(function(index, question) {
+      question.correct = false;
+    });
+    $(filteredQuestions).each(function(index, question) {
+      question.correct = false;
+    });
   }
 
 });

@@ -13,7 +13,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 text-center">
-          <h1>Multimedia Quiz</h1>
+          <h1 id="titleLabel">Quiz</h1>
         </div>
       <div class="row">
         <div class="col-xs-3">
@@ -27,6 +27,17 @@
       <div class="row">
         <div class="col-xs-9 col-xs-offset-3">
           <button type="button" class="btn btn-info btn-lg btn-block" id="answerBtn">Besvara</button>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="selectCourseModal" tabindex="-1" role="dialog" aria-labelledby="selectCourseLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="selectCourseLabel">Välj en kurs</h4>
+          </div>
+          <div class="modal-body" id="selectCourseModalBody">
+          </div>
         </div>
       </div>
     </div>
