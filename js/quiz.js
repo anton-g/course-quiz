@@ -67,7 +67,10 @@ $(function() {
     var justified = 'nav-justified';
     var code = '';
 
-    if (question.images || question.code) {
+    if (question.images) {
+      justified = '';
+    }
+    if (question.code) {
       justified = '';
       code = 'nav-stacked';
     }
