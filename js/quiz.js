@@ -9,16 +9,7 @@ $(function() {
   var currentCourse;
   var numCorrectAnswers = 0;
   var dataSource = 'questions.xml';
-
-/*
-
-1. Visa modal
-2. Hämta alla kurser och deras frågor
-3. Visa alla kurser
-4. Välj en kurs
-5. Visa kursens frågor
-
-*/
+  var randomQuestionOrder = true;
 
   setup();
 
@@ -136,14 +127,22 @@ $(function() {
         questions.push(createQuestionWith($(this)));
       });
 
+      if (randomQuestionOrder) {
+        randomizeQuestionOrder();
+      }
+
       complete();
     });
+  }
+
+  function randomizeQuestionOrder() {
+    console.log ('yo');
   }
 
   function setCourse(course) {
     currentCourse = course;
 
-    $('#titleLabel').html(currentCourse + ' Quiz');
+    $('#titleLabel').html('Quiz: ' + currentCourse);
 
     setupQuestions(currentCourse, function() {
       showQuestions(questions);

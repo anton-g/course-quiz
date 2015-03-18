@@ -387,7 +387,11 @@
       <answer data-type="text" correct="YES">PDM</answer>
     </question>
     <question id="22" text="8 individer ska kommunicera säkert med symmetrisk kryptering. Hur många nycklar måste distribueras för att alla parter ska erhålla en unik nyckel för varje annan part man ska kommunicera med?" category="Kryptering">
-      <answer data-type="text"></answer>
+      <answer data-type="text">45</answer>
+      <answer data-type="text" correct="YES">56</answer>
+      <answer data-type="text">80</answer>
+      <answer data-type="text">160</answer>
+      <answer data-type="text">62</answer>
     </question>
     <question id="23" text="Vad är the trinity of trouble?" category="Hot och risker">
       <answer data-type="text" correct="YES">Connectivity, complexity, extensibility</answer>
@@ -533,7 +537,7 @@
       <answer data-type="text">Avinstallera alla program och formaterar hårdisken.</answer>
       <answer data-type="text">Lämnar in till återvinningen.</answer>
       <answer data-type="text">Formaterar hårdisken och skriver över med ny data.</answer>
-      <answer data-type="text">Med en borrmaskin.</answer>
+      <answer data-type="text" correct="YES">Med en borrmaskin.</answer>
     </question>
     <question id="45" text="Vilken funktion kan erhållas med hjälp av krypto?" category="Kryptering">
       <answer data-type="text">Sekretess</answer>
