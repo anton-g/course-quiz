@@ -59,7 +59,7 @@ $(function() {
 
   function showCategories() {
     $(categories).each(function(index, category) {
-      var htmlCategory = '<li role="presentation" class="category"><a href="#">' + category + '</a></li>';
+      var htmlCategory = '<li role="presentation" class="category ctg-dyn"><a href="#">' + category + '</a></li>';
       $('.categories').append(htmlCategory);
     });
   }
@@ -83,13 +83,50 @@ $(function() {
     $('#resetBtn').click(function(e) {
       e.preventDefault();
 
-      location.reload();
+      removeContent();
+      removeCategories();
+      setupQuestions(currentCourse, function() {
+        setupUI();
+      });
     });
   }
 
   function showCourse(course) {
     var htmlCourseButton = '<a class="btn btn-primary btn-lg btn-block selectCourseBtn">' + course + '</a>';
     $('#selectCourseModalBody').append(htmlCourseButton);
+  }
+
+  function setupUI() {
+    showQuestions(questions);
+    showCategories();
+
+    setupEventHandlers();
+
+    $('.category').click(function(e) {
+      e.preventDefault();
+      var answers = $('.question').find('.active');
+      if (answers.length > 0) {
+        if (!confirm('Vill du verkligen fortsätta? Dina svar kommer då försvinna.')) {
+          return;
+        }
+        numCorrectAnswers = 0;
+      }
+
+      if ($(this).hasClass('disabled')) {
+        return;
+      }
+      var parent = $(this).parent();
+
+      parent.children().each(function(a) {
+        $(this).removeClass('active');
+      });
+
+      $(this).addClass('active');
+
+      var categoryName = $(this).find('a').html();
+
+      didSelectCategory(categoryName);
+    });
   }
 
   /*
@@ -128,15 +165,11 @@ $(function() {
       });
 
       if (randomQuestionOrder) {
-        randomizeQuestionOrder();
+        shuffleArray(questions);
       }
 
       complete();
     });
-  }
-
-  function randomizeQuestionOrder() {
-    console.log ('yo');
   }
 
   function setCourse(course) {
@@ -145,36 +178,7 @@ $(function() {
     $('#titleLabel').html('Quiz: ' + currentCourse);
 
     setupQuestions(currentCourse, function() {
-      showQuestions(questions);
-      showCategories();
-
-      setupEventHandlers();
-
-      $('.category').click(function(e) {
-        e.preventDefault();
-        var answers = $('.question').find('.active');
-        if (answers.length > 0) {
-          if (!confirm('Vill du verkligen fortsätta? Dina svar kommer då försvinna.')) {
-            return;
-          }
-          numCorrectAnswers = 0;
-        }
-
-        if ($(this).hasClass('disabled')) {
-          return;
-        }
-        var parent = $(this).parent();
-
-        parent.children().each(function(a) {
-          $(this).removeClass('active');
-        });
-
-        $(this).addClass('active');
-
-        var categoryName = $(this).find('a').html();
-
-        didSelectCategory(categoryName);
-      });
+      setupUI();
     });
 
     $('#selectCourseModal').modal('hide');
@@ -234,7 +238,7 @@ $(function() {
   }
 
   function didSelectCategory(category) {
-    resetDOM();
+    removeContent();
     resetAllQuestions();
     if (category != 'Alla kategorier') {
       filteredQuestions = new Array();
@@ -329,9 +333,13 @@ $(function() {
     });
   }
 
-  function resetDOM() {
+  function removeContent() {
     $('.result').remove();
     $('.question').remove();
+  }
+
+  function removeCategories() {
+    $('.ctg-dyn').remove();
   }
 
   function resetAllQuestions() {
@@ -342,5 +350,10 @@ $(function() {
       question.correct = false;
     });
   }
+
+  function shuffleArray(arr) {
+      for (var j, x, i = arr.length; i; j = Math.floor(Math.random() * i), x = arr[--i], arr[i] = arr[j], arr[j] = x);
+      return arr;
+  };
 
 });
