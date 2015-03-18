@@ -64,8 +64,13 @@ $(function() {
 
   //TODO: Add support for videos in XML
   function showQuestion(question) {
-    var justified = question.images ? '' : 'nav-justified';
-    var code = question.code ? 'nav-stacked' : '';
+    var justified = 'nav-justified';
+    var code = '';
+
+    if (question.images || question.code) {
+      justified = '';
+      code = 'nav-stacked';
+    }
 
     //If question contains an image we want to show it
     var image = '';
