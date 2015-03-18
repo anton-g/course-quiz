@@ -253,7 +253,7 @@
         <answer data-type="text">Bedrägeri</answer>
       </answers>
     </question>
-    <question id="3" text="Vad är en hash-algoritm?" category="Kryptering">
+    <question id="4" text="Vad är en hash-algoritm?" category="Kryptering">
       <answers>
         <answer data-type="text" correct="YES">Ett matematiskt extrakt som alltid genererar samma värde för ett visst input</answer>
         <answer data-type="text">Ett påhitt</answer>
@@ -261,7 +261,7 @@
         <answer data-type="text">En säkerhetsalgoritm som används i hårdvarubrandväggar</answer>
       </answers>
     </question>
-    <question id="4" text="Ur vilka aspekter bör man klassificera information enligt SS-ISO/IEC 27002??" category="LIS">
+    <question id="5" text="Ur vilka aspekter bör man klassificera information enligt SS-ISO/IEC 27002??" category="LIS">
       <answers>
         <answer data-type="text">Konfidentialitet, tillförlitlighet och riktighet</answer>
         <answer data-type="text">Sekretess, riktighet och tillgänglighet</answer>
@@ -270,21 +270,21 @@
         <answer data-type="text">Säkerhet, sekretess och tillgänglighet</answer>
       </answers>
     </question>
-    <question id="5" text="Vad är ett botnet?" category="Hot och risker">
+    <question id="6" text="Vad är ett botnet?" category="Hot och risker">
       <answers>
         <answer data-type="text">En dator infekterad av en zombie</answer>
         <answer data-type="text">Ett system som tagits över av en hacker</answer>
         <answer data-type="text" correct="YES">Ett nätverk med datorer som tagits över med skadlig kod som kopplar upp dem mot en central nod där någon kan styra dem</answer>
       </answers>
     </question>
-    <question id="6" text="Omfattas information av teknisk, kommersiell eller administrativ karaktär av begreppet företagshemlighet i 1§ FHL?" category="Författningskrav">
+    <question id="7" text="Omfattas information av teknisk, kommersiell eller administrativ karaktär av begreppet företagshemlighet i 1§ FHL?" category="Författningskrav">
       <answers>
         <answer data-type="text">Nej, bara teknisk information.</answer>
         <answer data-type="text">Nej, bara teknisk och kommersiell information</answer>
         <answer data-type="text" correct="YES">Ja, information av teknisk, kommersiell och administrativ karaktär omfattas av begreppet</answer>
       </answers>
     </question>
-    <question id="7" text="Vad skall säkerhetskrav på informationssystem omfatta?" category="LIS">
+    <question id="8" text="Vad skall säkerhetskrav på informationssystem omfatta?" category="LIS">
       <answers>
         <answer data-type="text">Administrativ säkerhet</answer>
         <answer data-type="text">IT-säkerhet</answer>
@@ -293,7 +293,7 @@
         <answer data-type="text" correct="YES">Administrativ och IT säkerhet</answer>
       </answers>
     </question>
-    <question id="8" text="Vad anses vara en god inställning till IT-säkerhet?" category="Hot och risker">
+    <question id="9" text="Vad anses vara en god inställning till IT-säkerhet?" category="Hot och risker">
       <answers>
         <answer data-type="text">Fokus på teknik</answer>
         <answer data-type="text">Fokus på människor, attityder och organisation</answer>
@@ -302,7 +302,7 @@
         <answer data-type="text">Fokus på intrångsskydd</answer>
       </answers>
     </question>
-    <question id="9" text="Cross-site scripting(XSS) är en attack som angriper..?" category="Hot och risker">
+    <question id="10" text="Cross-site scripting(XSS) är en attack som angriper..?" category="Hot och risker">
       <answers>
         <answer data-type="text">Nätverk</answer>
         <answer data-type="text">Server</answer>
@@ -311,7 +311,7 @@
         <answer data-type="text">Google</answer>
       </answers>
     </question>
-    <question id="10" text="För 27000-serien och LIS så finns det en speciell koppling mellan SS-ISO/IEC 27001 och 27002, vilken?" category="LIS">
+    <question id="11" text="För 27000-serien och LIS så finns det en speciell koppling mellan SS-ISO/IEC 27001 och 27002, vilken?" category="LIS">
       <answers>
         <answer data-type="text">Kravet på revisioner finns i båda.</answer>
         <answer data-type="text" correct="YES">Appendix A är ett normativt krav på SS-ISO/IEC 27001 och de är baserade på åtgärder i 27002.</answer>
@@ -320,7 +320,7 @@
         <answer data-type="text">Att 27001 har "skall" medan 27002 står det "bör". Annars är de lika.</answer>
       </answers>
     </question>
-    <question id="11" text="Vad svarar bäst mot en beskrivning av en säkerhetsåtgärd?" category="Systemsäkerhet">
+    <question id="12" text="Vad svarar bäst mot en beskrivning av en säkerhetsåtgärd?" category="Systemsäkerhet">
       <answers>
         <answer data-type="text">Oavvislig, autentiserad, verifierad</answer>
         <answer data-type="text" correct="YES">Rapporterande, begränsande, förebyggande</answer>
@@ -328,12 +328,249 @@
         <answer data-type="text">Autentiserad, logisk, oavvislig</answer>
       </answers>
     </question>
-    <question id="12" text="Vad styr möjligheterna att avtalsvägen reglera krav på säkerhetsnivåer?" category="Författningskrav">
+    <question id="13" text="Vad styr möjligheterna att avtalsvägen reglera krav på säkerhetsnivåer?" category="Författningskrav">
       <answers>
         <answer data-type="text">Lagstiftning styr helt.</answer>
         <answer data-type="text">Standarder styr helt.</answer>
         <answer data-type="text" correct="YES">Avtalsfriheten styr stora delar, det vill säga parterna har stora möjligheter att själva styra över de egna avtalen. Standarder och lagstiftning kan dock inverka.</answer>
       </answers>
+    </question>
+    <question id="14" text="Vad innebär riskacceptans?" category="ISO 27001">
+      <answer data-type="text">Att acceptera en risk som inte går att åtgärda.</answer>
+      <answer data-type="text">Den risk som är kvar efter riskbehandling.</answer>
+      <answer data-type="text" correct="YES">Beslut att acceptera en risk.</answer>
+      <answer data-type="text">Systematisk användning av information för att kartlägga och värdera risken.</answer>
+    </question>
+    <question id="15" text="Vad innebär författningskrav?" category="ISO 27001">
+      <answer data-type="text">Krav definierat i policy som ska gälla för alla anställda.</answer>
+      <answer data-type="text">Krav från ledningen.</answer>
+      <answer data-type="text" correct="YES">Författningskrav innefattar krav i lagar, förordningar och myndigheters föreskrifter.</answer>
+    </question>
+    <question id="16" text="Vilka två faktorer består riskbegreppet av?" category="LIS">
+      <answer data-type="text">Potentiell skada och potentiell möjlighet</answer>
+      <answer data-type="text">Sannolikhet och frekvens</answer>
+      <answer data-type="text" correct="YES">Sannolikhet och potentiell skada</answer>
+      <answer data-type="text">Antal inträffade incidenter och potentiell skada</answer>
+      <answer data-type="text">Sannolikhet och kostnader för inträffade skador</answer>
+    </question>
+    <question id="17" text="En säkerhetspolicy består av..?" category="Säkerhetspolicy">
+      <answer data-type="text">IT-ansvarigs önskan, ledningens bestämmelser, riktlinjer för anställda.</answer>
+      <answer data-type="text">Styrande dokument, överblick av LIS.</answer>
+      <answer data-type="text">Beskrivning av organisations mål och vision.</answer>
+      <answer data-type="text" correct="YES">Mål, säkerhetsinformation, vägledning för införande, övrig information.</answer>
+    </question>
+    <question id="18" text="I standarden SS-ISO/IEC 27002 finns visst stöd för hantering av informationstillgångar, vilket?" category="LIS">
+      <answer data-type="text">Hur man identifierar och klassificerar informationstillgångar.</answer>
+      <answer data-type="text">Hur man identifierar och värderar informationstillgångar.</answer>
+      <answer data-type="text" correct="YES">Hur man klassificerar informationstillgångar och väljer säkerhetsåtgärder.</answer>
+      <answer data-type="text">Hur man värderar och klassificerar informationstillgångar.</answer>
+      <answer data-type="text">Hur man identifierar informationstillgångar.</answer>
+    </question>
+    <question id="19" text="Vilken mening passar bäst in på affärsberoendeanalys?" category="Affärsberoendeanalys">
+      <answer data-type="text">Hitta vilka processer som är livsviktiga för samarbetspartners.</answer>
+      <answer data-type="text">Analys av hur säkerheten är idag och vart organisationen vill att den faktiskt ska vara.</answer>
+      <answer data-type="text">Analys av hur nödvändiga nuvarande samarbetspartners är för organisationen.</answer>
+      <answer data-type="text" correct="YES">Hitta företagets viktigaste affärsprocess/er gentemot målet.</answer>
+    </question>
+    <question id="20" text="Vad stämmer bäst överens med hur man generellt bör betrakta människans roll i informationssäkerhet?" category="LIS">
+      <answer data-type="text">Människan är i första hand ett potentiellt hot, i form av hacker, sabotör och slarver.</answer>
+      <answer data-type="text">Människan är ett potentiellt hot, men också en tillgång eftersom människor bär på, och hanterar information.</answer>
+      <answer data-type="text" correct="YES">Människan är ett potentiellt hot men också ett skydd eftersom människor kan avvärja incidenter och återställa skador.</answer>
+      <answer data-type="text">Människan bör kategoriseras som antingen potentiellt hot eller tillgång och skydd.</answer>
+      <answer data-type="text">En och samma människa kan i olika situationer fungera som hot, tillgång och skydd.</answer>
+    </question>
+    <question id="21" text="Vilken förkortning hör inte ihop med övriga?" category="Kryptering">
+      <answer data-type="text">CP</answer>
+      <answer data-type="text">CPS</answer>
+      <answer data-type="text">PDS</answer>
+      <answer data-type="text">CRL</answer>
+      <answer data-type="text" correct="YES">PDM</answer>
+    </question>
+    <question id="22" text="8 individer ska kommunicera säkert med symmetrisk kryptering. Hur många nycklar måste distribueras för att alla parter ska erhålla en unik nyckel för varje annan part man ska kommunicera med?" category="Kryptering">
+      <answer data-type="text"></answer>
+    </question>
+    <question id="23" text="Vad är the trinity of trouble?" category="Hot och risker">
+      <answer data-type="text" correct="YES">Connectivity, complexity, extensibility</answer>
+      <answer data-type="text">Computing, malicious software, planning</answer>
+      <answer data-type="text">Malicious software, complexity, outsourcing</answer>
+      <answer data-type="text">Botnet, zombie, trojan</answer>
+      <answer data-type="text">Confidentiality, integrity, availability</answer>
+    </question>
+    <question id="24" text="Vad innebär tillgänglighet?" category="ISO 27001">
+      <answer data-type="text">Systemet kan endast nås via internet</answer>
+      <answer data-type="text">Systemet kan endast nås via intranätet</answer>
+      <answer data-type="text" correct="YES">Egenskapen att vara åtkomlig och användbar vid begäran av en behörig enhet</answer>
+      <answer data-type="text">Egenskapen att skydda exaktheten och fullständighet gällande tillgångar</answer>
+      <answer data-type="text">Veta vem datan tillhör</answer>
+    </question>
+    <question id="25" text="Vilken algoritm hör ihop med dataintegritet?" category="Kryptering">
+      <answer data-type="text">RSA</answer>
+      <answer data-type="text">DES</answer>
+      <answer data-type="text" correct="YES">SHA-1</answer>
+      <answer data-type="text">AES</answer>
+      <answer data-type="text">Blowfish</answer>
+    </question>
+    <question id="26" text="Vilken roll i en organisation bör ansvara för att de har ett informationsklassificeringssystem?" category="LIS">
+      <answer data-type="text" correct="YES">Informationssäkerhetschef</answer>
+      <answer data-type="text">IT-chef</answer>
+      <answer data-type="text">Informationsägare</answer>
+      <answer data-type="text">Varje enskild medarbetare</answer>
+      <answer data-type="text">Extern informationssäkerhets-konsult</answer>
+    </question>
+    <question id="27" text="Vilka av dessa är metoder för kodknäckning?" category="Kryptering">
+      <answer data-type="text">Known-Plaintext, brute force, hash-algoritm</answer>
+      <answer data-type="text">Brute force, keylogger, zombie</answer>
+      <answer data-type="text" correct="YES">Known-Plaintext, Chosen-Plaintext, Brute Force</answer>
+      <answer data-type="text">MD5, IA, BKS</answer>
+    </question>
+    <question id="28" text="Vad är ISIRT?" category="Incidenthantering">
+      <answer data-type="text" correct="YES">Information Security Incident Response Team</answer>
+      <answer data-type="text">Incident Security Information Response Team</answer>
+      <answer data-type="text">IT Security Incident Response Team</answer>
+      <answer data-type="text">Information Security Incident Resolve Team</answer>
+      <answer data-type="text">IT Security Incident Reactive Team</answer>
+    </question>
+    <question id="29" text="Vem eller vilka bör vara lämpliga avsändare av budskap till medarbetare om informationssäkerhet?" category="LIS">
+      <answer data-type="text">Högsta chefen (ledningsgrupp)</answer>
+      <answer data-type="text" correct="YES">Närmaste chefen</answer>
+      <answer data-type="text">En hierarki av regleringar kring informationssäkerheten i en verksamhet</answer>
+      <answer data-type="text">Externa informationssäkerhetskonsulter och experter</answer>
+      <answer data-type="text">En blandning av avsändare.</answer>
+    </question>
+    <question id="30" text="Vad står P-D-C-A för?" category="ISO 27001">
+      <answer data-type="text">Plan, Define, Controll, Act</answer>
+      <answer data-type="text" correct="YES">Plan, Do, Check, Act</answer>
+      <answer data-type="text">Plan, Do, Check, Analyse</answer>
+      <answer data-type="text">Plan, Do, Check, Activate</answer>
+    </question>
+    <question id="31" text="Vad är ett ramverk när det gäller ledningssystem för informationssäkerhet?" category="LIS">
+      <answer data-type="text">En beskrivning som beskriver målbilden för verksamhetens informationssäkerhet</answer>
+      <answer data-type="text">En lista på hur väl organisationens regler är kopplade till SS-ISO/IEC 27002</answer>
+      <answer data-type="text" correct="YES">En hierarki av regleringar kring informationssäkerheten i en verksamhet</answer>
+      <answer data-type="text">En lista som ligger till grund för certifiering enligt SS-ISO/IEC 27001</answer>
+      <answer data-type="text">Regler för hur en användare får nyttja en verksamhets informationsresurser</answer>
+    </question>
+    <question id="32" text="Kan värdet av informationstillgångar påverka risker mot dessa, och i så fall hur?" category="LIS">
+      <answer data-type="text">Ja, endast tillgångarnas värde påverkar konsekvensen, eftersom detta påverkar hur stor skadan kan bli.</answer>
+      <answer data-type="text">Ja, endast tillgångarnas värde och exponering påverkar sannolikheten.</answer>
+      <answer data-type="text">Nej, det är hotbilden som avgör hur stora riskerna är.</answer>
+      <answer data-type="text">Nej, det är de befintliga skyddens förmåga att eliminera sårbarheterna som avgör hur stora riskerna är.</answer>
+      <answer data-type="text" correct="YES">Ja, tillgångarnas värde kan påverka både konsekvensen och sannolikheten.</answer>
+    </question>
+    <question id="33" text="Vad innebär kontinuitetsplanering?" category="Kontinuitetsplanering">
+      <answer data-type="text">Kontinuitetsplanering är steget i uppförande i LIS där det bestäms hur mjukvara ska användas för att verksamheten ska fungera kontinuerligt.</answer>
+      <answer data-type="text">Kontinuitetsplanering är steget i uppförande i LIS där det bestäms hur hårdvara ska användas för att verksamheten ska fungera kontinuerligt.</answer>
+      <answer data-type="text" correct="YES">Kontinuitetsplanering är processen som ska säkerställa att verksamhet återställs om oönskad incident inträffar som negativt påverkar kontinuiteten i viktiga affärssystem eller stödjande element.</answer>
+      <answer data-type="text">Processen där det fastställs hur systemet alltid ska kunna vara tillgängligt.</answer>
+    </question>
+    <question id="34" text="Är skyddet för företagshemligheter harmoniserat mellan olika länder, såsom exempelvis det upphovsrättliga skyddet?" category="Författningskrav">
+      <answer data-type="text">Ja, mellan i stort sett alla länder i världen.</answer>
+      <answer data-type="text">Ja, men bara inom EU.</answer>
+      <answer data-type="text" correct="YES">Nej, inte alls.</answer>
+    </question>
+    <question id="35" text="Vad är standarden Ledningssystem för Informationssäkerhet ISO 27001?" category="LIS">
+      <answer data-type="text" correct="YES">En uppsättning krav på ledningssystemet och krav på informationssäkerheten.</answer>
+      <answer data-type="text">Ett verktyg för IT-avdelningen som används till att styra IT-kommunikation.</answer>
+      <answer data-type="text">En ISO-standard som har sitt ursprung i en "best practice" som tagits fram av ett antal stora företag och organisationer.</answer>
+      <answer data-type="text">Ett arbetsverktyg för att skapa rätt nivå IT-säkerhet i en organisation, från IT-teknik till övergripande styrning.</answer>
+      <answer data-type="text">En kravlista med 200 punkter som används för att styra IT-säkerheten.</answer>
+    </question>
+    <question id="36" text="&quot;Jag har ändå inget känsligt på min dator.&quot; är en vanlig attityd. Vilket av följande alternativ är en vanlig orsak till att man, trots att man inte har någon känslig information, blir angripen?" category="Hot och risker">
+      <answer data-type="text">Veta vem datorn tillhör</answer>
+      <answer data-type="text">Förstöra information på datorn</answer>
+      <answer data-type="text">Det finns ingen bra anledning</answer>
+      <answer data-type="text" correct="YES">Göra datorn till en del av ett botnet</answer>
+      <answer data-type="text">Bevisa att det går att göra</answer>
+    </question>
+    <question id="37" text="Vid utbyte av information med tredje part, vem/vilka avgör vad som kan utbytas och med vem?" category="LIS">
+      <answer data-type="text">Säkerhetschef</answer>
+      <answer data-type="text">Varje enskild medarbetare</answer>
+      <answer data-type="text">Informationssäkerhetsansvarig</answer>
+      <answer data-type="text">Säkerhetschef tillsammans med informationssäkerhetsansvarig</answer>
+      <answer data-type="text" correct="YES">Informationsägaren</answer>
+    </question>
+    <question id="38" text="Hur relateras riskhantering till LIS?" category="LIS">
+      <answer data-type="text">Riskhantering ingår endast i upprätta/införandedelen av LIS</answer>
+      <answer data-type="text">Riskhantering ingår inte i LIS utan är en separat process</answer>
+      <answer data-type="text">Riskhantering är en viktig grundsten i LIS och ingår i samtliga faser</answer>
+      <answer data-type="text" correct="YES">Riskhantering är underlaget för val av åtgärder i enlighet med 27002</answer>
+      <answer data-type="text">Det beror på vilken riskanalys man väljer</answer>
+    </question>
+    <question id="39" text="Utan väl fungerande rutiner för säkerhetskopiering, eller bristfälliga tester för återställning, ökar risken för att systemet inte kan nås i tid. Hur löser man detta?" category="Kryptering">
+      <answer data-type="text" correct="YES">Program för säkerhetskopiering och verifiering av information.</answer>
+      <answer data-type="text">Säker tid och brandväggar.</answer>
+      <answer data-type="text">Integritetskontroll, resurskontroll, signering, vitlistning</answer>
+      <answer data-type="text">Teknisk övervakning, kryptering, IDS, EDS, IPS, brandvägg, loggning, säker tid</answer>
+    </question>
+    <question id="40" text="Sårbarhetsskanning eller penetrationstest?" category="Incidenthantering">
+      <answer data-type="text">Sårbarhetsskanning</answer>
+      <answer data-type="text">Penetrationstest</answer>
+      <answer data-type="text" correct="YES">Båda</answer>
+      <answer data-type="text">Inget</answer>
+    </question>
+    <question id="41" text="8 individer ska kommunicera säkert med asymmetrisk kryptering. Hur många nycklar måste distribueras för att alla parter ska erhålla en unik nyckel för varje annan part man ska kommunicera med?" category="Kryptering">
+      <answer data-type="text">10</answer>
+      <answer data-type="text">11</answer>
+      <answer data-type="text">26</answer>
+      <answer data-type="text" correct="YES">16</answer>
+      <answer data-type="text">6</answer>
+    </question>
+    <question id="42" text="En väldigt allvarlig attack där ett stort antal datorer samarbetar för att angripa system på internet i syfte att göra de otillgängliga." category="Hot och risker">
+      <answer data-type="text">Social Media attack</answer>
+      <answer data-type="text">Buffer Overflow attack</answer>
+      <answer data-type="text">Jailbreak attack</answer>
+      <answer data-type="text" correct="YES">Distributed Denial of Service attack</answer>
+      <answer data-type="text">Password cracking attack</answer>
+    </question>
+    <question id="43" text="Vid granskning av LIS så skall man sträva till förbättringar, vilket i sin tur ställer krav på hur man gör bedömningen. Vilket av följande påståenden är mest korrekt?" category="LIS">
+      <answer data-type="text">Det är viktigt att ledningen vid varje verksamhetsmöte tar upp förbättringar som kan leda till förbättring av LIS.</answer>
+      <answer data-type="text">Sammansättningen av personer vid bedömning av LIS skall spegla ansvaret för informationssäkerhet enligt LIS.</answer>
+      <answer data-type="text">Det är alltid riskansvarige som ansvarar för bedömning och förbättringar.</answer>
+      <answer data-type="text" correct="YES">Genomgången skall omfatta bedömning av nuläge och LIS presterar samt förändringar internt och externt som i sin tur kan leda till förändringar av LIS.</answer>
+      <answer data-type="text">Det är riskanalysen som leder till förbättringar.</answer>
+    </question>
+    <question id="44" text="Hur förhindrar du enklast att någon återskapar information på en hårdisk?" category="Systemsäkerhet">
+      <answer data-type="text">Avinstallera alla program och formaterar hårdisken.</answer>
+      <answer data-type="text">Lämnar in till återvinningen.</answer>
+      <answer data-type="text">Formaterar hårdisken och skriver över med ny data.</answer>
+      <answer data-type="text">Med en borrmaskin.</answer>
+    </question>
+    <question id="45" text="Vilken funktion kan erhållas med hjälp av krypto?" category="Kryptering">
+      <answer data-type="text">Sekretess</answer>
+      <answer data-type="text" correct="YES">Sanningsenligt innehåll</answer>
+      <answer data-type="text">Digital signatur</answer>
+      <answer data-type="text">Oavvislighet</answer>
+      <answer data-type="text">Dataintegritet</answer>
+    </question>
+    <question id="46" text="Hur kan uppgifter om att en person begått brott hanteras enligt personuppgiftslagen?" category="Författningskrav">
+      <answer data-type="text">Uppgifter på personer som är dömda för brott regleras inte överhuvudtaget.</answer>
+      <answer data-type="text">Lämnar personen samtycke till att uppgiften behandlas så är det helt ok att göra det.</answer>
+      <answer data-type="text" correct="YES">Uppgifter om brott får normalt inte behandlas alls, ens om personen i fråga lämnat samtycke.</answer>
+    </question>
+    <question id="47" text="En åtkomstpolicy bör gälla för..?" category="LIS">
+      <answer data-type="text">En avdelning</answer>
+      <answer data-type="text" correct="YES">Alla system</answer>
+      <answer data-type="text">Ett enskilt system</answer>
+      <answer data-type="text">Alla användare inklusive administratör</answer>
+      <answer data-type="text">Alla användare exklusive administratör</answer>
+    </question>
+    <question id="48" text="Vilken betydelse har så kallad hemligstämpling för beslut om utlämnande av uppgifter inom det offentliga?" category="Författningskrav">
+      <answer data-type="text">Helt styrande för beslutet</answer>
+      <answer data-type="text" correct="YES">Möjligen vägledande, men en självständig prövning enligt sekretesslagen skall alltid göras.</answer>
+      <answer data-type="text">Ingen som helst betydelse.</answer>
+    </question>
+    <question id="49" text="Vad innebär fasen &quot;inneslutning&quot; som ingår i SANS incidentprocess?" category="Incidenthantering">
+      <answer data-type="text">Fånga in / spåra attackeraren så att hen kan lagföras.</answer>
+      <answer data-type="text" correct="YES">Stoppa skadegörelsen och ta säkerhetskopior.</answer>
+      <answer data-type="text">Upptäcker skillnader från normalbilden och försök till att orsaka skada.</answer>
+      <answer data-type="text">Städa upp och ta bort rester från attacken.</answer>
+      <answer data-type="text">Flytta attackerade objekt till säker lokal för att lättare kunna övervaka och kontrollera händelseförloppet.</answer>
+    </question>
+    <question id="50" text="Vad står CIRT för?" category="Incidenthantering">
+      <answer data-type="text">Computer Information Response Team</answer>
+      <answer data-type="text">Central IT Retract Terminal</answer>
+      <answer data-type="text" correct="YES">Computer Incident Response Team</answer>
+      <answer data-type="text">Central Information Response Team</answer>
     </question>
   </course>
 </questions>
