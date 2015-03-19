@@ -11,6 +11,7 @@ $(function() {
   var dataSource = 'questions.xml';
   var shuffleQuestions = true;
   var shuffleAnswers = true;
+  var currentCategory = 'Alla kategorier';
 
   setup();
 
@@ -29,32 +30,6 @@ $(function() {
     showCategories();
 
     setupEventHandlers();
-
-    $('.category').click(function(e) {
-      e.preventDefault();
-      var answers = $('.question').find('.active');
-      if (answers.length > 0) {
-        if (!confirm('Vill du verkligen fortsätta? Dina svar kommer då försvinna.')) {
-          return;
-        }
-        numCorrectAnswers = 0;
-      }
-
-      if ($(this).hasClass('disabled')) {
-        return;
-      }
-      var parent = $(this).parent();
-
-      parent.children().each(function(a) {
-        $(this).removeClass('active');
-      });
-
-      $(this).addClass('active');
-
-      var categoryName = $(this).find('a').html();
-
-      didSelectCategory(categoryName);
-    });
   }
 
   function showQuestions(q) {
@@ -125,10 +100,8 @@ $(function() {
       e.preventDefault();
 
       removeContent();
-      removeCategories();
-      setupQuestions(currentCourse, function() {
-        setupUI();
-      });
+      reloadQuestions();
+
     });
   }
 
@@ -216,6 +189,13 @@ $(function() {
     $('#selectCourseModal').modal('hide');
   }
 
+  function reloadQuestions() {
+    currentQuestions = filterQuestionsByCategory(currentCategory);
+    showQuestions(currentQuestions);
+    $('#answerBtn').prop('disabled', false);
+    setupEventHandlers();
+  }
+
   function createQuestionWith(data) {
     var question = new Object();
 
@@ -278,6 +258,17 @@ $(function() {
   function didSelectCategory(category) {
     removeContent();
     resetAllQuestions();
+
+    currentCategory = category;
+
+    realQuestions = filterQuestionsByCategory(currentCategory);
+    showQuestions(realQuestions);
+
+    $('#answerBtn').prop('disabled', false);
+    setupEventHandlers();
+  }
+
+  function filterQuestionsByCategory(category) {
     if (category != 'Alla kategorier') {
       filteredQuestions = new Array();
 
@@ -286,12 +277,10 @@ $(function() {
           filteredQuestions.push(question);
         }
       });
-      showQuestions(filteredQuestions);
+      return filteredQuestions;
     } else {
-      showQuestions(questions);
+      return questions;
     }
-    $('#answerBtn').prop('disabled', false);
-    setupEventHandlers();
   }
 
   //TODO: Är lite lång alltså, refaktorera
@@ -368,6 +357,32 @@ $(function() {
       $(this).addClass('active');
 
       didSelectAnswer($(this).closest('.question').attr('data-questionID'), $(this).attr('data-answerID'));
+    });
+
+    $('.category').click(function(e) {
+      e.preventDefault();
+      var answers = $('.question').find('.active');
+      if (answers.length > 0) {
+        if (!confirm('Vill du verkligen fortsätta? Dina svar kommer då försvinna.')) {
+          return;
+        }
+        numCorrectAnswers = 0;
+      }
+
+      if ($(this).hasClass('disabled')) {
+        return;
+      }
+      var parent = $(this).parent();
+
+      parent.children().each(function(a) {
+        $(this).removeClass('active');
+      });
+
+      $(this).addClass('active');
+
+      var categoryName = $(this).find('a').html();
+
+      didSelectCategory(categoryName);
     });
   }
 
