@@ -9,7 +9,8 @@ $(function() {
   var currentCourse;
   var numCorrectAnswers = 0;
   var dataSource = 'questions.xml';
-  var randomQuestionOrder = true;
+  var shuffleQuestions = true;
+  var shuffleAnswers = true;
 
   setup();
 
@@ -145,12 +146,13 @@ $(function() {
     $('.ctg-dyn').remove();
   }
 
-
   /*
   * BACKEND
   */
 
   function setup() {
+    getUserSettings();
+
     $.get(dataSource, function(data) {
       $(data).find('course').each(function() {
         var courseName = $(this).attr('name');
@@ -164,6 +166,19 @@ $(function() {
       $('.selectCourseBtn').click(function() {
         var selectedCourse = $(this).html();
         setCourse(selectedCourse);
+      });
+
+      $('.settingsButton').click(function() {
+        var selectedSetting = this;
+        var isChecked = $(selectedSetting).hasClass('active');
+
+        var setting = $(selectedSetting).attr('setting');
+
+        if (isChecked) {
+          disableSetting(setting);
+        } else {
+          enableSetting(setting);
+        }
       });
 
       $('#selectCourseModal').modal({
@@ -181,7 +196,7 @@ $(function() {
         questions.push(createQuestionWith($(this)));
       });
 
-      if (randomQuestionOrder) {
+      if (shuffleQuestions) {
         shuffleArray(questions);
       }
 
@@ -192,7 +207,7 @@ $(function() {
   function setCourse(course) {
     currentCourse = course;
 
-    $('#titleLabel').html('Quiz: ' + currentCourse);
+    $('#titleLabel').html('📋 Quiz: ' + currentCourse);
 
     setupQuestions(currentCourse, function() {
       setupUI();
@@ -219,7 +234,7 @@ $(function() {
     var answers = new Array();
 
     $(answerData).each(function(index, answer) {
-      if ($(this).attr('correct') == 'YES') {
+      if ($(this).attr('correct')) {
         question.correctAnswer = index + 1;
       }
 
@@ -245,6 +260,11 @@ $(function() {
 
       answers.push(answer);
     });
+
+    if (shuffleAnswers) {
+      shuffleArray(answers);
+    }
+
     question.answers = answers;
 
     return question;
@@ -360,9 +380,111 @@ $(function() {
     });
   }
 
+  /* SETTINGS (this makes me sad) */
+  function getUserSettings() {
+    getShuffleQuestionsSetting();
+    getShuffleAnswersSetting();
+  }
+
+  function getShuffleQuestionsSetting() {
+    var shuffleQuestionsCookie = readCookie('shuffleQuestions');
+    if (shuffleQuestionsCookie) {
+      if (shuffleQuestionsCookie == 'YES') {
+        shuffleQuestions = true;
+      }
+      else {
+        shuffleQuestions = false;
+        $('.settingsButton[setting=shuffleQuestions]').removeClass('active');
+      }
+    } else {
+      createCookie('shuffleQuestions', 'YES', 99999);
+    }
+  }
+
+  function getShuffleAnswersSetting() {
+    var shuffleAnswersCookie = readCookie('shuffleAnswers');
+    if (shuffleAnswersCookie) {
+      if (shuffleAnswersCookie == 'YES') {
+        shuffleAnswers = true;
+      }
+      else {
+        shuffleAnswers = false;
+        $('.settingsButton[setting=shuffleAnswers]').removeClass('active');
+      }
+    } else {
+      createCookie('shuffleAnswers', 'YES', 99999);
+    }
+  }
+
+  function disableSetting(setting) {
+    switch(setting) {
+      case 'shuffleQuestions':
+        shuffleQuestions = false;
+        createCookie('shuffleQuestions', 'NO', 99999);
+        break;
+      case 'shuffleAnswers':
+        shuffleAnswers = false;
+        createCookie('shuffleAnswers', 'NO', 99999);
+        break;
+      default:
+        console.log ('Unkown setting?');
+        break;
+    }
+  }
+
+  function enableSetting(setting) {
+    switch(setting) {
+      case 'shuffleQuestions':
+        shuffleQuestions = true;
+        createCookie('shuffleQuestions', 'YES', 99999);
+        break;
+      case 'shuffleAnswers':
+        shuffleAnswers = true;
+        createCookie('shuffleAnswers', 'YES', 99999);
+        break;
+      default:
+        console.log ('Unkown setting?');
+        break;
+    }
+  }
+
+  /* Helpers */
   function shuffleArray(arr) {
       for (var j, x, i = arr.length; i; j = Math.floor(Math.random() * i), x = arr[--i], arr[i] = arr[j], arr[j] = x);
       return arr;
   };
+
+  /*
+  Cookie handling
+  From: http://www.quirksmode.org/js/cookies.html
+  */
+
+  function createCookie(name, value, days) {
+    var expires;
+
+    if (days) {
+      var date = new Date();
+      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+      expires = "; expires=" + date.toGMTString();
+    } else {
+      expires = "";
+    }
+    document.cookie = encodeURIComponent(name) + "=" + encodeURIComponent(value) + expires + "; path=/";
+  }
+
+  function readCookie(name) {
+    var nameEQ = encodeURIComponent(name) + "=";
+    var ca = document.cookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+      if (c.indexOf(nameEQ) === 0) return decodeURIComponent(c.substring(nameEQ.length, c.length));
+    }
+    return null;
+  }
+
+  function eraseCookie(name) {
+    createCookie(name, "", -1);
+  }
 
 });

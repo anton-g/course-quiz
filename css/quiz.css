@@ -29,3 +29,16 @@
 .question-image {
   margin: 0 auto;
 }
+
+.btn-group {
+  margin-top: 1em;
+}
+
+#answerBtn {
+  margin-bottom: 2em;
+}
+
+#footer {
+  text-align: center;
+  padding: 1em;
+}

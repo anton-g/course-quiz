@@ -8,7 +8,10 @@ Originally an assignment for multimedia course at Uppsala University but have no
 - Commit and create pull request
 
 ## ToDo
-+ Test with other browsers than Safari.
++ Test with more browsers.
+  + Works with Safari.
+  + Works with Firefox.
+  + Does not work with Chrome: `XMLHttpRequest cannot load file:///redacted/questions.xml. Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https, chrome-extension-resource.`.
 + Add settings for shuffling questions etc
 + Add a question submitter
 + Fix inline code support

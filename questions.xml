@@ -2,7 +2,7 @@
   <course name="Multimedia">
     <question id="1" text="Bilder skapade med vektorgrafik är…" category="Vektorgrafik">
       <answers>
-        <answer data-type="text" correct="YES">Objekt-orienterade bilder</answer>
+        <answer data-type="text" correct="correct">Objekt-orienterade bilder</answer>
         <answer data-type="text" > Pixel-orienterade bilder</answer>
       </answers>
     </question>
@@ -10,7 +10,7 @@
       <answers>
         <answer data-type="text">Startpunkten</answer>
         <answer data-type="text">Ändpunkten</answer>
-        <answer data-type="text" correct="YES">Kontrollpunkterna</answer>
+        <answer data-type="text" correct="correct">Kontrollpunkterna</answer>
         <answer data-type="text">Medelpunkten</answer>
       </answers>
     </question>
@@ -18,7 +18,7 @@
       <answers>
         <answer data-type="image">antialiasing1.png</answer>
         <answer data-type="image">antialiasing2.png </answer>
-        <answer data-type="image" correct="YES">antialiasing3.png</answer>
+        <answer data-type="image" correct="correct">antialiasing3.png</answer>
       </answers>
     </question>
     <question id="4" text="Vad är anledningen att vektorgrafik oftast resulterar i mindre bildfiler än bitmapgrafik?" category="Vektorgrafik">
@@ -26,18 +26,18 @@
         <answer data-type="text">Bitmapgrafik använder sig av matematiska modeller och blir därför större</answer>
         <answer data-type="text">Vektorgrafik kodar varje pixel för sig och blir därför mindre</answer>
         <answer data-type="text">Bitmapgrafik kodar varje pixel för sig och blir därför mindre</answer>
-        <answer data-type="text" correct="YES">Vektorgrafik använder sig av matematiska modeller och blir därför mindre</answer>
+        <answer data-type="text" correct="correct">Vektorgrafik använder sig av matematiska modeller och blir därför mindre</answer>
       </answers>
     </question>
     <question id="5" text="Bilder skapade med bitmapgrafik är..." category="Bitmapgrafik">
       <answers>
         <answer data-type="text">Objekt-orienterade bilder</answer>
-        <answer data-type="text" correct="YES">Pixel-orienterade bilder</answer>
+        <answer data-type="text" correct="correct">Pixel-orienterade bilder</answer>
       </answers>
     </question>
     <question id="6" text="För att minska ner filstorleken hos bitmapgrafik använder man olika komprimeringstekniker. Vilken av följande är icke-förstörande(lossless)?" category="Bitmapgrafik">
       <answers>
-        <answer data-type="text" correct="YES">Huffman</answer>
+        <answer data-type="text" correct="correct">Huffman</answer>
         <answer data-type="text">JPEG</answer>
         <answer data-type="text">PNG</answer>
       </answers>
@@ -46,7 +46,7 @@
       <answers>
         <answer data-type="text">RLE</answer>
         <answer data-type="text">LZW</answer>
-        <answer data-type="text" correct="YES">JPG</answer>
+        <answer data-type="text" correct="correct">JPG</answer>
         <answer data-type="text">Huffman</answer>
       </answers>
     </question>
@@ -55,20 +55,20 @@
         <answer data-type="code">&lt;circle cx="200" cy="150" r="50" /&gt;<br/>&lt;rect x="50" y="200" width="100" height ="200" /&gt;<br/>&lt;rect x="100" y="300" width="300" height ="100 "/&gt;</answer>
         <answer data-type="code">&lt;circle cx="200" cy="150" r="75" /&gt;<br/>&lt;rect x="100" y="200" width="100" height ="200" /&gt;<br/>&lt;rect x="0" y="0" width="300" height ="100 "/&gt;</answer>
         <answer data-type="code">&lt;circle cx="300" cy="150" r="100" /&gt;<br/>&lt;rect x="50" y="200" width="100" height ="200" /&gt;<br/>&lt;rect x="0" y="0" width="200" height ="100 "/&gt;</answer>
-        <answer data-type="code" correct="YES">&lt;circle cx="300" cy="150" r="75" /&gt;<br/>&lt;rect x="50" y="200" width="100" height ="200" /&gt;<br/>&lt;rect x="0" y="0" width="300" height ="100 "/&gt;</answer>
+        <answer data-type="code" correct="correct">&lt;circle cx="300" cy="150" r="75" /&gt;<br/>&lt;rect x="50" y="200" width="100" height ="200" /&gt;<br/>&lt;rect x="0" y="0" width="300" height ="100 "/&gt;</answer>
       </answers>
     </question>
     <question id="9" text="Vilka är primärfärgerna för additiv färgsyntes?" category="Färg">
       <answers>
         <answer data-type="text">Gul, magenta, cyan</answer>
         <answer data-type="text"> Rött, gult, blått</answer>
-        <answer data-type="text" correct="YES">Rött, grönt, blått</answer>
+        <answer data-type="text" correct="correct">Rött, grönt, blått</answer>
         <answer data-type="text">Gul, Indigo, cyan</answer>
       </answers>
     </question>
     <question id="10" text="Vilka är primärfärgerna i subtraktiv färgsyntes?" category="Färg">
       <answers>
-        <answer data-type="text" correct="YES">Gul, magenta, cyan</answer>
+        <answer data-type="text" correct="correct">Gul, magenta, cyan</answer>
         <answer data-type="text">Rött, gult, blått</answer>
         <answer data-type="text">Rött, grönt, blått</answer>
         <answer data-type="text">Gul, Indigo, cyan</answer>
@@ -77,7 +77,7 @@
     <question id="11" text="Nedan ser du de två färgsynteserna, vilket alternativ stämmer om dessa?" image="färgsyntes.jpg" category="Färg">
       <answers>
         <answer data-type="text">A: Färg skapas genom att blanda färgpigment och är det som används vid tryck.<br/>B: Färg skapas genom att blanda färgat ljus och är det som används  i en datorskärm</answer>
-        <answer data-type="text" correct="YES"> A: Färg skapas genom att blanda färgat ljus och är det som används  i en datorskärm.<br/>B: Färg skapas genom att blanda färgpigment och är det som används vid try</answer>
+        <answer data-type="text" correct="correct"> A: Färg skapas genom att blanda färgat ljus och är det som används  i en datorskärm.<br/>B: Färg skapas genom att blanda färgpigment och är det som används vid try</answer>
         <answer data-type="text">A: Färg skapas genom att blanda färgpigment och är det som används i  en datorskärm.<br/>B: Färg skapas genom att blanda färgat ljus och är det som används vid tryck.</answer>
         <answer data-type="text"> A: Färg skapas genom att blanda färgat ljus och är det som används vid tryck.<br/>B: Färg skapas genom att blanda färgpigment och är det som används i en datorskärm.</answer>
       </answers>
@@ -86,7 +86,7 @@
       <answers>
         <answer data-type="text">CIE</answer>
         <answer data-type="text">RGB</answer>
-        <answer data-type="text" correct="YES">CMM</answer>
+        <answer data-type="text" correct="correct">CMM</answer>
         <answer data-type="text">CMYK</answer>
       </answers>
     </question>
@@ -94,14 +94,14 @@
       <answers>
         <answer data-type="text"> rgb(255, 255, 255)</answer>
         <answer data-type="text">rgb(50, 50, 50)</answer>
-        <answer data-type="text" correct="YES"> rgb(0, 0, 0)</answer>
+        <answer data-type="text" correct="correct"> rgb(0, 0, 0)</answer>
         <answer data-type="text">rgb(0, 0, 255)</answer>
       </answers>
     </question>
     <question id="14" text="Visuell hierarki handlar om att element arrangeras i en ordning, skapad genom att ge elementen olika visuell vikt, med hjälp av kontrastförhållanden.Vilket av följande skapar inte ett såndant?" category="Mediadesign">
       <answers>
         <answer data-type="text">Storlek</answer>
-        <answer data-type="text" correct="YES">Kontinuitet</answer>
+        <answer data-type="text" correct="correct">Kontinuitet</answer>
         <answer data-type="text">Färg</answer>
         <answer data-type="text">Styrka</answer>
       </answers>
@@ -111,20 +111,20 @@
         <answer data-type="text">Man automatiserar vanliga handlingar</answer>
         <answer data-type="text">Flera olika kanaler kombineras, t.ex. kan man få sidan uppläst</answer>
         <answer data-type="text">En uppsättning riktlinjer hur man ska designa en websida</answer>
-        <answer data-type="text" correct="YES">Designen anpassas efter målplattformens displ</answer>
+        <answer data-type="text" correct="correct">Designen anpassas efter målplattformens displ</answer>
       </answers>
     </question>
     <question id="16" text="WCAG 2, (Web Accessibility Initiative’s Web Content Accessibility Guidelines) baserar sig på fyra principer som går under akronymen POUR. Vad står POUR för?" category="Mediadesign">
       <answers>
         <answer data-type="text">Perspective, operable, unique, responsive</answer>
-        <answer data-type="text" correct="YES">Perceivable, operable, understandable, robus</answer>
+        <answer data-type="text" correct="correct">Perceivable, operable, understandable, robus</answer>
         <answer data-type="text">Perceivable, operative, unique, robust</answer>
         <answer data-type="text">Perspective, operative, understandable, responsive</answer>
       </answers>
     </question>
     <question id="17" text="Vilket av följande alternativ är inte ett exempel på en gestaltlag?" category="Mediadesign">
       <answers>
-        <answer data-type="text" correct="YES">Paritet</answer>
+        <answer data-type="text" correct="correct">Paritet</answer>
         <answer data-type="text">Symmetri</answer>
         <answer data-type="text">Slutenhet</answer>
         <answer data-type="text">Likhet</answer>
@@ -135,12 +135,12 @@
         <answer data-type="text">Digitalt ljud har bra kvalitet oavsett målplattform</answer>
         <answer data-type="text">Digitalt ljud kan bli stora filer</answer>
         <answer data-type="text">MIDI kan redigeras till minsta detalj</answer>
-        <answer data-type="text" correct="YES">MIDI kan återge tal</answer>
+        <answer data-type="text" correct="correct">MIDI kan återge tal</answer>
       </answers>
     </question>
     <question id="19" text="Vad menas med samplingsteoremet?" category="Ljud">
       <answers>
-        <answer data-type="text" correct="YES">Samplingsfrekvensen ska vara den dubbla av högsta hörbara frekvens</answer>
+        <answer data-type="text" correct="correct">Samplingsfrekvensen ska vara den dubbla av högsta hörbara frekvens</answer>
         <answer data-type="text" >Samplingsfrekvensen ska vara exakt samma som den högsta hörbara frekvensen</answer>
         <answer data-type="text">Samplingsfrekvensen ska medelvärdet av alla frekvenser</answer>
         <answer data-type="text">Samplingsfrekvensen ska vara hälften av den lägsta hörbara frekvensen</answer>
@@ -149,7 +149,7 @@
     <question id="20" text="Komprimeringsstandarden MPEG Audio använder sig av psykoakustiska modeller för att komprimera ljud. Vad är det man “utnyttjar” när man använder denna komprimeringsteknik?" category="Ljud">
       <answers>
         <answer data-type="text">Varierande precision (stegstorlek) mellan samplen</answer>
-        <answer data-type="text" correct="YES">Begränsningar hos den mänskliga hörseln</answer>
+        <answer data-type="text" correct="correct">Begränsningar hos den mänskliga hörseln</answer>
         <answer data-type="text">Samplingsfrekvensen ska vara exakt 44,1 kHz</answer>
       </answers>
     </question>
@@ -158,13 +158,13 @@
         <answer data-type="text">Uppfattad frekvens hos ljudet</answer>
         <answer data-type="text">Bitrate har att göra med toners klangfärg</answer>
         <answer data-type="text">Förändringen av en tons spektrum över tid</answer>
-        <answer data-type="text" correct="YES">Den mängd data som en dator kan överföra från en enhet till en annan under en viss tid</answer>
+        <answer data-type="text" correct="correct">Den mängd data som en dator kan överföra från en enhet till en annan under en viss tid</answer>
       </answers>
     </question>
     <question id="22" text="Vid MP3-komprimering förekommmer begreppet group of pictures (GOP), vilket innebär att de olika frametyperna förekommer i en viss sekvens som repeteras. Vilket alternativ är korrekt display order?" category="Animation">
       <answers>
         <answer data-type="text">P I I B I I P</answer>
-        <answer data-type="text" correct="YES">I B B P B B P</answer>
+        <answer data-type="text" correct="correct">I B B P B B P</answer>
         <answer data-type="text">I P P B P P B</answer>
         <answer data-type="text">B I P B I P</answer>
       </answers>
@@ -172,7 +172,7 @@
     <question id="23" text="Vid komprimering av video använder man dels intra-frame komprimering, dels inter-frame komprimering. Vilket påstående är falskt?" category="Animation">
       <answers>
         <answer data-type="text">Intra-frame komprimerar varje frame för sig </answer>
-        <answer data-type="text" correct="YES">Inter-frame komprimerar skillnaderna mellan varje frame</answer>
+        <answer data-type="text" correct="correct">Inter-frame komprimerar skillnaderna mellan varje frame</answer>
         <answer data-type="text">Intra-frame är en slags spatial komprimering</answer>
         <answer data-type="text">Inter-frame är en slags temporal komprimering</answer>
       </answers>
@@ -182,14 +182,14 @@
         <answer data-type="text">Cut-outs</answer>
         <answer data-type="text">Stop motion</answer>
         <answer data-type="text">Målad/skrapad film</answer>
-        <answer data-type="text" correct="YES">Morphing</answer>
+        <answer data-type="text" correct="correct">Morphing</answer>
       </answers>
     </question>
     <question id="25" text="Att uppfatta stillbilder som film har att göra med perceptionen. Det grundar sig på tre fenomen: phi-fenomenet, rörelsesammansmältning och frånvaro av flimmer. Vad menas med phi-fenomenet?" category="Animation">
       <answers>
         <answer data-type="text">En sekvens stillbilder av ett objekt som rör sig ger illusionen av rörelse hos objektet om två bilder i följd är till synes lika</answer>
         <answer data-type="text">Ögat uppfattar inte någon skillnad mellan kontinuerligt ljus och flimmer om frekvensen hos flimret är tillräckligt högt.</answer>
-        <answer data-type="text" correct="YES">Tröghet i det visuella systemet gör att en bild dröjer sig kvar en stund på näthinnan</answer>
+        <answer data-type="text" correct="correct">Tröghet i det visuella systemet gör att en bild dröjer sig kvar en stund på näthinnan</answer>
         <answer data-type="text">Om man visualiserar varje frame två eller tre gånger upplevs inte det som en rörelse</answer>
       </answers>
     </question>
@@ -198,14 +198,14 @@
         <answer data-type="image">A.png</answer>
         <answer data-type="image">5.jpg</answer>
         <answer data-type="image">Question_mark_alternate.png</answer>
-        <answer data-type="image" correct="YES">amulett02b.gif</answer>
+        <answer data-type="image" correct="correct">amulett02b.gif</answer>
       </answers>
     </question>
     <question id="27" text="Vad är stämmer om ASCII?" category="Text">
       <answers>
         <answer data-type="text">Man kan blanda olika språk med olika alfabet (ex. Svenska och Grekiska)</answer>
         <answer data-type="text">Asiatiska alfabet får plats</answer>
-        <answer data-type="text" correct="YES">Man kan blanda olika språk som har samma alfabet (ex. Engelska och Svenska)</answer>
+        <answer data-type="text" correct="correct">Man kan blanda olika språk som har samma alfabet (ex. Engelska och Svenska)</answer>
         <answer data-type="text">Alla alfabet får plats</answer>
       </answers>
     </question>
@@ -213,14 +213,14 @@
       <answers>
         <answer data-type="text">2</answer>
         <answer data-type="text">5</answer>
-        <answer data-type="text" correct="YES">10</answer>
+        <answer data-type="text" correct="correct">10</answer>
         <answer data-type="text">20</answer>
       </answers>
     </question>
     <question id="29" text="Vad stämmer inte med med UNICODE?" category="Text">
       <answers>
         <answer data-type="text">Man kan blanda olika språk med olika alfabet (ex. Svenska och Grekiska)</answer>
-        <answer data-type="text" correct="YES"> Det är bara till för asiatiska alfabet</answer>
+        <answer data-type="text" correct="correct"> Det är bara till för asiatiska alfabet</answer>
         <answer data-type="text"> Man kan blanda olika språk som har samma alfabet (ex. Engelska och Svenska)</answer>
         <answer data-type="text"> Version 3.0 är tredimensionell</answer>
       </answers>
@@ -230,7 +230,7 @@
     <question id="1" text="Vad är informationstillgångar?" category="LIS">
       <answers>
         <answer data-type="text">Samtliga resurser som använts för att kommunicera och lagra information.</answer>
-        <answer data-type="text" correct="YES">Allt som har ett värde för organisationen.</answer>
+        <answer data-type="text" correct="correct">Allt som har ett värde för organisationen.</answer>
         <answer data-type="text">Det som finns upptaget som värden i en organisations förteckningar över tillgångar</answer>
         <answer data-type="text">Information och de resurser som används för att hantera information.</answer>
         <answer data-type="text">Informationen som organisationen betraktar som värdefull.</answer>
@@ -238,7 +238,7 @@
     </question>
     <question id="2" text="Vad svarar bäst mot de åtgärder som en IPS vidtar vid misstänkt attack mot ett datorsystem?" category="Systemsäkerhet">
       <answers>
-        <answer data-type="text" correct="YES">Identifierar, rapporterar samt stoppar attack.</answer>
+        <answer data-type="text" correct="correct">Identifierar, rapporterar samt stoppar attack.</answer>
         <answer data-type="text">Stoppar attack och startar antivirusprogram.</answer>
         <answer data-type="text">Stoppar attack och informerar administratör.</answer>
         <answer data-type="text">Rapporterar attack och stänger automatiskt av datorsystemet.</answer>
@@ -249,13 +249,13 @@
         <answer data-type="text">Cyberterrorism</answer>
         <answer data-type="text">Spionage</answer>
         <answer data-type="text">Stöld av data</answer>
-        <answer data-type="text" correct="YES">Portskanning</answer>
+        <answer data-type="text" correct="correct">Portskanning</answer>
         <answer data-type="text">Bedrägeri</answer>
       </answers>
     </question>
     <question id="4" text="Vad är en hash-algoritm?" category="Kryptering">
       <answers>
-        <answer data-type="text" correct="YES">Ett matematiskt extrakt som alltid genererar samma värde för ett visst input</answer>
+        <answer data-type="text" correct="correct">Ett matematiskt extrakt som alltid genererar samma värde för ett visst input</answer>
         <answer data-type="text">Ett påhitt</answer>
         <answer data-type="text">En metod för kodknäckning</answer>
         <answer data-type="text">En säkerhetsalgoritm som används i hårdvarubrandväggar</answer>
@@ -266,7 +266,7 @@
         <answer data-type="text">Konfidentialitet, tillförlitlighet och riktighet</answer>
         <answer data-type="text">Sekretess, riktighet och tillgänglighet</answer>
         <answer data-type="text">Sekretess, tillförlitlighet och tillgänglighet</answer>
-        <answer data-type="text" correct="YES">Konfidentialitet, riktighet och tillgänglighet</answer>
+        <answer data-type="text" correct="correct">Konfidentialitet, riktighet och tillgänglighet</answer>
         <answer data-type="text">Säkerhet, sekretess och tillgänglighet</answer>
       </answers>
     </question>
@@ -274,14 +274,14 @@
       <answers>
         <answer data-type="text">En dator infekterad av en zombie</answer>
         <answer data-type="text">Ett system som tagits över av en hacker</answer>
-        <answer data-type="text" correct="YES">Ett nätverk med datorer som tagits över med skadlig kod som kopplar upp dem mot en central nod där någon kan styra dem</answer>
+        <answer data-type="text" correct="correct">Ett nätverk med datorer som tagits över med skadlig kod som kopplar upp dem mot en central nod där någon kan styra dem</answer>
       </answers>
     </question>
     <question id="7" text="Omfattas information av teknisk, kommersiell eller administrativ karaktär av begreppet företagshemlighet i 1§ FHL?" category="Författningskrav">
       <answers>
         <answer data-type="text">Nej, bara teknisk information.</answer>
         <answer data-type="text">Nej, bara teknisk och kommersiell information</answer>
-        <answer data-type="text" correct="YES">Ja, information av teknisk, kommersiell och administrativ karaktär omfattas av begreppet</answer>
+        <answer data-type="text" correct="correct">Ja, information av teknisk, kommersiell och administrativ karaktär omfattas av begreppet</answer>
       </answers>
     </question>
     <question id="8" text="Vad skall säkerhetskrav på informationssystem omfatta?" category="LIS">
@@ -290,7 +290,7 @@
         <answer data-type="text">IT-säkerhet</answer>
         <answer data-type="text">Fysisk säkerhet</answer>
         <answer data-type="text">Administrativ, IT och fysisk säkerhet</answer>
-        <answer data-type="text" correct="YES">Administrativ och IT säkerhet</answer>
+        <answer data-type="text" correct="correct">Administrativ och IT säkerhet</answer>
       </answers>
     </question>
     <question id="9" text="Vad anses vara en god inställning till IT-säkerhet?" category="Hot och risker">
@@ -298,7 +298,7 @@
         <answer data-type="text">Fokus på teknik</answer>
         <answer data-type="text">Fokus på människor, attityder och organisation</answer>
         <answer data-type="text">Fokus på processer</answer>
-        <answer data-type="text" correct="YES">Lika mycket fokus på teknik, människor, attityder, organisation och processer</answer>
+        <answer data-type="text" correct="correct">Lika mycket fokus på teknik, människor, attityder, organisation och processer</answer>
         <answer data-type="text">Fokus på intrångsskydd</answer>
       </answers>
     </question>
@@ -306,7 +306,7 @@
       <answers>
         <answer data-type="text">Nätverk</answer>
         <answer data-type="text">Server</answer>
-        <answer data-type="text" correct="YES">Klient</answer>
+        <answer data-type="text" correct="correct">Klient</answer>
         <answer data-type="text">Trådlös kommunikation</answer>
         <answer data-type="text">Google</answer>
       </answers>
@@ -314,7 +314,7 @@
     <question id="11" text="För 27000-serien och LIS så finns det en speciell koppling mellan SS-ISO/IEC 27001 och 27002, vilken?" category="LIS">
       <answers>
         <answer data-type="text">Kravet på revisioner finns i båda.</answer>
-        <answer data-type="text" correct="YES">Appendix A är ett normativt krav på SS-ISO/IEC 27001 och de är baserade på åtgärder i 27002.</answer>
+        <answer data-type="text" correct="correct">Appendix A är ett normativt krav på SS-ISO/IEC 27001 och de är baserade på åtgärder i 27002.</answer>
         <answer data-type="text">Att implementering av SS-ISO/IEC 27001 och 27002 skall vara i projektform.</answer>
         <answer data-type="text">Det finns ingen unik koppling. 27000-serien är likadant uppbyggd som andra ledningssystem inom ISO.</answer>
         <answer data-type="text">Att 27001 har "skall" medan 27002 står det "bör". Annars är de lika.</answer>
@@ -323,7 +323,7 @@
     <question id="12" text="Vad svarar bäst mot en beskrivning av en säkerhetsåtgärd?" category="Systemsäkerhet">
       <answers>
         <answer data-type="text">Oavvislig, autentiserad, verifierad</answer>
-        <answer data-type="text" correct="YES">Rapporterande, begränsande, förebyggande</answer>
+        <answer data-type="text" correct="correct">Rapporterande, begränsande, förebyggande</answer>
         <answer data-type="text">Begränsande, kontrollerande, logisk</answer>
         <answer data-type="text">Autentiserad, logisk, oavvislig</answer>
       </answers>
@@ -332,24 +332,24 @@
       <answers>
         <answer data-type="text">Lagstiftning styr helt.</answer>
         <answer data-type="text">Standarder styr helt.</answer>
-        <answer data-type="text" correct="YES">Avtalsfriheten styr stora delar, det vill säga parterna har stora möjligheter att själva styra över de egna avtalen. Standarder och lagstiftning kan dock inverka.</answer>
+        <answer data-type="text" correct="correct">Avtalsfriheten styr stora delar, det vill säga parterna har stora möjligheter att själva styra över de egna avtalen. Standarder och lagstiftning kan dock inverka.</answer>
       </answers>
     </question>
     <question id="14" text="Vad innebär riskacceptans?" category="ISO 27001">
       <answer data-type="text">Att acceptera en risk som inte går att åtgärda.</answer>
       <answer data-type="text">Den risk som är kvar efter riskbehandling.</answer>
-      <answer data-type="text" correct="YES">Beslut att acceptera en risk.</answer>
+      <answer data-type="text" correct="correct">Beslut att acceptera en risk.</answer>
       <answer data-type="text">Systematisk användning av information för att kartlägga och värdera risken.</answer>
     </question>
     <question id="15" text="Vad innebär författningskrav?" category="ISO 27001">
       <answer data-type="text">Krav definierat i policy som ska gälla för alla anställda.</answer>
       <answer data-type="text">Krav från ledningen.</answer>
-      <answer data-type="text" correct="YES">Författningskrav innefattar krav i lagar, förordningar och myndigheters föreskrifter.</answer>
+      <answer data-type="text" correct="correct">Författningskrav innefattar krav i lagar, förordningar och myndigheters föreskrifter.</answer>
     </question>
     <question id="16" text="Vilka två faktorer består riskbegreppet av?" category="LIS">
       <answer data-type="text">Potentiell skada och potentiell möjlighet</answer>
       <answer data-type="text">Sannolikhet och frekvens</answer>
-      <answer data-type="text" correct="YES">Sannolikhet och potentiell skada</answer>
+      <answer data-type="text" correct="correct">Sannolikhet och potentiell skada</answer>
       <answer data-type="text">Antal inträffade incidenter och potentiell skada</answer>
       <answer data-type="text">Sannolikhet och kostnader för inträffade skador</answer>
     </question>
@@ -357,12 +357,12 @@
       <answer data-type="text">IT-ansvarigs önskan, ledningens bestämmelser, riktlinjer för anställda.</answer>
       <answer data-type="text">Styrande dokument, överblick av LIS.</answer>
       <answer data-type="text">Beskrivning av organisations mål och vision.</answer>
-      <answer data-type="text" correct="YES">Mål, säkerhetsinformation, vägledning för införande, övrig information.</answer>
+      <answer data-type="text" correct="correct">Mål, säkerhetsinformation, vägledning för införande, övrig information.</answer>
     </question>
     <question id="18" text="I standarden SS-ISO/IEC 27002 finns visst stöd för hantering av informationstillgångar, vilket?" category="LIS">
       <answer data-type="text">Hur man identifierar och klassificerar informationstillgångar.</answer>
       <answer data-type="text">Hur man identifierar och värderar informationstillgångar.</answer>
-      <answer data-type="text" correct="YES">Hur man klassificerar informationstillgångar och väljer säkerhetsåtgärder.</answer>
+      <answer data-type="text" correct="correct">Hur man klassificerar informationstillgångar och väljer säkerhetsåtgärder.</answer>
       <answer data-type="text">Hur man värderar och klassificerar informationstillgångar.</answer>
       <answer data-type="text">Hur man identifierar informationstillgångar.</answer>
     </question>
@@ -370,12 +370,12 @@
       <answer data-type="text">Hitta vilka processer som är livsviktiga för samarbetspartners.</answer>
       <answer data-type="text">Analys av hur säkerheten är idag och vart organisationen vill att den faktiskt ska vara.</answer>
       <answer data-type="text">Analys av hur nödvändiga nuvarande samarbetspartners är för organisationen.</answer>
-      <answer data-type="text" correct="YES">Hitta företagets viktigaste affärsprocess/er gentemot målet.</answer>
+      <answer data-type="text" correct="correct">Hitta företagets viktigaste affärsprocess/er gentemot målet.</answer>
     </question>
     <question id="20" text="Vad stämmer bäst överens med hur man generellt bör betrakta människans roll i informationssäkerhet?" category="LIS">
       <answer data-type="text">Människan är i första hand ett potentiellt hot, i form av hacker, sabotör och slarver.</answer>
       <answer data-type="text">Människan är ett potentiellt hot, men också en tillgång eftersom människor bär på, och hanterar information.</answer>
-      <answer data-type="text" correct="YES">Människan är ett potentiellt hot men också ett skydd eftersom människor kan avvärja incidenter och återställa skador.</answer>
+      <answer data-type="text" correct="correct">Människan är ett potentiellt hot men också ett skydd eftersom människor kan avvärja incidenter och återställa skador.</answer>
       <answer data-type="text">Människan bör kategoriseras som antingen potentiellt hot eller tillgång och skydd.</answer>
       <answer data-type="text">En och samma människa kan i olika situationer fungera som hot, tillgång och skydd.</answer>
     </question>
@@ -384,17 +384,17 @@
       <answer data-type="text">CPS</answer>
       <answer data-type="text">PDS</answer>
       <answer data-type="text">CRL</answer>
-      <answer data-type="text" correct="YES">PDM</answer>
+      <answer data-type="text" correct="correct">PDM</answer>
     </question>
     <question id="22" text="8 individer ska kommunicera säkert med symmetrisk kryptering. Hur många nycklar måste distribueras för att alla parter ska erhålla en unik nyckel för varje annan part man ska kommunicera med?" category="Kryptering">
       <answer data-type="text">45</answer>
-      <answer data-type="text" correct="YES">56</answer>
+      <answer data-type="text" correct="correct">56</answer>
       <answer data-type="text">80</answer>
       <answer data-type="text">160</answer>
       <answer data-type="text">62</answer>
     </question>
     <question id="23" text="Vad är the trinity of trouble?" category="Hot och risker">
-      <answer data-type="text" correct="YES">Connectivity, complexity, extensibility</answer>
+      <answer data-type="text" correct="correct">Connectivity, complexity, extensibility</answer>
       <answer data-type="text">Computing, malicious software, planning</answer>
       <answer data-type="text">Malicious software, complexity, outsourcing</answer>
       <answer data-type="text">Botnet, zombie, trojan</answer>
@@ -403,19 +403,19 @@
     <question id="24" text="Vad innebär tillgänglighet?" category="ISO 27001">
       <answer data-type="text">Systemet kan endast nås via internet</answer>
       <answer data-type="text">Systemet kan endast nås via intranätet</answer>
-      <answer data-type="text" correct="YES">Egenskapen att vara åtkomlig och användbar vid begäran av en behörig enhet</answer>
+      <answer data-type="text" correct="correct">Egenskapen att vara åtkomlig och användbar vid begäran av en behörig enhet</answer>
       <answer data-type="text">Egenskapen att skydda exaktheten och fullständighet gällande tillgångar</answer>
       <answer data-type="text">Veta vem datan tillhör</answer>
     </question>
     <question id="25" text="Vilken algoritm hör ihop med dataintegritet?" category="Kryptering">
       <answer data-type="text">RSA</answer>
       <answer data-type="text">DES</answer>
-      <answer data-type="text" correct="YES">SHA-1</answer>
+      <answer data-type="text" correct="correct">SHA-1</answer>
       <answer data-type="text">AES</answer>
       <answer data-type="text">Blowfish</answer>
     </question>
     <question id="26" text="Vilken roll i en organisation bör ansvara för att de har ett informationsklassificeringssystem?" category="LIS">
-      <answer data-type="text" correct="YES">Informationssäkerhetschef</answer>
+      <answer data-type="text" correct="correct">Informationssäkerhetschef</answer>
       <answer data-type="text">IT-chef</answer>
       <answer data-type="text">Informationsägare</answer>
       <answer data-type="text">Varje enskild medarbetare</answer>
@@ -424,11 +424,11 @@
     <question id="27" text="Vilka av dessa är metoder för kodknäckning?" category="Kryptering">
       <answer data-type="text">Known-Plaintext, brute force, hash-algoritm</answer>
       <answer data-type="text">Brute force, keylogger, zombie</answer>
-      <answer data-type="text" correct="YES">Known-Plaintext, Chosen-Plaintext, Brute Force</answer>
+      <answer data-type="text" correct="correct">Known-Plaintext, Chosen-Plaintext, Brute Force</answer>
       <answer data-type="text">MD5, IA, BKS</answer>
     </question>
     <question id="28" text="Vad är ISIRT?" category="Incidenthantering">
-      <answer data-type="text" correct="YES">Information Security Incident Response Team</answer>
+      <answer data-type="text" correct="correct">Information Security Incident Response Team</answer>
       <answer data-type="text">Incident Security Information Response Team</answer>
       <answer data-type="text">IT Security Incident Response Team</answer>
       <answer data-type="text">Information Security Incident Resolve Team</answer>
@@ -436,21 +436,21 @@
     </question>
     <question id="29" text="Vem eller vilka bör vara lämpliga avsändare av budskap till medarbetare om informationssäkerhet?" category="LIS">
       <answer data-type="text">Högsta chefen (ledningsgrupp)</answer>
-      <answer data-type="text" correct="YES">Närmaste chefen</answer>
+      <answer data-type="text" correct="correct">Närmaste chefen</answer>
       <answer data-type="text">En hierarki av regleringar kring informationssäkerheten i en verksamhet</answer>
       <answer data-type="text">Externa informationssäkerhetskonsulter och experter</answer>
       <answer data-type="text">En blandning av avsändare.</answer>
     </question>
     <question id="30" text="Vad står P-D-C-A för?" category="ISO 27001">
       <answer data-type="text">Plan, Define, Controll, Act</answer>
-      <answer data-type="text" correct="YES">Plan, Do, Check, Act</answer>
+      <answer data-type="text" correct="correct">Plan, Do, Check, Act</answer>
       <answer data-type="text">Plan, Do, Check, Analyse</answer>
       <answer data-type="text">Plan, Do, Check, Activate</answer>
     </question>
     <question id="31" text="Vad är ett ramverk när det gäller ledningssystem för informationssäkerhet?" category="LIS">
       <answer data-type="text">En beskrivning som beskriver målbilden för verksamhetens informationssäkerhet</answer>
       <answer data-type="text">En lista på hur väl organisationens regler är kopplade till SS-ISO/IEC 27002</answer>
-      <answer data-type="text" correct="YES">En hierarki av regleringar kring informationssäkerheten i en verksamhet</answer>
+      <answer data-type="text" correct="correct">En hierarki av regleringar kring informationssäkerheten i en verksamhet</answer>
       <answer data-type="text">En lista som ligger till grund för certifiering enligt SS-ISO/IEC 27001</answer>
       <answer data-type="text">Regler för hur en användare får nyttja en verksamhets informationsresurser</answer>
     </question>
@@ -459,21 +459,21 @@
       <answer data-type="text">Ja, endast tillgångarnas värde och exponering påverkar sannolikheten.</answer>
       <answer data-type="text">Nej, det är hotbilden som avgör hur stora riskerna är.</answer>
       <answer data-type="text">Nej, det är de befintliga skyddens förmåga att eliminera sårbarheterna som avgör hur stora riskerna är.</answer>
-      <answer data-type="text" correct="YES">Ja, tillgångarnas värde kan påverka både konsekvensen och sannolikheten.</answer>
+      <answer data-type="text" correct="correct">Ja, tillgångarnas värde kan påverka både konsekvensen och sannolikheten.</answer>
     </question>
     <question id="33" text="Vad innebär kontinuitetsplanering?" category="Kontinuitetsplanering">
       <answer data-type="text">Kontinuitetsplanering är steget i uppförande i LIS där det bestäms hur mjukvara ska användas för att verksamheten ska fungera kontinuerligt.</answer>
       <answer data-type="text">Kontinuitetsplanering är steget i uppförande i LIS där det bestäms hur hårdvara ska användas för att verksamheten ska fungera kontinuerligt.</answer>
-      <answer data-type="text" correct="YES">Kontinuitetsplanering är processen som ska säkerställa att verksamhet återställs om oönskad incident inträffar som negativt påverkar kontinuiteten i viktiga affärssystem eller stödjande element.</answer>
+      <answer data-type="text" correct="correct">Kontinuitetsplanering är processen som ska säkerställa att verksamhet återställs om oönskad incident inträffar som negativt påverkar kontinuiteten i viktiga affärssystem eller stödjande element.</answer>
       <answer data-type="text">Processen där det fastställs hur systemet alltid ska kunna vara tillgängligt.</answer>
     </question>
     <question id="34" text="Är skyddet för företagshemligheter harmoniserat mellan olika länder, såsom exempelvis det upphovsrättliga skyddet?" category="Författningskrav">
       <answer data-type="text">Ja, mellan i stort sett alla länder i världen.</answer>
       <answer data-type="text">Ja, men bara inom EU.</answer>
-      <answer data-type="text" correct="YES">Nej, inte alls.</answer>
+      <answer data-type="text" correct="correct">Nej, inte alls.</answer>
     </question>
     <question id="35" text="Vad är standarden Ledningssystem för Informationssäkerhet ISO 27001?" category="LIS">
-      <answer data-type="text" correct="YES">En uppsättning krav på ledningssystemet och krav på informationssäkerheten.</answer>
+      <answer data-type="text" correct="correct">En uppsättning krav på ledningssystemet och krav på informationssäkerheten.</answer>
       <answer data-type="text">Ett verktyg för IT-avdelningen som används till att styra IT-kommunikation.</answer>
       <answer data-type="text">En ISO-standard som har sitt ursprung i en "best practice" som tagits fram av ett antal stora företag och organisationer.</answer>
       <answer data-type="text">Ett arbetsverktyg för att skapa rätt nivå IT-säkerhet i en organisation, från IT-teknik till övergripande styrning.</answer>
@@ -483,7 +483,7 @@
       <answer data-type="text">Veta vem datorn tillhör</answer>
       <answer data-type="text">Förstöra information på datorn</answer>
       <answer data-type="text">Det finns ingen bra anledning</answer>
-      <answer data-type="text" correct="YES">Göra datorn till en del av ett botnet</answer>
+      <answer data-type="text" correct="correct">Göra datorn till en del av ett botnet</answer>
       <answer data-type="text">Bevisa att det går att göra</answer>
     </question>
     <question id="37" text="Vid utbyte av information med tredje part, vem/vilka avgör vad som kan utbytas och med vem?" category="LIS">
@@ -491,17 +491,17 @@
       <answer data-type="text">Varje enskild medarbetare</answer>
       <answer data-type="text">Informationssäkerhetsansvarig</answer>
       <answer data-type="text">Säkerhetschef tillsammans med informationssäkerhetsansvarig</answer>
-      <answer data-type="text" correct="YES">Informationsägaren</answer>
+      <answer data-type="text" correct="correct">Informationsägaren</answer>
     </question>
     <question id="38" text="Hur relateras riskhantering till LIS?" category="LIS">
       <answer data-type="text">Riskhantering ingår endast i upprätta/införandedelen av LIS</answer>
       <answer data-type="text">Riskhantering ingår inte i LIS utan är en separat process</answer>
       <answer data-type="text">Riskhantering är en viktig grundsten i LIS och ingår i samtliga faser</answer>
-      <answer data-type="text" correct="YES">Riskhantering är underlaget för val av åtgärder i enlighet med 27002</answer>
+      <answer data-type="text" correct="correct">Riskhantering är underlaget för val av åtgärder i enlighet med 27002</answer>
       <answer data-type="text">Det beror på vilken riskanalys man väljer</answer>
     </question>
     <question id="39" text="Utan väl fungerande rutiner för säkerhetskopiering, eller bristfälliga tester för återställning, ökar risken för att systemet inte kan nås i tid. Hur löser man detta?" category="Kryptering">
-      <answer data-type="text" correct="YES">Program för säkerhetskopiering och verifiering av information.</answer>
+      <answer data-type="text" correct="correct">Program för säkerhetskopiering och verifiering av information.</answer>
       <answer data-type="text">Säker tid och brandväggar.</answer>
       <answer data-type="text">Integritetskontroll, resurskontroll, signering, vitlistning</answer>
       <answer data-type="text">Teknisk övervakning, kryptering, IDS, EDS, IPS, brandvägg, loggning, säker tid</answer>
@@ -509,39 +509,39 @@
     <question id="40" text="Sårbarhetsskanning eller penetrationstest?" category="Incidenthantering">
       <answer data-type="text">Sårbarhetsskanning</answer>
       <answer data-type="text">Penetrationstest</answer>
-      <answer data-type="text" correct="YES">Båda</answer>
+      <answer data-type="text" correct="correct">Båda</answer>
       <answer data-type="text">Inget</answer>
     </question>
     <question id="41" text="8 individer ska kommunicera säkert med asymmetrisk kryptering. Hur många nycklar måste distribueras för att alla parter ska erhålla en unik nyckel för varje annan part man ska kommunicera med?" category="Kryptering">
       <answer data-type="text">10</answer>
       <answer data-type="text">11</answer>
       <answer data-type="text">26</answer>
-      <answer data-type="text" correct="YES">16</answer>
+      <answer data-type="text" correct="correct">16</answer>
       <answer data-type="text">6</answer>
     </question>
     <question id="42" text="En väldigt allvarlig attack där ett stort antal datorer samarbetar för att angripa system på internet i syfte att göra de otillgängliga." category="Hot och risker">
       <answer data-type="text">Social Media attack</answer>
       <answer data-type="text">Buffer Overflow attack</answer>
       <answer data-type="text">Jailbreak attack</answer>
-      <answer data-type="text" correct="YES">Distributed Denial of Service attack</answer>
+      <answer data-type="text" correct="correct">Distributed Denial of Service attack</answer>
       <answer data-type="text">Password cracking attack</answer>
     </question>
     <question id="43" text="Vid granskning av LIS så skall man sträva till förbättringar, vilket i sin tur ställer krav på hur man gör bedömningen. Vilket av följande påståenden är mest korrekt?" category="LIS">
       <answer data-type="text">Det är viktigt att ledningen vid varje verksamhetsmöte tar upp förbättringar som kan leda till förbättring av LIS.</answer>
       <answer data-type="text">Sammansättningen av personer vid bedömning av LIS skall spegla ansvaret för informationssäkerhet enligt LIS.</answer>
       <answer data-type="text">Det är alltid riskansvarige som ansvarar för bedömning och förbättringar.</answer>
-      <answer data-type="text" correct="YES">Genomgången skall omfatta bedömning av nuläge och LIS presterar samt förändringar internt och externt som i sin tur kan leda till förändringar av LIS.</answer>
+      <answer data-type="text" correct="correct">Genomgången skall omfatta bedömning av nuläge och LIS presterar samt förändringar internt och externt som i sin tur kan leda till förändringar av LIS.</answer>
       <answer data-type="text">Det är riskanalysen som leder till förbättringar.</answer>
     </question>
     <question id="44" text="Hur förhindrar du enklast att någon återskapar information på en hårdisk?" category="Systemsäkerhet">
       <answer data-type="text">Avinstallera alla program och formaterar hårdisken.</answer>
       <answer data-type="text">Lämnar in till återvinningen.</answer>
       <answer data-type="text">Formaterar hårdisken och skriver över med ny data.</answer>
-      <answer data-type="text" correct="YES">Med en borrmaskin.</answer>
+      <answer data-type="text" correct="correct">Med en borrmaskin.</answer>
     </question>
     <question id="45" text="Vilken funktion kan erhållas med hjälp av krypto?" category="Kryptering">
       <answer data-type="text">Sekretess</answer>
-      <answer data-type="text" correct="YES">Sanningsenligt innehåll</answer>
+      <answer data-type="text" correct="correct">Sanningsenligt innehåll</answer>
       <answer data-type="text">Digital signatur</answer>
       <answer data-type="text">Oavvislighet</answer>
       <answer data-type="text">Dataintegritet</answer>
@@ -549,23 +549,23 @@
     <question id="46" text="Hur kan uppgifter om att en person begått brott hanteras enligt personuppgiftslagen?" category="Författningskrav">
       <answer data-type="text">Uppgifter på personer som är dömda för brott regleras inte överhuvudtaget.</answer>
       <answer data-type="text">Lämnar personen samtycke till att uppgiften behandlas så är det helt ok att göra det.</answer>
-      <answer data-type="text" correct="YES">Uppgifter om brott får normalt inte behandlas alls, ens om personen i fråga lämnat samtycke.</answer>
+      <answer data-type="text" correct="correct">Uppgifter om brott får normalt inte behandlas alls, ens om personen i fråga lämnat samtycke.</answer>
     </question>
     <question id="47" text="En åtkomstpolicy bör gälla för..?" category="LIS">
       <answer data-type="text">En avdelning</answer>
-      <answer data-type="text" correct="YES">Alla system</answer>
+      <answer data-type="text" correct="correct">Alla system</answer>
       <answer data-type="text">Ett enskilt system</answer>
       <answer data-type="text">Alla användare inklusive administratör</answer>
       <answer data-type="text">Alla användare exklusive administratör</answer>
     </question>
     <question id="48" text="Vilken betydelse har så kallad hemligstämpling för beslut om utlämnande av uppgifter inom det offentliga?" category="Författningskrav">
       <answer data-type="text">Helt styrande för beslutet</answer>
-      <answer data-type="text" correct="YES">Möjligen vägledande, men en självständig prövning enligt sekretesslagen skall alltid göras.</answer>
+      <answer data-type="text" correct="correct">Möjligen vägledande, men en självständig prövning enligt sekretesslagen skall alltid göras.</answer>
       <answer data-type="text">Ingen som helst betydelse.</answer>
     </question>
     <question id="49" text="Vad innebär fasen &quot;inneslutning&quot; som ingår i SANS incidentprocess?" category="Incidenthantering">
       <answer data-type="text">Fånga in / spåra attackeraren så att hen kan lagföras.</answer>
-      <answer data-type="text" correct="YES">Stoppa skadegörelsen och ta säkerhetskopior.</answer>
+      <answer data-type="text" correct="correct">Stoppa skadegörelsen och ta säkerhetskopior.</answer>
       <answer data-type="text">Upptäcker skillnader från normalbilden och försök till att orsaka skada.</answer>
       <answer data-type="text">Städa upp och ta bort rester från attacken.</answer>
       <answer data-type="text">Flytta attackerade objekt till säker lokal för att lättare kunna övervaka och kontrollera händelseförloppet.</answer>
@@ -573,8 +573,63 @@
     <question id="50" text="Vad står CIRT för?" category="Incidenthantering">
       <answer data-type="text">Computer Information Response Team</answer>
       <answer data-type="text">Central IT Retract Terminal</answer>
-      <answer data-type="text" correct="YES">Computer Incident Response Team</answer>
+      <answer data-type="text" correct="correct">Computer Incident Response Team</answer>
       <answer data-type="text">Central Information Response Team</answer>
+    </question>
+    <question id="51" text="Hur är personal och säkerhet organiserad i LIS?" category="LIS">
+      <answer data-type="text">Utifrån individ, organisation och teknik.</answer>
+      <answer data-type="text">Uppdelad på IT-säkerhet och informationssäkerhet.</answer>
+      <answer data-type="text">Utifrån permanenta och temporära medarbetare (t.ex konsulter och vikarier).</answer>
+      <answer data-type="text" correct="correct">Uppdelad på åtgärder innan, under och vid anställnings upphörande eller ändring av anställning.</answer>
+      <answer data-type="text">Utifrån externa och interna krav.</answer>
+    </question>
+    <question id="52" text="Vilket påstående är mest korrekt vad det gäller omfattningen för ledningssystem för informationssäkerhet" category="LIS">
+      <answer data-type="text">Ett ledningssystem för informationssäkerhet kan endast omfattas av den del av verksamheten som är certifierad.</answer>
+      <answer data-type="text">Ledningssystemets omfattning anger vilka dokumenttyper som skall styra och definierar hur dokumenttyperna som skall styra och definierar hur dokumenttyperna förhåller sig till varandra.</answer>
+      <answer data-type="text">Ledningssystemets omfattning anger inom vilka avgränsningar man skall göra riskbedömningar.</answer>
+      <answer data-type="text" correct="correct">Ledningssystemets omfattning är ofta en organisatorisk enhet varpå gränssnitt kan definieras mot andra enheter eller parter och hur dessa ska styras.</answer>
+      <answer data-type="text">Ledningssystemets omfattning är samma som de anställda som omfattas av regelverket.</answer>
+    </question>
+    <question id="53" text="I SS-ISO/IEC 27002 används begreppet Informationsäkerhetsspolicy medan det i 27001 står policy för LIS. Hur kan en policy för LIS förhålla sig till informationssäkerhetspolicyn enligt standarden?" category="LIS">
+      <answer data-type="text">En policy för LIS är ett separat dokument som styrs av verksamhetens regler för ledningens kontroll av systemet och förhåller sig inte alls till informationssäkerhetspolicyn.</answer>>
+      <answer data-type="text">En LIS-policy kan vara ett internt dokument som utgår från informationssäkerhetspolicyn men är mer detaljerad.</answer>
+      <answer data-type="text">Eftersom SS-ISO/IEC 27002 bara är en guidestandard med bör krav så är förhållandet mellan dem "bör" i informationssäker- hetspolicyn och "skall" i policyn för LIS.</answer>
+      <answer data-type="text" correct="correct">Förhållandet är att det skall finnas två dokument för att följa både SS-ISO/IEC 27001 och 27002: en LIS- policy och en informationssäkerhetspolicy.</answer>
+    </question>
+    <question id="54" text="Vad är mindre lämpligt för att strukturera organisationen för informationssäkerhet?" category="LIS">
+      <answer data-type="text" correct="correct">IT är ansvariga för informationssäkerheten.</answer>
+      <answer data-type="text">Det finns en tydlig rollfördelning så att krav och uppfyllnad kan fördelas.</answer>
+      <answer data-type="text">Verksamheten har en tydlig påverkan på informationssäkerheten.</answer>
+      <answer data-type="text">Det finns en tydlig koppling mellan ledning och hur ansvaret fördelas i organisationen.</answer>
+      <answer data-type="text">Det finns en speciell roll som har hand om informations-säkerhetsfrågor som har direkt koppling till ledningen.</answer>
+    </question>
+    <question id="55" text="Nedanstående klartext är krypterad med Vigenére. Vilket är lösenordet? <br/>Klartext: LITE VANLIG TEXT. <br/>Kryptotext: NBJP YVDXKÖ JPZM" category="Kryptering">
+      <answer data-type="text" correct="correct">BURK</answer>
+      <answer data-type="text">KAKA</answer>
+      <answer data-type="text">BAKA</answer>
+      <answer data-type="text">RUTA</answer>
+      <answer data-type="text">MUNK</answer>
+    </question>
+    <question id="56" text="Vad är definitionen av en händelse i ett IT system?" category="Incidenthantering">
+      <answer data-type="text">En händelse i ett system (t.ex dator eller nätverkskomponent) är en skadlig påverkan.</answer>
+      <answer data-type="text">En händelse i ett system (t.ex dator eller nätverkskomponent) är en ofarlig incident.</answer>
+      <answer data-type="text">En händelse i ett system (t.ex dator eller nätverkskomponent) är något som man kan utläsa från ett loggsystem.</answer>
+      <answer data-type="text">En händelse i ett system (t.ex dator eller nätverkskomponent) är en incident.</answer>
+      <answer data-type="text" correct="correct">En händelse i ett system (t.ex dator eller nätverkskomponent) är en påverkan i det systemet.</answer>
+    </question>
+    <question id="57" text="Vad är ett 'pentest'?" category="Incidenthantering">
+      <answer data-type="text">Ett penetrationstest är ett försök att förbigå säkerhet i nätverk/system/applikationer med samma tekniker som en hacker skulle använda.</answer>
+      <answer data-type="text">Genom manipulation av personer försöka få åtkomst till lokaler eller system.</answer>
+      <answer data-type="text">Ett sätt att göra en beräkning hur mycket IT angrepp kostar organisationen.</answer>
+      <answer data-type="text">Är ett sätt att testa medarbetarnas säkerhetsmedvetande.</answer>
+      <answer data-type="text">Ny standard för IT incidenthantering.</answer>
+    </question>
+    <question id="58" text="Vad är 'sårbarhetsskanning'?" category="Incidenthantering">
+      <answer data-type="text">Sökning efter bevis av bristfälliga A: Licensavtal. B: Rutiner. C: Säkerhetskopior.</answer>
+      <answer data-type="text">Sökning efter bevis av förändringar i A: Loggar. B: Binärer. C: Brandväggsregler.</answer>
+      <answer data-type="text">Sökning efter bevis för sårbara A: Datorer. B: Användare. C: Inbrottsskydd.</answer>
+      <answer data-type="text" correct="correct">Sökning efter bevis för sårbara A: Mjukvaruversioner. B: Felkonfiguration. C: Patchnivå.</answer>
+      <answer data-type="text">Sökning efter bevis för A: Virus. B: Trojaner. C: Gästkonton.</answer>
     </question>
   </course>
 </questions>

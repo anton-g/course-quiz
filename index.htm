@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Multimedia Quiz</title>
+    <title>Course Quiz</title>
 
     <link href="css/quiz.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -17,9 +17,21 @@
         </div>
       <div class="row">
         <div class="col-xs-3">
-          <ul class="nav nav-pills nav-stacked categories">
-            <li role="presentation" class="active category"><a href="#">Alla kategorier</a></li>
-          </ul>
+          <div class="row">
+            <ul class="nav nav-pills nav-stacked categories">
+              <li role="presentation" class="active category"><a href="#">Alla kategorier</a></li>
+            </ul>
+          </div>
+          <div class="row">
+            <div class="btn-group" data-toggle="buttons">
+              <label class="btn btn-primary settingsButton active" setting="shuffleQuestions">
+                <input type="checkbox" autocomplete="off" checked>Shuffle questions
+              </label>
+              <label class="btn btn-primary settingsButton active" setting="shuffleAnswers">
+                <input type="checkbox" autocomplete="off" checked>Shuffle answers
+              </label>
+            </div>
+          </div>
         </div>
         <div class="col-xs-9" id="questions">
         </div>
@@ -30,6 +42,12 @@
         </div>
       </div>
     </div>
+    <div class="row">
+      <div class="col-xs-12" id="footer">
+        <small>Made with ❥ by <a href="http://github.com/anton-g/course-quiz/">Anton</a></small>
+      </div>
+    </div>
+    <!-- START MODAL -->
     <div class="modal fade" id="selectCourseModal" tabindex="-1" role="dialog" aria-labelledby="selectCourseLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -41,6 +59,7 @@
         </div>
       </div>
     </div>
+    <!-- END MODAL -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/quiz.js"></script>
