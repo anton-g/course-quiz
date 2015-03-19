@@ -242,7 +242,7 @@ $(function() {
     });
 
     if (shuffleAnswers) {
-      shuffleArray(answers);
+      //shuffleArray(answers);
     }
 
     question.answers = answers;
