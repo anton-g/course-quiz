@@ -211,8 +211,11 @@ $(function() {
 
     var answerData = $(data).find('answer');
 
-    var answers = new Array();
+    if (shuffleAnswers) {
+      shuffleArray(answerData);
+    }
 
+    var answers = new Array();
     $(answerData).each(function(index, answer) {
       if ($(this).attr('correct')) {
         question.correctAnswer = index + 1;
@@ -240,10 +243,6 @@ $(function() {
 
       answers.push(answer);
     });
-
-    if (shuffleAnswers) {
-      //shuffleArray(answers);
-    }
 
     question.answers = answers;
 
