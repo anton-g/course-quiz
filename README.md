@@ -12,7 +12,7 @@ Originally an assignment for multimedia course at Uppsala University but have no
   + Works with Safari.
   + Works with Firefox.
   + Does not work with Chrome: `XMLHttpRequest cannot load file:///redacted/questions.xml. Cross origin requests are only supported for protocol schemes: http, data, chrome, chrome-extension, https, chrome-extension-resource.`.
-+ Add settings for shuffling questions etc
++ ~~Add settings for shuffling questions~~
 + Add a question submitter
 + Fix inline code support
 + Fix statistics

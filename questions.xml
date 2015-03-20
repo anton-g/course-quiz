@@ -618,7 +618,7 @@
       <answer data-type="text" correct="correct">En händelse i ett system (t.ex dator eller nätverkskomponent) är en påverkan i det systemet.</answer>
     </question>
     <question id="57" text="Vad är ett 'pentest'?" category="Incidenthantering">
-      <answer data-type="text">Ett penetrationstest är ett försök att förbigå säkerhet i nätverk/system/applikationer med samma tekniker som en hacker skulle använda.</answer>
+      <answer data-type="text" correct="correct">Ett penetrationstest är ett försök att förbigå säkerhet i nätverk/system/applikationer med samma tekniker som en hacker skulle använda.</answer>
       <answer data-type="text">Genom manipulation av personer försöka få åtkomst till lokaler eller system.</answer>
       <answer data-type="text">Ett sätt att göra en beräkning hur mycket IT angrepp kostar organisationen.</answer>
       <answer data-type="text">Är ett sätt att testa medarbetarnas säkerhetsmedvetande.</answer>
