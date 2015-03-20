@@ -539,7 +539,7 @@
       <answer data-type="text">Formaterar hårdisken och skriver över med ny data.</answer>
       <answer data-type="text" correct="correct">Med en borrmaskin.</answer>
     </question>
-    <question id="45" text="Vilken funktion kan erhållas med hjälp av krypto?" category="Kryptering">
+    <question id="45" text="Vilken funktion kan inte erhållas med hjälp av krypto?" category="Kryptering">
       <answer data-type="text">Sekretess</answer>
       <answer data-type="text" correct="correct">Sanningsenligt innehåll</answer>
       <answer data-type="text">Digital signatur</answer>
