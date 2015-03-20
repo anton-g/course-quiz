@@ -603,7 +603,7 @@
       <answer data-type="text">Det finns en tydlig koppling mellan ledning och hur ansvaret fördelas i organisationen.</answer>
       <answer data-type="text">Det finns en speciell roll som har hand om informations-säkerhetsfrågor som har direkt koppling till ledningen.</answer>
     </question>
-    <question id="55" text="Nedanstående klartext är krypterad med Vigenére. Vilket är lösenordet? <br/>Klartext: LITE VANLIG TEXT. <br/>Kryptotext: NBJP YVDXKÖ JPZM" category="Kryptering">
+        <question id="55" text="Nedanstående klartext är krypterad med Vigenére. Vilket är lösenordet? &lt;br/&gt;Klartext: LITE VANLIG TEXT. &lt;br/&gt;Kryptotext: NBJP YVDXKÖ JPZM" category="Kryptering">
       <answer data-type="text" correct="correct">BURK</answer>
       <answer data-type="text">KAKA</answer>
       <answer data-type="text">BAKA</answer>
