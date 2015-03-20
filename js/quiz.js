@@ -29,7 +29,7 @@ $(function() {
     showQuestions(questions);
     showCategories();
 
-    setupEventHandlers();
+    bindAnswerClickEvents();
   }
 
   function showQuestions(q) {
@@ -141,18 +141,7 @@ $(function() {
         setCourse(selectedCourse);
       });
 
-      $('.settingsButton').click(function() {
-        var selectedSetting = this;
-        var isChecked = $(selectedSetting).hasClass('active');
-
-        var setting = $(selectedSetting).attr('setting');
-
-        if (isChecked) {
-          disableSetting(setting);
-        } else {
-          enableSetting(setting);
-        }
-      });
+      bindSettingsClickEvents();
 
       $('#selectCourseModal').modal({
         keyboard: false,
@@ -184,6 +173,7 @@ $(function() {
 
     setupQuestions(currentCourse, function() {
       setupUI();
+      bindCategoryClickEvents();
     });
 
     $('#selectCourseModal').modal('hide');
@@ -193,7 +183,7 @@ $(function() {
     currentQuestions = filterQuestionsByCategory(currentCategory);
     showQuestions(currentQuestions);
     $('#answerBtn').prop('disabled', false);
-    setupEventHandlers();
+    bindAnswerClickEvents();
   }
 
   function createQuestionWith(data) {
@@ -264,7 +254,7 @@ $(function() {
     showQuestions(realQuestions);
 
     $('#answerBtn').prop('disabled', false);
-    setupEventHandlers();
+    bindAnswerClickEvents();
   }
 
   function filterQuestionsByCategory(category) {
@@ -340,7 +330,7 @@ $(function() {
     else question.correct = false;
   }
 
-  function setupEventHandlers() {
+  function bindAnswerClickEvents() {
     $('.answer').click(function(e) {
       e.preventDefault();
 
@@ -357,7 +347,9 @@ $(function() {
 
       didSelectAnswer($(this).closest('.question').attr('data-questionID'), $(this).attr('data-answerID'));
     });
+  }
 
+  function bindCategoryClickEvents() {
     $('.category').click(function(e) {
       e.preventDefault();
       var answers = $('.question').find('.active');
@@ -385,6 +377,21 @@ $(function() {
     });
   }
 
+  function bindSettingsClickEvents() {
+    $('.settingsButton').click(function() {
+      var selectedSetting = this;
+      var isChecked = $(selectedSetting).hasClass('active');
+
+      var setting = $(selectedSetting).attr('setting');
+
+      if (isChecked) {
+        disableSetting(setting);
+      } else {
+        enableSetting(setting);
+      }
+    });
+  }
+
   function resetAllQuestions() {
     $(questions).each(function(index, question) {
       question.correct = false;
@@ -394,7 +401,7 @@ $(function() {
     });
   }
 
-  /* SETTINGS (this makes me sad) */
+  /* SETTINGS (this makes a panda sad) */
   function getUserSettings() {
     getShuffleQuestionsSetting();
     getShuffleAnswersSetting();
