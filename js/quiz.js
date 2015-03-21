@@ -305,7 +305,8 @@ $(function() {
         $(selectedAnswerButton).addClass('green');
 
         correctAnswer = $(this).find('li[data-answerid=' + question.correctAnswer + '] a');
-        correctAnswer.html('<span class="glyphicon glyphicon-ok icon" aria-hidden="true"></span>  ' + correctAnswer.html());
+        var height = $(correctAnswer).css('height');
+        correctAnswer.html('<span class="glyphicon glyphicon-ok icon" aria-hidden="true" style="font-size: ' + height + '"></span>  ' + correctAnswer.html());
       }
       else {
         $(this).find('.panel').removeClass('panel-default').addClass('panel-danger');
@@ -315,7 +316,8 @@ $(function() {
 
         //Show correct answer
         var incorrectAnswer = $(this).find('li[data-answerid=' + question.correctAnswer + '] a');
-        incorrectAnswer.html('<span class="glyphicon glyphicon-ok icon" aria-hidden="true"></span>  ' + incorrectAnswer.html());
+        var height = $(incorrectAnswer).css('height');
+        incorrectAnswer.html('<span class="glyphicon glyphicon-ok icon" aria-hidden="true" style="font-size: ' + height + '"></span>  ' + incorrectAnswer.html());
       }
 
       //Disable stuff
