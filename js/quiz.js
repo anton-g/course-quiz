@@ -8,9 +8,10 @@ $(function() {
   var courses = new Array();
   var currentCourse;
   var numCorrectAnswers = 0;
-  var dataSource = 'questions.xml';
+  var maxQuestions;
   var shuffleQuestions = true;
   var shuffleAnswers = true;
+  var dataSource = 'questions.xml';
   var currentCategory = 'Alla kategorier';
 
   setup();
@@ -33,7 +34,14 @@ $(function() {
   }
 
   function showQuestions(q) {
-    q.forEach(function(q) {
+    if (shuffleQuestions) {
+      shuffleArray(q);
+    }
+
+    q.forEach(function(q, index) {
+      if (maxQuestions && index > maxQuestions-1) {
+        return false;
+      }
       showQuestion(q);
     });
   }
@@ -157,10 +165,6 @@ $(function() {
       $(courseData).find('question').each(function() {
         questions.push(createQuestionWith($(this)));
       });
-
-      if (shuffleQuestions) {
-        shuffleArray(questions);
-      }
 
       complete();
     });
@@ -378,7 +382,7 @@ $(function() {
   }
 
   function bindSettingsClickEvents() {
-    $('.settingsButton').click(function() {
+    $('.shuffleButton').click(function() {
       var selectedSetting = this;
       var isChecked = $(selectedSetting).hasClass('active');
 
@@ -389,6 +393,9 @@ $(function() {
       } else {
         enableSetting(setting);
       }
+    });
+    $('.maxQuestionsButton').click(function() {
+      maxQuestions = $(this).children()[0].value == 0 ? undefined : $(this).children()[0].value;
     });
   }
 
@@ -401,7 +408,7 @@ $(function() {
     });
   }
 
-  /* SETTINGS (this makes a panda sad) */
+  /* SETTINGS (everytime someone looks at this code a kitten dies) */
   function getUserSettings() {
     getShuffleQuestionsSetting();
     getShuffleAnswersSetting();
