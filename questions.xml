@@ -497,8 +497,8 @@
     <question id="38" text="Hur relateras riskhantering till LIS?" category="LIS">
       <answer data-type="text">Riskhantering ingår endast i upprätta/införandedelen av LIS</answer>
       <answer data-type="text">Riskhantering ingår inte i LIS utan är en separat process</answer>
-      <answer data-type="text">Riskhantering är en viktig grundsten i LIS och ingår i samtliga faser</answer>
-      <answer data-type="text" correct="correct">Riskhantering är underlaget för val av åtgärder i enlighet med 27002</answer>
+      <answer data-type="text" correct="correct">Riskhantering är en viktig grundsten i LIS och ingår i samtliga faser</answer>
+      <answer data-type="text">Riskhantering är underlaget för val av åtgärder i enlighet med 27002</answer>
       <answer data-type="text">Det beror på vilken riskanalys man väljer</answer>
     </question>
     <question id="39" text="Utan väl fungerande rutiner för säkerhetskopiering, eller bristfälliga tester för återställning, ökar risken för att systemet inte kan nås i tid. Hur löser man detta?" category="Kryptering">
@@ -782,8 +782,8 @@
       <answer data-type="text">Organisationens administrativa regelverk.</answer>
       <answer data-type="text">Organisationens tekniska system och skydd.</answer>
       <answer data-type="text">Medarbetarens egen bakgrund och privata förhållanden.</answer>
-      <answer data-type="text">Kollegors och chefers beteenden som speglar vilket beteende medarbetaren får.</answer>
-      <answer data-type="text" correct="correct">Medarbetarens kunskap och förståelse.</answer>
+      <answer data-type="text" correct="correct">Kollegors och chefers beteenden som speglar vilket beteende medarbetaren får.</answer>
+      <answer data-type="text">Medarbetarens kunskap och förståelse.</answer>
     </question>
     <question id="82" text="Vem är personuppgiftsansvarig enligt personuppgiftslagen (PuL) om kunden behandlar personuppgifterna genom anlitande av molntjänstleverantör?" category="Författningskrav">
       <answer data-type="text">Molntjänstleverantören, eftersom denne i sin tur fritt bestämmer vilken underleverantör (underbiträde) som anlitas.</answer>
