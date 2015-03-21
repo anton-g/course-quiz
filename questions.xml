@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <questions>
   <course name="Multimedia">
     <question id="1" text="Bilder skapade med vektorgrafik är…" category="Vektorgrafik">
@@ -630,6 +631,193 @@
       <answer data-type="text">Sökning efter bevis för sårbara A: Datorer. B: Användare. C: Inbrottsskydd.</answer>
       <answer data-type="text" correct="correct">Sökning efter bevis för sårbara A: Mjukvaruversioner. B: Felkonfiguration. C: Patchnivå.</answer>
       <answer data-type="text">Sökning efter bevis för A: Virus. B: Trojaner. C: Gästkonton.</answer>
+    </question>
+    <question id="58" text="Är vi skyldiga att kontrollera att den person som representerar min motpart i ett avtal, verkligen är den hen påstår eller är behörig företrädare för motparten?" category="Författningskrav">
+      <answer data-type="text">NEJ - Det är alltid motparten som får stå för konsekvenserna av att någon obehörigigen agerar i dennes namn, varför vi inte är skyldiga att kontrollera om så är fallet.</answer>
+      <answer data-type="text" correct="correct">NEJ - Någon skyldighet att kontrollera finns inte, men vi riskerar att inte kunna göra avtalet gällande mot motparten om vi väljer att endast lite på vad företrädaren påstår.</answer>
+      <answer data-type="text">JA - Om vi inte fortlöpande kontrollerar den påstådde företrädaren med motparten blir vi skyldiga att ersätta denne all skada som denne kan drabbas av p.g.a. den obehörige företrädaren.</answer>
+    </question>
+    <question id="59" text="Vem tillfaller upphovsrätten enligt upphovsrättslagen (URL) när en beställare anlitar en leverantör med anställda programmerare för att utveckla (skräddarsy) en programvara som endast ska användas av beställaren och dennes organisation?" category="Författningskrav">
+      <answer data-type="text" correct="correct">Leverantören, eftersom de som skapar programvaran är anställda av denne och inga rättigheter övergår till beställaren eller kvarstannar hos de anställda om det inte uttryckligen avtalats.</answer>
+      <answer data-type="text">Leverantörens anställda, eftersom det är de personer som skapat programvaran som är upphovsmän och därmed tillfaller rättigheterna dem.</answer>
+      <answer data-type="text">Beställaren, eftersom denne har betalat för utvecklingen och att rättigheterna därmed blir dennes.</answer>
+    </question>
+    <question id="60" text="Om vår organisation behandlar personuppgifter - genom anställda eller konsulter - vem är då personuppgiftsansvarig enligt PuL och bl.a. är ansvarig för att personuppgifterna behandlas på ett korrekt sätt?" category="Författningskrav">
+      <answer data-type="text">Den anställde i vår organisation som har fått sin arbetsuppgift att sköta personuppgiftsbehandlingen får ansvaret genom sin befattning.</answer>
+      <answer data-type="text">Den konsult eller dennes arbetsgivare som vi anlitat för att behandla våra personuppgifter får ansvaret om vi avtalar om det.</answer>
+      <answer data-type="text" correct="correct">Det är alltid vi (d.v.s vår ledning) som ansvarar, eftersom det alltid är vi som bestämmer ändamålen med behandlingen och ansvaret kan inte överföras.</answer>
+    </question>
+    <question id="61" text="Vilket av följande är korrekt när det gäller hur vår IT-policy kan bidra till att vi uppfyller vad som enligt PuL åligger oss beträffande säkerheten vid vår behandling av personuppgifter?" category="Författningskrav">
+      <answer data-type="text">IT-policyn innehåller endast våra interna regler om vad som gäller i jobbet och har därför inget med PuL att göra.</answer>
+      <answer data-type="text" correct="correct">IT-policyn kan hjälpa oss att fullgöra vår skyldighet enligt PuL att informera våra medarbetare och ge oss stöd att behandla uppgifter för att se till att vi inte bryter mot PuL.</answer>
+      <answer data-type="text">IT-policyn är ett bra verktyg för att hålla koll på hur vi och våra anställda behandlar personuppgifter, men den är ogiltig om den inte godkänts av facket.</answer>
+    </question>
+    <question id="62" text="För att vi ska kunna genomföra effektiva incidentutredningar behöver vi kunna använda den information vi har i våra system. Där kan personuppgifter ingå. Kan vi egentligen ha någon rätt att behandla personuppgifter i våra egna incidentutredningar?" category="Författningskrav">
+      <answer data-type="text">NEJ, det är endast de brottsutredande myndigheterna (polisen, åklagarmyndigheten etc) som får behandla personuppgifter i brottsutredningar och därför får vi inte själva utreda om personuppgifter behöver behandlas, utan måste överlåta allt utredningsarbete till polisen.</answer>
+      <answer data-type="text">JA, eftersom uppgifterna finns i våra system och systemen är vår egendom så får vi behandla alla uppgifter som finns där på det sätt vi vill, så länge vi inte därigenom själva begår något brott (förtal, ärekränkning m.m)</answer>
+      <answer data-type="text" correct="correct">JA, men bara begränsat till sådana personuppgifter som behövs för själva utredningen, bara så länge utredningen pågår och för att framställa krav eller anmäla incidenten, samtidigt som bara den personal som utför utredningen får ha tillgång till uppgifterna och uppgifterna måste tas bort när utredningen är avslutad.</answer>
+    </question>
+    <question id="63" text="Which type of access control is considered to be user-directed?" category="Systemsäkerhet">
+      <answer data-type="text">Nondiscretionary</answer>
+      <answer data-type="text">Mandatory</answer>
+      <answer data-type="text">Identity-based</answer>
+      <answer data-type="text" correct="correct">Discretionary</answer>
+    </question>
+    <question id="64" text="Which of the following firewalls acts as a middleman?" category="Systemsäkerhet">
+      <answer data-type="text">Packet filtering</answer>
+      <answer data-type="text">Stateful Inspection</answer>
+      <answer data-type="text" correct="correct">Proxy</answer>
+      <answer data-type="text">Dynamic Packet Filtering</answer>
+    </question>
+    <question id="65" text="How does heuristic detection works?" category="Systemsäkerhet">
+      <answer data-type="text">Execute code and monitor interactions with the OS.</answer>
+      <answer data-type="text" correct="correct">Analyze code and structure of the code</answer>
+      <answer data-type="text">Compares virus signature to its database signatures</answer>
+      <answer data-type="text">Attaches code to the file to "look" infected</answer>
+    </question>
+    <question id="66" text="Which of the following types of malware can replicate?" category="Systemsäkerhet">
+      <answer data-type="text" correct="correct">Trojan horse</answer>
+      <answer data-type="text">Bacteria</answer>
+      <answer data-type="text">Zombie</answer>
+      <answer data-type="text">Logic bomb</answer>
+    </question>
+    <question id="67" text="I SS-ISO/IEC 27002 används begreppet Informationssäkerhetspolicy. Vad avser vi i Sverige att en policy bör vara?" category="Säkerhetspolicy">
+      <answer data-type="text" correct="correct">Ett uttryck för ledningens vilja hur verksamheten ska förhålla sig i en viss sak/ämne.</answer>
+      <answer data-type="text">Ett uttryck för hur vi gör saker och ting i en verksamhet, alltifrån hur vi hanterar miljö till hur vi tar backup, dvs omfattar allt vi gör inom ramen för verksamheten.</answer>
+      <answer data-type="text">En policy är en tydlig och omfattande reglering för vad vi gör inom verksamheten och vad påföljden blir om någon gör fel.</answer>
+      <answer data-type="text">En policy ska vara så tydlig att den aktivt styr varje anställds handlande i givna situationer.</answer>
+      <answer data-type="text">En policy ska vara så kortfattad och så tydligt skriven att alla kan förstå den.</answer>
+    </question>
+    <question id="68" text="Vilken är definitionen av informationssäkerhet enligt SS-ISO/IEC 27002?" category="LIS">
+      <answer data-type="text">Informationssäkerhet är ett riskbaserat skydd av en organisations IT- och informationssystem avseende att rätt information kommer till rätt person vid rätt tidpunkt.</answer>
+      <answer data-type="text">Informationssäkerhet är reglerna för hur information skall hanteras på ett säkert sätt i organisationen.</answer>
+      <answer data-type="text">Informationssäkerhet är ledningens acceptans av nivå på skydd så att informationen skyddas enligt verksamhetens behov.</answer>
+      <answer data-type="text">Att samtliga informationstillgångar har en klassning som gör det möjligt att applicera rätt skyddsnivå, och standarden ger en guide hur detta kan åstadkommas, dvs inforamtionssäkerhet.</answer>
+      <answer data-type="text" correct="correct">Informationens skydd enligt de s k CIA-begreppen (konfidentialitet, riktighet och tillgänglighet) kompletterat med t ex spårbarhet och autenticitet.</answer>
+    </question>
+    <question id="69" text="Utöver funktionerna 'kravställande roll' och 'ansvarig för att skydd finns' beskriver SS-ISO/IEC 27002 en tredje viktig roll i LIS arbetet, vilken beskrivning är korrekt?" category="LIS">
+      <answer data-type="text" correct="correct">Det skall finnas en koordinerande roll som samlar alla centrala frågor och kan stödja informationssäkerhetsarbetet.</answer>
+      <answer data-type="text">Det skall finnas en informationssäkerhetschef som har rollen som innebär allt ansvar för informationssäkerheten i organisationen.</answer>
+      <answer data-type="text">Det är ledningen själv som har den tredje rollen genom att de är ytterst ansvariga för allt.</answer>
+      <answer data-type="text">Externa konsulter som skall vara experter som man skall anlita vid behov.</answer>
+      <answer data-type="text">En tydlig audit/revisionsfunktion som ansvarar för att de granskningar som görs hålls opåverkade av interna roller och ansvar.</answer>
+    </question>
+    <question id="70" text="Vilken svensk grundlag är det som också påverkar informationssäkerheten?" category="Författningskrav">
+      <answer data-type="text">Lagar som anger spårbarhet av ekonomisk bokföring i minst 10 år.</answer>
+      <answer data-type="text">Lagar kring hur offentlig upphandlning får ske.</answer>
+      <answer data-type="text">Lagar kring personuppgifter som alltid gäller om man hanterar personuppgifter.</answer>
+      <answer data-type="text">Lagar kring myndigheters föreskrivningsrätt vilket i sin tur resulterat i MBS:s föreskrift om SS-ISO/IEC 27001 och 27002 (MSBFS 2009:10).</answer>
+      <answer data-type="text" correct="correct">Lagar kring yttrande och tryckfrihet som gäller.</answer>
+    </question>
+    <question id="71" text="Mot vilken informationssäkerhetsstandard kan jag certifiera mitt företag?" category="LIS">
+      <answer data-type="text" correct="correct">SS-ISO/IEC 27001:2014</answer>
+      <answer data-type="text">BS-ISO/EWS 27008:1199</answer>
+      <answer data-type="text">ISO/IEC 27002:2005</answer>
+      <answer data-type="text">Både ISO/IEC 27002:2005 och SS-ISO/IEC 27001:2014</answer>
+      <answer data-type="text">BITS KBM 2003:2</answer>
+    </question>
+    <question id="72" text="Ledningen av ett revisionsprogram kännetecknas för sin roll att:" category="LIS">
+      <answer data-type="text">Styra med vilket periodicitet revisioner planeras.</answer>
+      <answer data-type="text">Styra omfattningen av revision, d v s vilken del av organisationen och vilket område som skall revideras.</answer>
+      <answer data-type="text" correct="correct">Metodiskt styra uppbyggnad av revision med olika faser som påminner om PDCA.</answer>
+      <answer data-type="text">Det är oberoende av förklaringen och den ansats som revisionen avger innan revisionen samt dess styrning.</answer>
+      <answer data-type="text">Det är certifieringsordningen som styr revisionen inför en certifiering.</answer>
+    </question>
+    <question id="73" text="Vad står CRL för i PKI-sammanhang?" category="Kryptering">
+      <answer data-type="text">Certificate Role Legality</answer>
+      <answer data-type="text">Control and Revocation Logg</answer>
+      <answer data-type="text" correct="correct">Certificate Revocation List</answer>
+      <answer data-type="text">Central Register Logg</answer>
+      <answer data-type="text">Certificate Registration List</answer>
+    </question>
+    <question id="74" text="Vad syftar monitorering i ISO/IEC 27001 till?" category="ISO 27001">
+      <answer data-type="text">Att skapa ett incidenthanteringssystem.</answer>
+      <answer data-type="text" correct="correct">Att detektering sker av brister så att åtgärder kan vidtas fortlöpande.</answer>
+      <answer data-type="text">Att vi vet vem som skall göra vad.</answer>
+      <answer data-type="text">Att vi har kontroll på hur väl våra informationsresurser utnyttjas så att vi kan maximera servicegraden.</answer>
+      <answer data-type="text">Att uppfylla externa krav på monitorering.</answer>
+    </question>
+    <question id="75" text="Kontinuitetsplanering innehåller aldrig.." category="Kontinuitetsplanering">
+      <answer data-type="text">Ledningsfunktioner</answer>
+      <answer data-type="text" correct="correct">Händelser som hanteras inom normal drift</answer>
+      <answer data-type="text">Externa parters åtaganden/leveranser</answer>
+      <answer data-type="text">Allt som berör risker omfattas så frågan är inte relevant</answer>
+      <answer data-type="text">Resurser som inte är IT-relaterade</answer>
+    </question>
+    <question id="76" text="Vad kallas ett angrepp som är riktat mot en specifik måltavla och där angriparen arbetar mer långsiktigt samt investerar mer tid och resurser?" category="Hot och risker">
+      <answer data-type="text">PST (Permanent System Threat)</answer>
+      <answer data-type="text" correct="correct">APT (Advanced Persistent Threat)</answer>
+      <answer data-type="text">ATT (Advanced Threat Target)</answer>
+      <answer data-type="text">PSA (Permanent System Attack)</answer>
+      <answer data-type="text">HIB (Hack in the Box)</answer>
+    </question>
+    <question id="77" text="En individ som navigerar till en webbsida och som ofrivilligt laddar ned en trojan har råkat ut för.." category="Hot och risker">
+      <answer data-type="text">Botnet</answer>
+      <answer data-type="text">Involuntary System Threat</answer>
+      <answer data-type="text">Ransomware</answer>
+      <answer data-type="text" correct="correct">Drive By Download</answer>
+      <answer data-type="text">Phising</answer>
+    </question>
+    <question id="78" text="Vad går under benämningen '0-day'?" category="Hot och risker">
+      <answer data-type="text">Cyberterrorism</answer>
+      <answer data-type="text">Dagen som en hacker börjar sina angrepp</answer>
+      <answer data-type="text">En attack där angriparen lyckas komma in på första försöket</answer>
+      <answer data-type="text" correct="correct">En sårbarhet som är okänd för leverantören och som det inte släppts en uppdatering till</answer>
+      <answer data-type="text">Ett välkänt verktyg för att attackera webbplatser</answer>
+    </question>
+    <question id="79" text="Vilket av följande alternativ är inte med i OWASP Top 10?" category="Hot och risker">
+      <answer data-type="text">Injection</answer>
+      <answer data-type="text">Cross-Site Request Forgery (CSRF)</answer>
+      <answer data-type="text" correct="correct">Port Scan</answer>
+      <answer data-type="text">Broken Authentication and Session Management</answer>
+      <answer data-type="text">Cross-Site Scripting (XSS)</answer>
+    </question>
+    <question id="80" text="Varför är det nödvändigt att hålla en katastrofplan uppdaterad och testa den regelbundet?" category="LIS">
+      <answer data-type="text">För att alltid ha tillgång till de senaste säkerhetskopiorna som finns utanför kontoret.</answer>
+      <answer data-type="text">För att kunna klara av daglig förekommande fel.</answer>
+      <answer data-type="text" correct="correct">För annars, i händelse av långtgående/ingripande störningar kan de åtgärder som vidtagits samt planerade procedurer för händelsen, vara olämpliga eller föråldrade.</answer>
+      <answer data-type="text">Eftersom detta krävs av personuppgiftslagen.</answer>
+    </question>
+    <question id="81" text="Vilken av följande är den viktigaste faktorn som påverkar en medarbetares beteende i en organisation?" category="LIS">
+      <answer data-type="text">Organisationens administrativa regelverk.</answer>
+      <answer data-type="text">Organisationens tekniska system och skydd.</answer>
+      <answer data-type="text">Medarbetarens egen bakgrund och privata förhållanden.</answer>
+      <answer data-type="text">Kollegors och chefers beteenden som speglar vilket beteende medarbetaren får.</answer>
+      <answer data-type="text" corret="correct">Medarbetarens kunskap och förståelse.</answer>
+    </question>
+    <question id="82" text="Vem är personuppgiftsansvarig enligt personuppgiftslagen (PuL) om kunden behandlar personuppgifterna genom anlitande av molntjänstleverantör?" category="Författningskrav">
+      <answer data-type="text">Molntjänstleverantören, eftersom denne i sin tur fritt bestämmer vilken underleverantör (underbiträde) som anlitas.</answer>
+      <answer data-type="text" correct="correct">Kunden, eftersom personuppgifterna inte kan överföras i ett avtal med molntjänstleverantören.</answer>
+      <answer data-type="text">Underleverantören (underbiträdet), eftersom det inte kan krävas av kunden eller molntjänstleverantören att de ska kunna ha koll på vad som gäller i underleverantörens (underbiträdets) land.</answer>
+    </question>
+    <question id="83" text="Är vi skyldiga att aktivt hjälpa polisen om de kommer till vårt företag/myndighet för att göra en husrannsakan och ta föremål eller skriftliga handlingar i beslag?" category="Författningskrav">
+      <answer data-type="text" correct="correct">NEJ - vi är inte skyldiga att hjälpa polisen, men vi kan välja att göra det om det är lämpligt.</answer>
+      <answer data-type="text">JA - polisen har alltid rätt att begära att allmänheten bistår polisen när de verkställer olika tvångsmedel.</answer>
+      <answer data-type="text">JA - men bara om det är fråga om ett grövre brott är allmänheten skyldig att hjälpa polisen.</answer>
+    </question>
+    <question id="84" text="Hur kan en IT-policy juridiskt ha betydelse för företagets/myndighetens interna incidentutredning?" category="Författningskrav">
+      <answer data-type="text">IT-policyn är ur juridisk aspekt betydelselös, eftersom de anställda är skyldiga att hålla sig informerade om vad som gäller.</answer>
+      <answer data-type="text" correct="correct">IT-policyn är viktig ur juridisk aspekt, eftersom det kan avgöra ansvarsfrågan om den anställde har informerats om vad som gäller.</answer>
+      <answer data-type="text">IT-policyn är ur juridisk aspekt betydelselös, eftersom dess enda betydelse är att informera de anställda hur IT-verktygen får användas.</answer>
+    </question>
+    <question id="85" text="Finns det några konkreta krav på olika säkerhetsåtgärder i lagstiftningen?" category="Författningskrav">
+      <answer data-type="text">NEJ, det finns överhuvudtaget inga säkerhetskrav i lagstiftningen. Därmed lämnas det öppet för företag och myndigheter att själva bestämma säkerhetskraven.</answer>
+      <answer data-type="text">JA, lagstiftningen innehåller tydliga krav och beskrivningar om vilka åtgärder som måste vidtas, både på funktionell nivå och rent tekniskt.</answer>
+      <answer data-type="text" correct="correct">JA, det finns säkerhetskrav i lagstiftningen. Dessa är dock beskrivna med termer som "lämpligt", "nödvändigt" och liknande. De behöver därför kompletteras med tillämpningsföreskrifter m.m från tillsynsmyndigheter och branschorganisationer.</answer>
+    </question>
+    <question id="86" text="Vilken ISO-standard behandlar specifikt kontinuitetsplanering?" category="Incidenthantering">
+      <answer data-type="text">ISO/IEC 27001</answer>
+      <answer data-type="text">ISO/IEC 27035</answer>
+      <answer data-type="text" correct="correct">ISO/IEC 22301</answer>
+      <answer data-type="text">ISO/IEC 27002</answer>
+      <answer data-type="text">ISO/IEC 27005</answer>
+    </question>
+    <question id="87" text="Vilken är den sista av de sex huvudfaserna i IT-incidentrapportering enligt SANS?" category="Incidenthantering">
+      <answer data-type="text">Radering</answer>
+      <answer data-type="text">Återställning</answer>
+      <answer data-type="text" correct="correct">Lärdomar</answer>
+      <answer data-type="text">Bevissäkring</answer>
+      <answer data-type="text">Inneslutning</answer>
     </question>
   </course>
 </questions>
