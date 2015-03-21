@@ -26,6 +26,10 @@ $(function() {
     },"slow");
   });
 
+  $('#changeCourseBtn').click(function(e) {
+    location.reload();
+  });
+
   function setupUI() {
     showQuestions(questions);
     showCategories();
@@ -73,9 +77,15 @@ $(function() {
 
     var htmlQuestion = '<!-- Question START --><div class="row question" data-questionID="' + question.number + '"><div class="col-xs-12"><div class="panel panel-default"><div class="panel-heading"><h2 class="panel-title">' + question.question + '<span class="pull-right categoryName">' + question.category + '</span>' + image + sound +'</h2></div><div class="panel-body"><ul class="nav nav-pills ' + justified + code + ' answers">';
 
+    var htmlAnswers = new Array();
     $(question.answers).each(function(index) {
       var htmlAnswer = question.answers[index];
-      htmlQuestion = htmlQuestion + '<li role="presentation" class="answer " data-answerID="' + (index + 1) + '"><a href="#">' + htmlAnswer + '</a></li>';
+      htmlAnswers.push('<li role="presentation" class="answer " data-answerID="' + (index + 1) + '"><a href="#">' + htmlAnswer + '</a></li>')
+    });
+
+    shuffleArray(htmlAnswers);
+    $(htmlAnswers).each(function() {
+      htmlQuestion = htmlQuestion + this;
     });
 
     htmlQuestion = htmlQuestion + '</ul></div></div></div></div><!-- Question END -->';
@@ -91,7 +101,7 @@ $(function() {
   }
 
   function showResults() {
-    var numQuestions = filteredQuestions.length > 0 ? filteredQuestions.length : questions.length;
+    var numQuestions = $('.question').length;
 
     var numCorrect = numCorrectAnswers + '/' + numQuestions;
     var percent = ((numCorrectAnswers / numQuestions) * 100);
@@ -109,7 +119,6 @@ $(function() {
 
       removeContent();
       reloadQuestions();
-
     });
   }
 

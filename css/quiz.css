@@ -38,6 +38,10 @@
   margin-bottom: 2em;
 }
 
+#changeCourseBtn {
+  margin-top: 2em;
+}
+
 #footer {
   text-align: center;
   padding: 1em;
