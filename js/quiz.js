@@ -83,7 +83,9 @@ $(function() {
       htmlAnswers.push('<li role="presentation" class="answer " data-answerID="' + (index + 1) + '"><a href="#">' + htmlAnswer + '</a></li>')
     });
 
-    shuffleArray(htmlAnswers);
+    if (shuffleAnswers) {
+      shuffleArray(htmlAnswers);
+    }
     $(htmlAnswers).each(function() {
       htmlQuestion = htmlQuestion + this;
     });
@@ -216,13 +218,9 @@ $(function() {
 
     var answerData = $(data).find('answer');
 
-    if (shuffleAnswers) {
-      shuffleArray(answerData);
-    }
-
     var answers = new Array();
     $(answerData).each(function(index, answer) {
-      if ($(this).attr('correct')) {
+      if ($(this).attr('correct') == 'correct') {
         question.correctAnswer = index + 1;
       }
 
@@ -297,6 +295,9 @@ $(function() {
 
       var selectedAnswerButton = $(this).find('.active');
       var selectedAnswer = $(selectedAnswerButton).attr('data-answerid');
+
+      console.log (selectedAnswer);
+      console.log (question);
 
       correctQuestion(question);
 

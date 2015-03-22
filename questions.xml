@@ -497,8 +497,8 @@
     <question id="38" text="Hur relateras riskhantering till LIS?" category="LIS">
       <answer data-type="text">Riskhantering ingår endast i upprätta/införandedelen av LIS</answer>
       <answer data-type="text">Riskhantering ingår inte i LIS utan är en separat process</answer>
-      <answer data-type="text" correct="correct">Riskhantering är en viktig grundsten i LIS och ingår i samtliga faser</answer>
-      <answer data-type="text">Riskhantering är underlaget för val av åtgärder i enlighet med 27002</answer>
+      <answer data-type="text">Riskhantering är en viktig grundsten i LIS och ingår i samtliga faser</answer>
+      <answer data-type="text" correct="correct">Riskhantering är grundstenen i LIS och underlaget för val av åtgärder i enlighet med 27002</answer>
       <answer data-type="text">Det beror på vilken riskanalys man väljer</answer>
     </question>
     <question id="39" text="Utan väl fungerande rutiner för säkerhetskopiering, eller bristfälliga tester för återställning, ökar risken för att systemet inte kan nås i tid. Hur löser man detta?" category="Kryptering">
@@ -604,7 +604,7 @@
       <answer data-type="text">Det finns en tydlig koppling mellan ledning och hur ansvaret fördelas i organisationen.</answer>
       <answer data-type="text">Det finns en speciell roll som har hand om informations-säkerhetsfrågor som har direkt koppling till ledningen.</answer>
     </question>
-        <question id="55" text="Nedanstående klartext är krypterad med Vigenére. Vilket är lösenordet? &lt;br/&gt;Klartext: LITE VANLIG TEXT. &lt;br/&gt;Kryptotext: NBJP YVDXKÖ JPZM" category="Kryptering">
+    <question id="55" text="Nedanstående klartext är krypterad med Vigenére. Vilket är lösenordet? &lt;br/&gt;Klartext: LITE VANLIG TEXT. &lt;br/&gt;Kryptotext: NBJP YVDXKÖ JPZM" category="Kryptering">
       <answer data-type="text" correct="correct">BURK</answer>
       <answer data-type="text">KAKA</answer>
       <answer data-type="text">BAKA</answer>
@@ -631,11 +631,6 @@
       <answer data-type="text">Sökning efter bevis för sårbara A: Datorer. B: Användare. C: Inbrottsskydd.</answer>
       <answer data-type="text" correct="correct">Sökning efter bevis för sårbara A: Mjukvaruversioner. B: Felkonfiguration. C: Patchnivå.</answer>
       <answer data-type="text">Sökning efter bevis för A: Virus. B: Trojaner. C: Gästkonton.</answer>
-    </question>
-    <question id="58" text="Är vi skyldiga att kontrollera att den person som representerar min motpart i ett avtal, verkligen är den hen påstår eller är behörig företrädare för motparten?" category="Författningskrav">
-      <answer data-type="text">NEJ - Det är alltid motparten som får stå för konsekvenserna av att någon obehörigigen agerar i dennes namn, varför vi inte är skyldiga att kontrollera om så är fallet.</answer>
-      <answer data-type="text" correct="correct">NEJ - Någon skyldighet att kontrollera finns inte, men vi riskerar att inte kunna göra avtalet gällande mot motparten om vi väljer att endast lite på vad företrädaren påstår.</answer>
-      <answer data-type="text">JA - Om vi inte fortlöpande kontrollerar den påstådde företrädaren med motparten blir vi skyldiga att ersätta denne all skada som denne kan drabbas av p.g.a. den obehörige företrädaren.</answer>
     </question>
     <question id="59" text="Vem tillfaller upphovsrätten enligt upphovsrättslagen (URL) när en beställare anlitar en leverantör med anställda programmerare för att utveckla (skräddarsy) en programvara som endast ska användas av beställaren och dennes organisation?" category="Författningskrav">
       <answer data-type="text" correct="correct">Leverantören, eftersom de som skapar programvaran är anställda av denne och inga rättigheter övergår till beställaren eller kvarstannar hos de anställda om det inte uttryckligen avtalats.</answer>
@@ -818,6 +813,11 @@
       <answer data-type="text" correct="correct">Lärdomar</answer>
       <answer data-type="text">Bevissäkring</answer>
       <answer data-type="text">Inneslutning</answer>
+    </question>
+    <question id="88" text="Är vi skyldiga att kontrollera att den person som representerar min motpart i ett avtal, verkligen är den hen påstår eller är behörig företrädare för motparten?" category="Författningskrav">
+      <answer data-type="text">NEJ - Det är alltid motparten som får stå för konsekvenserna av att någon obehörigigen agerar i dennes namn, varför vi inte är skyldiga att kontrollera om så är fallet.</answer>
+      <answer data-type="text" correct="correct">NEJ - Någon skyldighet att kontrollera finns inte, men vi riskerar att inte kunna göra avtalet gällande mot motparten om vi väljer att endast lite på vad företrädaren påstår.</answer>
+      <answer data-type="text">JA - Om vi inte fortlöpande kontrollerar den påstådde företrädaren med motparten blir vi skyldiga att ersätta denne all skada som denne kan drabbas av p.g.a. den obehörige företrädaren.</answer>
     </question>
   </course>
 </questions>
