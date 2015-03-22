@@ -295,9 +295,7 @@ $(function() {
 
       var selectedAnswerButton = $(this).find('.active');
       var selectedAnswer = $(selectedAnswerButton).attr('data-answerid');
-
-      console.log (selectedAnswer);
-      console.log (question);
+      var selectedAnswerHeight = $(selectedAnswerButton).find('a').css('height');
 
       correctQuestion(question);
 
@@ -315,7 +313,7 @@ $(function() {
         $(this).find('.panel').removeClass('panel-default').addClass('panel-danger');
         $(selectedAnswerButton).addClass('red');
 
-        $(selectedAnswerButton).find('a').html('<span class="glyphicon glyphicon-remove icon" aria-hidden="true"></span>' + $(selectedAnswerButton).find('a').html());
+        $(selectedAnswerButton).find('a').html('<span class="glyphicon glyphicon-remove icon" aria-hidden="true" style="font-size: ' + selectedAnswerHeight + '"></span>' + $(selectedAnswerButton).find('a').html());
 
         //Show correct answer
         var incorrectAnswer = $(this).find('li[data-answerid=' + question.correctAnswer + '] a');
@@ -409,7 +407,10 @@ $(function() {
       }
     });
     $('.maxQuestionsButton').click(function() {
-      maxQuestions = $(this).children()[0].value == 0 ? undefined : $(this).children()[0].value;
+      var questionLimit = $(this).children()[0].value;
+      maxQuestions = questionLimit == 0 ? undefined : questionLimit;
+
+      createCookie('maxQuestions', questionLimit, 99999);
     });
   }
 
@@ -428,6 +429,7 @@ $(function() {
   function getUserSettings() {
     getShuffleQuestionsSetting();
     getShuffleAnswersSetting();
+    getMaxQuestionsSetting();
   }
 
   function getShuffleQuestionsSetting() {
@@ -457,6 +459,26 @@ $(function() {
       }
     } else {
       createCookie('shuffleAnswers', 'YES', 99999);
+    }
+  }
+
+  function getMaxQuestionsSetting() {
+    var maxQuestionsCookie = readCookie('maxQuestions');
+    if (maxQuestionsCookie) {
+      maxQuestions = maxQuestionsCookie == 0 ? undefined : maxQuestionsCookie;
+
+      var allMaxQuestionsButtons = $('[setting=maxQuestions]');
+      allMaxQuestionsButtons.removeClass('active');
+
+      activeButton = $.grep($(allMaxQuestionsButtons), function(item) {
+        var actualItem = $(item).find('input')[0];
+        return actualItem.value == maxQuestionsCookie;
+      });
+      $(activeButton).first().addClass('active');
+    }
+    else {
+      maxQuestions = undefined;
+      createCookie('maxQuestions', maxQuestions, 99999);
     }
   }
 
