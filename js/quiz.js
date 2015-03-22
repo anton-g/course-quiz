@@ -117,7 +117,9 @@ $(function() {
     $('#resetBtn').click(function(e) {
       e.preventDefault();
 
+      numCorrectAnswers = 0;
       removeContent();
+      resetAllQuestions();
       reloadQuestions();
     });
   }
@@ -413,9 +415,11 @@ $(function() {
   function resetAllQuestions() {
     $(questions).each(function(index, question) {
       question.correct = false;
+      question.userAnswer = undefined;
     });
     $(filteredQuestions).each(function(index, question) {
       question.correct = false;
+      question.userAnswer = undefined;
     });
   }
 
