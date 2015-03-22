@@ -75,7 +75,7 @@ $(function() {
       sound = '<audio controls><source src="sound/' + question.sound + '" type="audio/mpeg">Kan inte spela upp ljud.</audio>';
     }
 
-    var htmlQuestion = '<!-- Question START --><div class="row question" data-questionID="' + question.number + '"><div class="col-xs-12"><div class="panel panel-default"><div class="panel-heading"><h2 class="panel-title">' + question.question + '<span class="pull-right categoryName">' + question.category + '</span>' + image + sound +'</h2></div><div class="panel-body"><ul class="nav nav-pills ' + justified + code + ' answers">';
+    var htmlQuestion = '<!-- Question START --><div class="row question" data-questionID="' + question.number + '"><div class="-12"><div class="panel panel-default"><div class="panel-heading"><h2 class="panel-title">' + question.question + '<span class="pull-right categoryName">' + question.category + '</span>' + image + sound +'</h2></div><div class="panel-body"><ul class="nav nav-pills ' + justified + code + ' answers">';
 
     var htmlAnswers = new Array();
     $(question.answers).each(function(index) {

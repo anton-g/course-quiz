@@ -36,7 +36,11 @@
 }
 
 #changeCourseBtn {
-  margin-top: 2em;
+  margin: 2em 0 2em 0;
+}
+
+#settingsToggle {
+  margin: 1em 0 1em 0;
 }
 
 #footer {
