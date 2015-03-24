@@ -906,12 +906,12 @@
     </question>
     <question id="102" text="Standarden för informationssäkerhet 27002 gäller bara för stora företag. Är detta påstående korrekt?" category="LIS">
       <answer data-type="text">Ja</answer>
-      <answer data-type="text" correct="YES">Nej</answer>
+      <answer data-type="text" correct="correct">Nej</answer>
       <answer data-type="text">Till viss del. Standarden är menad att användas av stora företag men ingenting hindrar företag att följa standarden.</answer>
     </question>
     <question id="103" text="Varför väljer revisorn ofta att göra kontroller i form av stickprov vid revision?" category="LIS">
       <answer data-type="text">För att sticka hål på felaktikt beskrivna säkerhetsdokument.</answer>
-      <answer data-type="text" correct="YES">För att slippa granska all användning av en säkerhetsåtgärd i olika delar av verksamheten.</answer>
+      <answer data-type="text" correct="correct">För att slippa granska all användning av en säkerhetsåtgärd i olika delar av verksamheten.</answer>
       <answer data-type="text">För att verifiera verkan av en enskild säkerhetsåtgärd.</answer>
       <answer data-type="text">För att undvika problem som uppstår vid implementeringen.</answer>
     </question>
