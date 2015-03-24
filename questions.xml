@@ -819,5 +819,160 @@
       <answer data-type="text" correct="correct">NEJ - Någon skyldighet att kontrollera finns inte, men vi riskerar att inte kunna göra avtalet gällande mot motparten om vi väljer att endast lite på vad företrädaren påstår.</answer>
       <answer data-type="text">JA - Om vi inte fortlöpande kontrollerar den påstådde företrädaren med motparten blir vi skyldiga att ersätta denne all skada som denne kan drabbas av p.g.a. den obehörige företrädaren.</answer>
     </question>
+    <question id="89" text="Vad utmärker kontinuitetsplanering sett ur ett informationssäkerhetsperspektiv?" category="Kontinuitetsplanering">
+      <answer data-type="text">Att det handlar om avbrottsfri leverans av IT-tjänster oavsett vad som inträffar.</answer>
+      <answer data-type="text" correct="correct">Att de informationsrelaterade risker som man bedömmer ha stor inverkan ska beaktas även om de händer sällan.</answer>
+      <answer data-type="text">Kontinuitetsplanering beaktar risker som berör hela verksamheten så därför kan man bortse från denna.</answer>
+      <answer data-type="text">Det handlar bara om fysisk säkerhet och hur information skall skyddas utifrån stora händelser som har fysisk påverkan t ex brand.</answer>
+      <answer data-type="text">Det berör varumärket och därför så skall alla risker även med i kontinuitetsplaneringen.</answer>
+    </question>
+    <question id="90" text="Vilket alternativ är inte korrekt enligt definitionen av fysisk säkerhet i 27002?" category="LIS">
+      <answer data-type="text">Skalskydd</answer>
+      <answer data-type="text" correct="correct">Personskydd</answer>
+      <answer data-type="text">Skydd av hemarbetsplatser</answer>
+      <answer data-type="text">Avveckling</answer>
+      <answer data-type="text">Kablage</answer>
+    </question>
+    <question id="91" text="Vad är det som skall styra för hur vi inför LIS enligt PDCA processen?" category="LIS">
+      <answer data-type="text">Behovet att kunna påvisa att man följer standarden enligt krav från någon extern part.</answer>
+      <answer data-type="text">Revisioner av verksamhetens informationssäkerhet.</answer>
+      <answer data-type="text">Ledningens genomgång av informationssäkerheten.</answer>
+      <answer data-type="text" correct="correct">Intressenterns förväntningar och krav på informationssäkerheten.</answer>
+      <answer data-type="text">Externa regler och lagar som berör informationssäkerheten.</answer>
+    </question>
+    <question id="92" text="Vad skiljer det första PDCA varvet från de återkommande?" category="LIS">
+      <answer data-type="text">Säkerhetsorganisationen måste skapas.</answer>
+      <answer data-type="text" correct="correct">Det är inriktat på att införa LIS.</answer>
+      <answer data-type="text">Det är först i andra varvet som man har ledningens genomgång.</answer>
+      <answer data-type="text">Policyn är inte påskriven av ledningen förrän man haft första ledningens genomgång.</answer>
+      <answer data-type="text">Man har ingen informationssäkerhet förrän första varvet är genomgått.</answer>
+    </question>
+    <question id="93" text="Vår tillgång till information blir allt mer lättare. Ändå, ska informationen vara tillförlitlig för att bli användbar. Vad är inte en tillförlitlighetsaspekt av information?" category="LIS">
+      <answer data-type="text">Tillgänglighet</answer>
+      <answer data-type="text">Integritet</answer>
+      <answer data-type="text" correct="correct">Kvantitet</answer>
+      <answer data-type="text">Sekretess</answer>
+      <answer data-type="text">Backup</answer>
+    </question>
+    <question id="94" text="Vad är det huvudsakliga syftet med riskhantering?" category="LIS">
+      <answer data-type="text">Att bestämma sannolikheten att en viss risk kommer inträffa.</answer>
+      <answer data-type="text">Att fastställa skadan orsakad av möjliga säkerhetsincidenter.</answer>
+      <answer data-type="text">Att beskriva de hot som IT-resurser är utsatta för.</answer>
+      <answer data-type="text" correct="correct">Att använda åtgärder för att minska riskerna till acceptabel nivå.</answer>
+      <answer data-type="text">Att visa säkerhetschefens betydelse.</answer>
+    </question>
+    <question id="95" text="Vilken av dessa händelser är inte en säkerhetsrelaterad incident?" category="LIS">
+      <answer data-type="text">En brandvarnare fungerar inte.</answer>
+      <answer data-type="text">Nätverket är hackat.</answer>
+      <answer data-type="text">Någon låtsas vara anställd.</answer>
+      <answer data-type="text" correct="correct">En fil på datorn kan inte konverteras till en PDF-fil.</answer>
+    </question>
+    <question id="96" text="Säkerhetsåtgärder kan grupperas på olika sätt. Vilket av följande är mest korrekt?" category="LIS">
+      <answer data-type="text">Fysisk, logisk, förebyggande.</answer>
+      <answer data-type="text">Logisk, repressiv, förebyggande.</answer>
+      <answer data-type="text">Organisatorisk, förebyggande, korrigerande, fysisk.</answer>
+      <answer data-type="text" correct="correct">Organisatoriska, fysiska, logiska.</answer>
+    </question>
+    <question id="97" text="Vad är syftet med informationsklassning?" category="LIS">
+      <answer data-type="text" correct="correct">Att avgöra vilken typ av information som kräver olika skyddsnivåer.</answer>
+      <answer data-type="text">Att tilldela uppgifter till en ägare.</answer>
+      <answer data-type="text">Att minska risker för mänskliga fel.</answer>
+      <answer data-type="text">Att förhindra obehörig tillgång/åtkomst till information.</answer>
+    </question>
+    <question id="98" text="Fyra anställda vid IT-avdelningen delar på ett passerkort till datorrummet. Vilken risk leder detta till?" category="Hot och risker">
+      <answer data-type="text">Om strömmen bryts, datorerna slocknar.</answer>
+      <answer data-type="text">Om brand bryter ut och brandsläckarna inte kan användas.</answer>
+      <answer data-type="text" correct="correct">Om något försvinner från datorrummet kommer det inte stå klart vem som är ansvarig.</answer>
+      <answer data-type="text">Obehöriga personer kan få tillgång till datasalen utan att bli sedda.</answer>
+    </question>
+    <question id="99" text="Vilket av följande säkerhetsåtgärder är en teknisk åtgärd?" category="LIS">
+      <answer data-type="text">Allokering av informationen till en ägare.</answer>
+      <answer data-type="text" correct="correct">Kryptering av filer.</answer>
+      <answer data-type="text">Skapa en policy som definierar vad som är och inte tillåtet i e-post.</answer>
+      <answer data-type="text">Säker förvaring av system management lösenord.</answer>
+      <answer data-type="text">Internutbildningar.</answer>
+    </question>
+    <question id="100" text="Vad är exempel på en organisatorisk åtgärd?" category="LIS">
+      <answer data-type="text">Back-up av data.</answer>
+      <answer data-type="text">Kryptering.</answer>
+      <answer data-type="text" correct="correct">Avskiljande/uppdelning av arbetsuppgifter.</answer>
+      <answer data-type="text">Hålla nätverksutrustning och kopplingsdosor i ett låst rum.</answer>
+    </question>
+    <question id="101" text="Vad är behörighetstilldelning/åtkomsträttigheter?" category="LIS">
+      <answer data-type="text">Fastställande av en persons identitet.</answer>
+      <answer data-type="text">Registrering av åtgärder som vidtas.</answer>
+      <answer data-type="text">Verifiering av persons identitet.</answer>
+      <answer data-type="text" correct="correct">Beviljandet av särskilda rättigheter, såsom selektiv åtkomst för en person.</answer>
+    </question>
+    <question id="102" text="Standarden för informationssäkerhet 27002 gäller bara för stora företag. Är detta påstående korrekt?" category="LIS">
+      <answer data-type="text">Ja</answer>
+      <answer data-type="text" correct="YES">Nej</answer>
+      <answer data-type="text">Till viss del. Standarden är menad att användas av stora företag men ingenting hindrar företag att följa standarden.</answer>
+    </question>
+    <question id="103" text="Varför väljer revisorn ofta att göra kontroller i form av stickprov vid revision?" category="LIS">
+      <answer data-type="text">För att sticka hål på felaktikt beskrivna säkerhetsdokument.</answer>
+      <answer data-type="text" correct="YES">För att slippa granska all användning av en säkerhetsåtgärd i olika delar av verksamheten.</answer>
+      <answer data-type="text">För att verifiera verkan av en enskild säkerhetsåtgärd.</answer>
+      <answer data-type="text">För att undvika problem som uppstår vid implementeringen.</answer>
+    </question>
+    <question id="104" text="Vad kallas dokumentet, vilket krävs vid certifieringsrevision, som bland annat beskriver motiv till valet av säkerhetsåtgärd?" category="LIS">
+      <answer data-type="text">Uttalande om lämplighet (Statement of suitability)</answer>
+      <answer data-type="text" correct="correct">Uttalande om tillämplighet (Statement of applicability)</answer>
+      <answer data-type="text">Uttalande om policy (Statement of policy)</answer>
+      <answer data-type="text">Uttalande om risk (Statement of risk)</answer>
+    </question>
+    <question id="105" text="På vilket sätt bör en revisor bilda sig en uppfattning om ledningssystemets effekt på verksamhetens informationssäkerhet?" category="LIS">
+      <answer data-type="text">Genom dokumentgranskning</answer>
+      <answer data-type="text">Intervjuer med medarbetare</answer>
+      <answer data-type="text">Egen verifiering / test</answer>
+      <answer data-type="text" correct="correct">Alla nämnda</answer>
+      <answer data-type="text">Ingen av de nämnda</answer>
+    </question>
+    <question id="106" text="Vilken roll har standarden 27002 (lista på säkerhetsåtgärder) vid certifiering mot 27001?" category="LIS">
+      <answer data-type="text">Ingen; allt som rör certifieringen hittas i 27001.</answer>
+      <answer data-type="text">Är ett alternativ; man kan välja att certifiera sig mot 27002 istället.</answer>
+      <answer data-type="text">Komplement; 27002 kan användas för att identifiera säkerhetsåtgärder.</answer>
+      <answer data-type="text" correct="correct">Obligatorisk; 27002 ska användas för att identifiera säkerhetsåtgärder.</answer>
+    </question>
+    <question id="107" text="Varför är det viktigt med opartiskhet i samband med revision av informationssäkerhet generellt?" category="LIS">
+      <answer data-type="text">Det är ett lagkrav i alla EU-länder.</answer>
+      <answer data-type="text">Det är inte bra ifall parterna i revisionen tar ställning för eller emot ledningssystemet.</answer>
+      <answer data-type="text" correct="correct">Genom bland annat opartiskhet säkerställs att inga andra hänsyn tas än de fakta som framkommer vid revisionen.</answer>
+      <answer data-type="text">För att ingen ska kunna ta del av resultatet från revisionen tidigare än någon av de andra parterna.</answer>
+    </question>
+    <question id="108" text="När kan det finnas anledning att ha olika nivåer på autentisering inom en organisation?" category="LIS">
+      <answer data-type="text">När man vet att vissa grupper av anställda är mer slarviga med att välja lösenord än andra.</answer>
+      <answer data-type="text" correct="correct">När en riskanalys visat att obehörig åtkomst till viss information medför allvarligare konsekvenser än obehörig åtkomst till annan typ av information.</answer>
+      <answer data-type="text">När det finns en ökad risk för vissa användare att någon kikar över axeln och avslöjar en annan användares lösenord.</answer>
+      <answer data-type="text">När påloggning i vissa system sker via iPhone eller liknande.</answer>
+      <answer data-type="text">När organisationen anlitar flera konsulter.</answer>
+    </question>
+    <question id="109" text="Incidenthantering består av såväl proaktiva som reaktiva aktiviteter. Vilka av följande aktiviteter räknas inte som en reaktiv aktivitet?" category="Incidenthantering">
+      <answer data-type="text">Incidentåtgärder</answer>
+      <answer data-type="text" correct="correct">Teknisk analys</answer>
+      <answer data-type="text">Utredning och bevissäkring</answer>
+      <answer data-type="text">Polisanmälan</answer>
+      <answer data-type="text">Extern anmälan</answer>
+    </question>
+    <question id="110" text="Vilka är de 6 huvudfaserna i IT-incidenthantering?" category="Incidenthantering">
+      <answer data-type="text">Samverkan, Granskning, Inneslutning, Motattack, Återställning, Avrapportering.</answer>
+      <answer data-type="text">Upphandlning, Identifiering, Inneslutning, Motattack, Återställning, Avrapportering.</answer>
+      <answer data-type="text">Förberedelser, Samverkan, Inneslutning, Radering, Återställning, Avrapportering.</answer>
+      <answer data-type="text" correct="correct">Förberedelser, Identifiering, Inneslutning, Radering, Återställning, Lärdomar.</answer>
+      <answer data-type="text">Upphandling, Granskning, Inneslutning, Radering, Återställning, Lärdomar.</answer>
+    </question>
+    <question id="111" text="Vilket av nedanstående påstående är mest sant?" category="Incidenthantering">
+      <answer data-type="text">En händelse är en påverkan och en incident är en farlig händelse.</answer>
+      <answer data-type="text">En händelse loggas alltid i säkerhetsloggen och en incident är en skadlig händelse.</answer>
+      <answer data-type="text" correct="correct">En händelse är en påverkan på ett system och en incident är en skadlig händelse.</answer>
+      <answer data-type="text">En händelse får alltid systemet att ändra funktion och en incident är en skadlig händelse.</answer>
+      <answer data-type="text">En händelse är en påverkan som ibland observeras på flera ställen och en incident är en kostsam händelse.</answer>
+    </question>
+    <question id="112" text="Which of the following alternatives correctly describes passwords?" category="Systemsäkerhet">
+      <answer data-type="text">Least expensive and most secure</answer>
+      <answer data-type="text">Most expensive and least secure</answer>
+      <answer data-type="text" correct="correct">Least expensive and least secure</answer>
+      <answer data-type="text">Most expensive and most secure</answer>
+    </question>
   </course>
 </questions>

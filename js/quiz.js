@@ -30,6 +30,14 @@ $(function() {
     location.reload();
   });
 
+  $('#settingsToggle').click(function(e) {
+    if ($(this).html() == $(this).attr('data-close-text')) {
+      $(this).button('open');
+    } else {
+      $(this).button('close');
+    }
+  });
+
   function setupUI() {
     showQuestions(questions);
     showCategories();
@@ -106,7 +114,7 @@ $(function() {
     var numQuestions = $('.question').length;
 
     var numCorrect = numCorrectAnswers + '/' + numQuestions;
-    var percent = ((numCorrectAnswers / numQuestions) * 100);
+    var percent = ((numCorrectAnswers / numQuestions) * 100).toFixed(1);
 
     var htmlStart = '<div class="row result"><div class="col-xs-12"><div class="panel panel-primary"><div class="panel-heading"><h2 class="panel-title">Resultat</h2></div><div class="panel-body">'
     var htmlBody = '<div class="row"><div class="col-xs-9">Antal rätt: ' + numCorrect + ' (' + percent +'%)</div><div class="col-xs-3"><button class="btn btn-large btn-primary pull-right" id="resetBtn">Try again!</button></div></div>';
