@@ -975,4 +975,1142 @@
       <answer data-type="text">Most expensive and most secure</answer>
     </question>
   </course>
+  <course name="IBS">
+    <question id="1" text="10/100 Ethernet" category="Glosor">
+      <answers>
+        <answer data-type="text">A technology used to control digital cable modems and allow a user to select content.</answer>
+        <answer data-type="text" correct="correct">An Ethernet interface that can automatically sense the maximum speed of a connected device and choose to operate at 10 Mbps or 100 Mbps.</answer>
+        <answer data-type="text">A modem used to send digital information over the coaxial cables used for cable television,</answer>
+        <answer data-type="text">The algorithm bridges use to avoid a loop.</answer>
+      </answers>
+    </question>
+    <question id="2" text="10BaseT" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">The technical name for 10 Mbps twisted pair Ethernet.</answer>
+        <answer data-type="text">An early conceptual model devised by the International Organization for Standardization to specify how a set of protocols work together to provide communication services. The 7-layer model did not include an internet protocol layer.</answer>
+        <answer data-type="text">Characteristic of a network in which each transmission is independent. The alternative to connectionless networking is connection-oriented networking. See connection-oriented.</answer>
+        <answer data-type="text">The required header found at the beginning of an IPv6 datagram.</answer>
+      </answers>
+    </question>
+    <question id="3" text="100BaseT" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">The technical name for fast Ethernet (100 Mbps).</answer>
+        <answer data-type="text">A high-speed multiplexing technology used with optical fiber.</answer>
+        <answer data-type="text">The ISDN service that provides two B channels plus a data channel. BRI is suitable for small businesses. See PRI.</answer>
+        <answer data-type="text">Characteristic of the original IP addressing scheme in which unicast addresses were divided into three primary classes. The class of an address determines the division between the prefix and suffix in the address. See classless addressing.</answer>
+      </answers>
+    </question>
+    <question id="4" text="1000BaseT" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">The technical name for gigabit Ethernet.</answer>
+        <answer data-type="text">A conceptual model that explains how TCP/IP Internet protocols are designed.</answer>
+        <answer data-type="text">A technology to deliver digital information at high-speed over the same twisted pair wiring used to deliver telephone service. The downstream bit rate is higher than the upstream rate because most subscribers retrieve much more information than they send. See HDSL.</answer>
+        <answer data-type="text">A subtree of the computer naming hierarchy used in the Internet. For example, commercial organizations have names registered under the .com domain.</answer>
+      </answers>
+    </question>
+    <question id="5" text="2-3 swap" category="Glosor">
+      <answers>
+        <answer data-type="text">A pejorative term used to refer to the 10% header overhead introduced by ATM.</answer>
+        <answer data-type="text" correct="correct">A reference to a cable in which the wire used to transmit on one end connects to the wire used to receive on the other, and vice-versa. The numbers 2 and 3 refer to the transmit and receive pins on a DB-25 connector.</answer>
+        <answer data-type="text">An Internet service that allows multiple users to communicate by entering text that is displayed on the screens of other participants.</answer>
+        <answer data-type="text">A computer program, associated with a World Wide Web document, that can generate a document on demand. When a browser requests a dynamic document, the server runs the program and sends the output to the browser. A dynamic document program can generate different output for each request. See active document, static document, and URL.</answer>
+      </answers>
+    </question>
+    <question id="6" text="2B+D service" category="Glosor">
+      <answers>
+        <answer data-type="text">A wild-card entry in a routing table. The routing software follows the default route if the table does not contain an explicit route to the destination.</answer>
+        <answer data-type="text">A library of graphics procedures used with the Java language to manipulate windows on a bit-mapped display. At various times, the designers have expanded AWT to Alternative Window Toolkit and Applet Widget Toolkit.</answer>
+        <answer data-type="text" correct="correct">An ISDN service that includes two standard telephone connections plus a data connection.</answer>
+        <answer data-type="text">The touch tone encoding used with telephones.</answer>
+      </answers>
+    </question>
+    <question id="7" text="3-way handshake" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">A technique used by TCP and other transport protocols to reliably start or. gracefully terminate communication.</answer>
+        <answer data-type="text">A value used to verify that data is not corrupted during transmission. The sender computes a CRC and transmits the result in a packet with the data. A receiver computes the CRC over the data received, and compares the value to the CRC in the packet. A CRC is more complex to compute than a checksum, but can detect more transmission errors.</answer>
+        <answer data-type="text">A modem used to send digital information over the coaxial cables used for cable television,</answer>
+        <answer data-type="text">An algorithm for computing shortest paths in a graph. Routing protocols use Dijkstra's algorithm to compute optimal routes.</answer>
+      </answers>
+    </question>
+    <question id="8" text="3-wire circuit" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">A wiring scheme often used with asynchronous serial connections between a pair of computers. The first wire is used to transmit data from one computer to another, the second wire is used to transmit data in the reverse direction, and the third wire is a common electrical ground.</answer>
+        <answer data-type="text">A type of service offered by ATM.</answer>
+        <answer data-type="text">The syntactic notation used to express an IPv6 address.</answer>
+        <answer data-type="text">A CSMA network that has the capability to detect errors that result when multiple stations transmit simultaneously. See collision.</answer>
+      </answers>
+    </question>
+    <question id="9" text="4-wire circuit" category="Glosor">
+      <answers>
+        <answer data-type="text">A type of cable used for computer networks as. well as for. cable television. The name arises from the structure in which a metal shield surrounds a center wire. The shield protects the signal on the inner wire- from electrical interference.</answer>
+        <answer data-type="text">A pejorative term used to refer to the 10% header overhead introduced by ATM.</answer>
+        <answer data-type="text" correct="correct">A wiring scheme often used with asynchronous serial connections between a pair of computers. One pair of wires is used to carry data in one direction and the other pair is used to carry data in the reverse direction. A 4-wire circuit is usually used to span longer distances than a 3-wire circuit.</answer>
+        <answer data-type="text">A computer program, associated with a World Wide Web document, that can generate a document on demand. When a browser requests a dynamic document, the server runs the program and sends the output to the browser. A dynamic document program can generate different output for each request. See active document, static document, and URL.</answer>
+      </answers>
+    </question>
+    <question id="10" text="5-layer reference model" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">A conceptual model that explains how TCP/IP Internet protocols are designed.</answer>
+        <answer data-type="text">A generic reference to a set of procedures that an application" program uses to access a service. A network API consists of procedures a program uses to access protocol software; the most well-known is the socket API.</answer>
+        <answer data-type="text">The designations that telephone companies use for the speeds of popular point-to- point digital circuits. DS-0 denotes a digital voice circuit of 64 Kbps; DS-1 denotes 1.544 Mbps; and DS-3 denotes 44.736 Mbps. See Tl, T3.</answer>
+        <answer data-type="text">A form of addressing used by IPv6 in which a set of computers is assigned one address; a datagram sent to the address can be delivered to any one of the computers in the set. See broadcast, multicast, and unicast.</answer>
+      </answers>
+    </question>
+    <question id="11" text="7-layer reference model" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">An early conceptual model devised by the International Organization for Standardization to specify how a set of protocols work together to provide communication services. The 7-layer model did not include an internet protocol layer.</answer>
+        <answer data-type="text">A protocol that a computer uses when it first starts to obtain information needed to configure the protocol software. BOOTP uses IP and UDP to broadcast a request and receive a response before IP has been completely configured.</answer>
+        <answer data-type="text">A subtree of the computer naming hierarchy used in the Internet. For example, commercial organizations have names registered under the .com domain.</answer>
+        <answer data-type="text">An ISDN service that includes two standard telephone connections plus a data connection.</answer>
+      </answers>
+    </question>
+    <question id="12" text="802.2" category="Glosor">
+      <answers>
+        <answer data-type="text">A standard that assigns unique values to 128 characters, including upper and lower case letters, digits, punctuation, and control characters. Details can be found in Appendix 2. See EBCDIC.</answer>
+        <answer data-type="text" correct="correct">The IEEE standard for Logical Link Control (See LLC and SNAP.), Ethernet, Token Ring and Wi-Fi wireless network.</answer>
+        <answer data-type="text">The protocol an application uses to send data over an ATM network. AAL5, which is part of the ATM stack, accepts and delivers large packets of data (up to 64K bytes).</answer>
+        <answer data-type="text">The basic signal transmitted across a network. A carrier is modulated (i.e., changed) to encode data.</answer>
+      </answers>
+    </question>
+    <question id="13" text="802.1x" category="Glosor">
+      <answers>
+        <answer data-type="text">A type of service offered by ATM.</answer>
+        <answer data-type="text">Access to an FTP server using the login name anonymous and the password guest. Not all FTP servers permit anonymous FTP.</answer>
+        <answer data-type="text" correct="correct">An IEEE standard for a security mechanism used with wireless networks.</answer>
+        <answer data-type="text">A World Wide Web document that is a computer program. After downloading an active document, the browser runs the program on the user's computer. The active document can change the display continuously. See dynamic document, static document, and URL.</answer>
+      </answers>
+    </question>
+    <question id="14" text="AAL5 (ATM Adaptation Layer 5)" category="Glosor">
+      <answers>
+        <answer data-type="text">A measure of a network that specifies the amount of data that is present in the network between the sender and receiver.</answer>
+        <answer data-type="text">The protocol a computer uses to map an IP address into a hardware address. A computer that invokes ARP broadcasts a request to which the target computer re- plies.</answer>
+        <answer data-type="text" correct="correct">The protocol an application uses to send data over an ATM network. AAL5, which is part of the ATM stack, accepts and delivers large packets of data (up to 64K bytes).</answer>
+        <answer data-type="text">A generic reference to a set of procedures that an application" program uses to access a service. A network API consists of procedures a program uses to access protocol software; the most well-known is the socket API.</answer>
+      </answers>
+    </question>
+    <question id="15" text="ABR (Available Bit Rate)" category="Glosor">
+      <answers>
+        <answer data-type="text">The number of changes in a signal per second. Each change can encode one or more bits of information.</answer>
+        <answer data-type="text">The name applied to cable television systems. CATV technology uses frequency division multiplexing to propagate multiple television channels over a single cable simultaneously. See cable modem.</answer>
+        <answer data-type="text" correct="correct">A type of service offered by ATM.</answer>
+        <answer data-type="text">An algorithm that bridges use when they boot to detect and break cycles.</answer>
+      </answers>
+    </question>
+    <question id="16" text="access delay" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">The time a network interface waits before it can access a shared network.</answer>
+        <answer data-type="text">A broadcast to all computers on a remote network achieved by sending a single copy of the packet to the remote network and broadcasting the packet when it arrives. TCP/IP supports directed broadcast.</answer>
+        <answer data-type="text">A form of network attack in which a site is flooded with so many packets (usually incorrect or fictitious requests) that the site cannot respond to legitimate requests.</answer>
+        <answer data-type="text">The short value used when encrypting data to guarantee confidentiality. In some encryption schemes, the receiver must use the same key to decrypt the data. Other schemes use a pair of keys — one to encrypt and a different key to decrypt.</answer>
+      </answers>
+    </question>
+    <question id="17" text="ACL (Access Control List)" category="Glosor">
+      <answers>
+        <answer data-type="text">A form of NAT proposed by cable TV companies.</answer>
+        <answer data-type="text">The basic signal transmitted across a network. A carrier is modulated (i.e., changed) to encode data.</answer>
+        <answer data-type="text" correct="correct">A security mechanism that specifies users or computer programs that can access a particular object.</answer>
+        <answer data-type="text">The short value used when encrypting data to guarantee confidentiality. In some encryption schemes, the receiver must use the same key to decrypt the data. Other schemes use a pair of keys — one to encrypt and a different key to decrypt.</answer>
+      </answers>
+    </question>
+    <question id="18" text="ACK (acknowledgement)" category="Glosor">
+      <answers>
+        <answer data-type="text">A unique binary value assigned to a computer; network hardware and software uses the address in a packet to forward the packet to its destination.</answer>
+        <answer data-type="text" correct="correct">A short message returned to inform a sender that data has arrived at its intended destination.</answer>
+        <answer data-type="text">A pejorative term used to refer to the 10% header overhead introduced by ATM.</answer>
+        <answer data-type="text">The type of connector used with the original, thick wire Ethernet.</answer>
+      </answers>
+    </question>
+    <question id="19" text="active document" category="Glosor">
+      <answers>
+        <answer data-type="text">The syntactic notation used to express a 32-bit IPv4 address. Each octet is written in decimal with a period separating octets.</answer>
+        <answer data-type="text" correct="correct">A World Wide Web document that is a computer program. After downloading an active document, the browser runs the program on the user's computer. The active document can change the display continuously. See dynamic document, static document, and URL.</answer>
+        <answer data-type="text">A device that accepts a modulated carrier wave and extracts the information used to modulate it. See modem.</answer>
+        <answer data-type="text">A special address that causes the underlying system to deliver a copy of a packet to all computers on a network.</answer>
+      </answers>
+    </question>
+    <question id="20" text="adaptive retransmission" category="Glosor">
+      <answers>
+        <answer data-type="text">An ISDN service that includes two standard telephone connections plus a data connection.</answer>
+        <answer data-type="text" correct="correct">The ability of a transport protocol to change its retransmission timer continuously to accommodate variations in internet delay. TCP is the best known protocol that uses adaptive retransmission.</answer>
+        <answer data-type="text">An early conceptual model devised by the International Organization for Standardization to specify how a set of protocols work together to provide communication services. The 7-layer model did not include an internet protocol layer.</answer>
+        <answer data-type="text">The method of interaction used when two application programs communicate over a network. A server application waits at a known address, and a client application contacts the server.</answer>
+      </answers>
+    </question>
+    <question id="21" text="address" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">A unique binary value assigned to a computer; network hardware and software uses the address in a packet to forward the packet to its destination.</answer>
+        <answer data-type="text">A broadcast to all computers on a remote network achieved by sending a single copy of the packet to the remote network and broadcasting the packet when it arrives. TCP/IP supports directed broadcast.</answer>
+        <answer data-type="text">A wireless networking technology used for short distances (e.g., to connect a wireless mouse to a computer).</answer>
+        <answer data-type="text">The time a network interface waits before it can access a shared network.</answer>
+      </answers>
+    </question>
+    <question id="22" text="address mask" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">A 32-bit value that specifies how an IP address is divided into network and host portions. Address bits not covered by the mask correspond to the host portion. Also called a subnet mask.</answer>
+        <answer data-type="text">A computer program that forms the central part of an active World Wide Web document. An applet is written in a programming language such as Java.</answer>
+        <answer data-type="text">A network architecture in which all computers attach to a shared medium, often a single cable. The bus architecture is mainly used for Local Area Networks.</answer>
+        <answer data-type="text">The mapping from one address to another, usually from a high-level address (e.g., an IP address) to a low-level address (e.g., an Ethernet address).</answer>
+      </answers>
+    </question>
+    <question id="23" text="address resolution" category="Glosor">
+      <answers>
+        <answer data-type="text">A special address that causes the underlying system to deliver a copy of a packet to all computers on a network.</answer>
+        <answer data-type="text">A computer program, associated with a World Wide Web document, that can generate a document on demand. When a browser requests a dynamic document, the server runs the program and sends the output to the browser. A dynamic document program can generate different output for each request. See active document, static document, and URL.</answer>
+        <answer data-type="text" correct="correct">The mapping from one address to another, usually from a high-level address (e.g., an IP address) to a low-level address (e.g., an Ethernet address).</answer>
+        <answer data-type="text">A protocol that a computer uses when it first starts to obtain information needed to configure the protocol software. BOOTP uses IP and UDP to broadcast a request and receive a response before IP has been completely configured.</answer>
+      </answers>
+    </question>
+    <question id="24" text="ADSL (Asymmetric Digital Subscriber Line)" category="Glosor">
+      <answers>
+        <answer data-type="text">An OSPF term for a set of routers that use OSPF to exchange link-status information.</answer>
+        <answer data-type="text" correct="correct">A technology to deliver digital information at high-speed over the same twisted pair wiring used to deliver telephone service. The downstream bit rate is higher than the upstream rate because most subscribers retrieve much more information than they send. See HDSL.</answer>
+        <answer data-type="text">A form of network attack in which a site is flooded with so many packets (usually incorrect or fictitious requests) that the site cannot respond to legitimate requests.</answer>
+        <answer data-type="text">A standard for sending digital information over a cable modem system.</answer>
+      </answers>
+    </question>
+    <question id="25" text="anonymous FTP" category="Glosor">
+      <answers>
+        <answer data-type="text">A technology used to create dynamic World Wide Web documents. CGI programs run on the server computer.</answer>
+        <answer data-type="text">The ability of a transport protocol to change its retransmission timer continuously to accommodate variations in internet delay. TCP is the best known protocol that uses adaptive retransmission.</answer>
+        <answer data-type="text" correct="correct">Access to an FTP server using the login name anonymous and the password guest. Not all FTP servers permit anonymous FTP.</answer>
+        <answer data-type="text">The syntactic notation used to express a 32-bit IPv4 address. Each octet is written in decimal with a period separating octets.</answer>
+      </answers>
+    </question>
+    <question id="26" text="APCM (Adaptive Pulse Code Modulation)" category="Glosor">
+      <answers>
+        <answer data-type="text">A characteristic of a network system that allows a computer to send data to any other computer at any time. Connectionless networks are analogous to a postal system in which each letter carries the address of the recipient; letters can be sent at any time. See connection-oriented.</answer>
+        <answer data-type="text" correct="correct">A scheme for digital encoding of audio in which successive values represent differences in the sampled wave instead of absolute values. See PCM.</answer>
+        <answer data-type="text">An algorithm that routers use to compute optimal routes to each destination. Periodically, each router receives routing information from neighboring routers. A router replaces a current route if a lower cost route becomes available. See link-status and SPF.</answer>
+        <answer data-type="text">The IEEE standard for Logical Link Control (See LLC and SNAP.), Ethernet, Token Ring and Wi-Fi wireless network.</answer>
+      </answers>
+    </question>
+    <question id="27" text="API (Application Program Interface)" category="Glosor">
+      <answers>
+        <answer data-type="text">A subtree of the computer naming hierarchy used in the Internet. For example, commercial organizations have names registered under the .com domain.</answer>
+        <answer data-type="text" correct="correct">A generic reference to a set of procedures that an application" program uses to access a service. A network API consists of procedures a program uses to access protocol software; the most well-known is the socket API.</answer>
+        <answer data-type="text">A term used for the original Ethernet because the standard was developed jointly by the three companies.</answer>
+        <answer data-type="text">A form of network attack in which a site is flooded with so many packets (usually incorrect or fictitious requests) that the site cannot respond to legitimate requests.</answer>
+      </answers>
+    </question>
+    <question id="28" text="applet" category="Glosor">
+      <answers>
+        <answer data-type="text">A high-speed multiplexing technology used with optical fiber.</answer>
+        <answer data-type="text">The technical name for fast Ethernet (100 Mbps).</answer>
+        <answer data-type="text" correct="correct">A computer program that forms the central part of an active World Wide Web document. An applet is written in a programming language such as Java.</answer>
+        <answer data-type="text">A computer program that accesses and displays information from the World Wide Web. A browser contains multiple application programs, and uses an object's name to determine which application should be used to access the object. See URL.</answer>
+      </answers>
+    </question>
+    <question id="29" text="AppleTalk" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">An old set of network protocols developed and sold by Apple Computer Corporation.</answer>
+        <answer data-type="text">An early conceptual model devised by the International Organization for Standardization to specify how a set of protocols work together to provide communication services. The 7-layer model did not include an internet protocol layer.</answer>
+        <answer data-type="text">A term used for the original Ethernet because the standard was developed jointly by the three companies.</answer>
+        <answer data-type="text">A modem that uses the dialup telephone network to communicate. Dialup modems use an audible tone as a carrier wave, and must be able to dial or answer a telephone call.</answer>
+      </answers>
+    </question>
+    <question id="30" text="application-layer gateway" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">A program that acts as a proxy to provide service indirectly. Application gateways are used in Internet firewalls to allow employees in an organization to access the Internet according to the organization's security policy.</answer>
+        <answer data-type="text">An Ethernet interface that can automatically sense the maximum speed of a connected device and choose to operate at 10 Mbps or 100 Mbps.</answer>
+        <answer data-type="text">A protocol for propagating multicast routing information.</answer>
+        <answer data-type="text">A form of NAT proposed by cable TV companies.</answer>
+      </answers>
+    </question>
+    <question id="31" text="area" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">An OSPF term for a set of routers that use OSPF to exchange link-status information.</answer>
+        <answer data-type="text">The former name of the ITU.</answer>
+        <answer data-type="text">The type of connector used with thin wire Ethernet.</answer>
+        <answer data-type="text">The mechanism that a 10/100 Ethernet port uses to detect the maximum speed of a computer.</answer>
+      </answers>
+    </question>
+    <question id="32" text="ARP (Address Resolution Protocol)" category="Glosor">
+      <answers>
+        <answer data-type="text">The mechanism that a 10/100 Ethernet port uses to detect the maximum speed of a computer.</answer>
+        <answer data-type="text">The algorithm bridges use to avoid a loop.</answer>
+        <answer data-type="text">A technique used by TCP and other transport protocols to reliably start or. gracefully terminate communication.</answer>
+        <answer data-type="text" correct="correct">The protocol a computer uses to map an IP address into a hardware address. A computer that invokes ARP broadcasts a request to which the target computer re- plies.</answer>
+      </answers>
+    </question>
+    <question id="33" text="AS (Autonomous System)" category="Glosor">
+      <answers>
+        <answer data-type="text">The former name of the ITU.</answer>
+        <answer data-type="text" correct="correct">A group of networks and routers under one administrative authority. For routing purposes, the Internet is divided into Autonomous Systems.</answer>
+        <answer data-type="text">An electronic device that connects a leased digital data circuit to computer equipment. The DSU/CSU translates between the digital format used by the telephone companies and the format used by the computer industry. See modem.</answer>
+        <answer data-type="text">A protocol that computers use to obtain configuration information. DHCP allows a computer to be assigned an IP address without requiring a manager to configure information about the computer in a server's database.</answer>
+      </answers>
+    </question>
+    <question id="34" text="ASCII (American Standard Code for Information Interchange)" category="Glosor">
+      <answers>
+        <answer data-type="text">The syntactic notation used to express a 32-bit IPv4 address. Each octet is written in decimal with a period separating octets.</answer>
+        <answer data-type="text" correct="correct">A standard that assigns unique values to 128 characters, including upper and lower case letters, digits, punctuation, and control characters. Details can be found in Appendix 2. See EBCDIC.</answer>
+        <answer data-type="text">A computer program that accesses and displays information from the World Wide Web. A browser contains multiple application programs, and uses an object's name to determine which application should be used to access the object. See URL.</answer>
+        <answer data-type="text">A form of delivery in which one copy of a packet is delivered to each computer on a network. See cluster, multicast, and unicast.</answer>
+      </answers>
+    </question>
+    <question id="35" text="ASN.1 (Abstract Syntax Notation. 1)" category="Glosor">
+      <answers>
+        <answer data-type="text">An Ethernet interface that can automatically sense the maximum speed of a connected device and choose to operate at 10 Mbps or 100 Mbps.</answer>
+        <answer data-type="text">The former name of the ITU.</answer>
+        <answer data-type="text">A technology used to create dynamic World Wide Web documents. CGI programs run on the server computer.</answer>
+        <answer data-type="text" correct="correct">A standard for representing data. The SNMP protocol uses ASN.l to represent object names.</answer>
+      </answers>
+    </question>
+    <question id="36" text="ASP (Active Server Pages)" category="Glosor">
+      <answers>
+        <answer data-type="text">A form of NAT proposed by cable TV companies.</answer>
+        <answer data-type="text">A CSMA network that has the capability to detect errors that result when multiple stations transmit simultaneously. See collision.</answer>
+        <answer data-type="text">A measure of the capacity of a transmission system. Bandwidth is measured in Hertz.</answer>
+        <answer data-type="text" correct="correct">A dynamic Web page technology closely linked to Microsoft's Web server. The server interprets Visual Basic code that is embedded in each page whenever the page is requested.</answer>
+      </answers>
+    </question>
+    <question id="37" text="asynchronous" category="Glosor">
+      <answers>
+        <answer data-type="text">One of two basic algorithms used by routing protocols. The alternative to distance vector routing is link-status routing.</answer>
+        <answer data-type="text">Characteristic of the original IP addressing scheme in which unicast addresses were divided into three primary classes. The class of an address determines the division between the prefix and suffix in the address. See classless addressing.</answer>
+        <answer data-type="text">A condition in which,.each packet sent through a network experiences excessive delay because the network is overrun with packets. Unless protocol software detects congestion and reduces the rate at which packets are sent, a network can experience congestion collapse.</answer>
+        <answer data-type="text" correct="correct">Characteristic of any communication system in which the sender can transmit data without warning. The receiver must be prepared to accept data at any time. See synchronous.</answer>
+      </answers>
+    </question>
+    <question id="38" text="ATM (Asynchronous Transfer Mode)" category="Glosor">
+      <answers>
+        <answer data-type="text">Characteristic of a network in which each transmission is independent. The alternative to connectionless networking is connection-oriented networking. See connection-oriented.</answer>
+        <answer data-type="text" correct="correct">A- connection-oriented technology defined by the ITU and the ATM Forum. At the lowest level, ATM sends data in fixed cells with 48 octets of data per cell.</answer>
+        <answer data-type="text">The term used to describe a networking technology that uses a large part of the electromagnetic spectrum to achieve higher throughput rates. Usually broadband systems employ frequency division multiplexing to allow multiple, independent communications to proceed simultaneously over a single underlying medium. See baseband technology.</answer>
+        <answer data-type="text">A generic reference to a set of procedures that an application" program uses to access a service. A network API consists of procedures a program uses to access protocol software; the most well-known is the socket API.</answer>
+      </answers>
+    </question>
+    <question id="39" text="AUI (Attachment Unit Interface)" category="Glosor">
+      <answers>
+        <answer data-type="text">The method of interaction used when two application programs communicate over a network. A server application waits at a known address, and a client application contacts the server.</answer>
+        <answer data-type="text" correct="correct">The type of connector used with the original, thick wire Ethernet.</answer>
+        <answer data-type="text">The syntactic notation used to express an IPv6 address.</answer>
+        <answer data-type="text">An algorithm that routers use to compute optimal routes to each destination. Periodically, each router receives routing information from neighboring routers. A router replaces a current route if a lower cost route becomes available. See link-status and SPF.</answer>
+      </answers>
+    </question>
+    <question id="40" text="autonegotiation" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">The mechanism that a 10/100 Ethernet port uses to detect the maximum speed of a computer.</answer>
+        <answer data-type="text">A term used for the original Ethernet because the standard was developed jointly by the three companies.</answer>
+        <answer data-type="text">A condition in which,.each packet sent through a network experiences excessive delay because the network is overrun with packets. Unless protocol software detects congestion and reduces the rate at which packets are sent, a network can experience congestion collapse.</answer>
+        <answer data-type="text">A telephone company term for communication equipment such as a modem. See DTE. Note: the acronym is also used for Distributed Computing Environment.</answer>
+      </answers>
+    </question>
+    <question id="41" text="AWT (Abstract Window Toolkit)" category="Glosor">
+      <answers>
+        <answer data-type="text">A message used for testing and debugging. An ICMP echo reply is returned in answer to an ICMP echo request message. The ping program receives echo replies. See echo request.</answer>
+        <answer data-type="text" correct="correct">A library of graphics procedures used with the Java language to manipulate windows on a bit-mapped display. At various times, the designers have expanded AWT to Alternative Window Toolkit and Applet Widget Toolkit.</answer>
+        <answer data-type="text">An IEEE standard for a security mechanism used with wireless networks.</answer>
+        <answer data-type="text">A standard that assigns unique values to 128 characters, including upper and lower case letters, digits, punctuation, and control characters. Details can be found in Appendix 2. See EBCDIC.</answer>
+      </answers>
+    </question>
+    <question id="42" text="B channel (Bearer channel)" category="Glosor">
+      <answers>
+        <answer data-type="text">Characteristic of a network in which a connection must be established before data can be sent, and terminated after all data has been transferred. The alternative to connection-oriented networking is connectionless networking. See connectionless.</answer>
+        <answer data-type="text">A type of service offered by ATM.</answer>
+        <answer data-type="text" correct="correct">The term telephone companies use to denote a channel configured to handle a voice telephone circuit. ISDN includes B channel service. See D channel.</answer>
+        <answer data-type="text">A protocol technique in which data is changed by inserting additional bytes to distinguish between data values and packet control values (i.e. headers).</answer>
+      </answers>
+    </question>
+    <question id="43" text="bandwidth" category="Glosor">
+      <answers>
+        <answer data-type="text">A standard for representing data. The SNMP protocol uses ASN.l to represent object names.</answer>
+        <answer data-type="text">The mapping from one address to another, usually from a high-level address (e.g., an IP address) to a low-level address (e.g., an Ethernet address).</answer>
+        <answer data-type="text">A protocol that computers use to obtain configuration information. DHCP allows a computer to be assigned an IP address without requiring a manager to configure information about the computer in a server's database.</answer>
+        <answer data-type="text" correct="correct">A measure of the capacity of a transmission system. Bandwidth is measured in Hertz.</answer>
+      </answers>
+    </question>
+    <question id="44" text="base header" category="Glosor">
+      <answers>
+        <answer data-type="text">Characteristic of the original IP addressing scheme in which unicast addresses were divided into three primary classes. The class of an address determines the division between the prefix and suffix in the address. See classless addressing.</answer>
+        <answer data-type="text">A type of service offered by ATM.</answer>
+        <answer data-type="text" correct="correct">The required header found at the beginning of an IPv6 datagram.</answer>
+        <answer data-type="text">A form of addressing used by IPv6 in which a set of computers is assigned one address; a datagram sent to the address can be delivered to any one of the computers in the set. See broadcast, multicast, and unicast.</answer>
+      </answers>
+    </question>
+    <question id="45" text="baseband technology" category="Glosor">
+      <answers>
+        <answer data-type="text">The type of connector used with thin wire Ethernet.</answer>
+        <answer data-type="text">The former name of the ITU.</answer>
+        <answer data-type="text">The designations that telephone companies use for the speeds of popular point-to- point digital circuits. DS-0 denotes a digital voice circuit of 64 Kbps; DS-1 denotes 1.544 Mbps; and DS-3 denotes 44.736 Mbps. See Tl, T3.</answer>
+        <answer data-type="text" correct="correct">The term used to describe a networking technology that uses a small part of the electromagnetic spectrum and sends only one signal at a time over the underlying medium. Most LANs use baseband signaling (e.g., Ethernet and FDDI). See broad- band technology.</answer>
+      </answers>
+    </question>
+    <question id="46" text="baud" category="Glosor">
+      <answers>
+        <answer data-type="text">A measure of the capacity of a transmission system. Bandwidth is measured in Hertz.</answer>
+        <answer data-type="text">The mechanism that a 10/100 Ethernet port uses to detect the maximum speed of a computer.</answer>
+        <answer data-type="text" correct="correct">The number of changes in a signal per second. Each change can encode one or more bits of information.</answer>
+        <answer data-type="text">A program that acts as a proxy to provide service indirectly. Application gateways are used in Internet firewalls to allow employees in an organization to access the Internet according to the organization's security policy.</answer>
+      </answers>
+    </question>
+    <question id="47" text="best-effort" category="Glosor">
+      <answers>
+        <answer data-type="text">An address in a packet that specifies the ultimate destination to which the packet is sent. In a hardware frame, the destination address must be a hardware address. In an IP datagram, the destination address must be an IP address.</answer>
+        <answer data-type="text">An event that occurs on a CSMA/CD network when two stations attempt to transmit simultaneously. The signals interfere with each other, forcing the two stations to back off and try again.</answer>
+        <answer data-type="text">A wiring scheme often used with asynchronous serial connections between a pair of computers. The first wire is used to transmit data from one computer to another, the second wire is used to transmit data in the reverse direction, and the third wire is a common electrical ground.</answer>
+        <answer data-type="text" correct="correct">Characteristic of any network system that makes a best attempt to deliver data, but does hot guarantee delivery. Many networks use the best-effort approach.</answer>
+      </answers>
+    </question>
+    <question id="48" text="BGP (Border Gateway Protocol)" category="Glosor">
+      <answers>
+        <answer data-type="text">A message used for testing and debugging. An ICMP echo reply is returned in answer to an ICMP echo request message. The ping program receives echo replies. See echo request.</answer>
+        <answer data-type="text">Characteristic of the current IP addressing scheme in which a 32-bit address mask is used to determine the division between the prefix and suffix of an IP address. See classful addressing.</answer>
+        <answer data-type="text" correct="correct">The main Exterior Gateway Protocol used in the Internet, BGP provides routing among Autonomous Systems.</answer>
+        <answer data-type="text">A modem used to send digital information over the coaxial cables used for cable television,</answer>
+      </answers>
+    </question>
+    <question id="49" text="bidding" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">A technique protocols use for dynamic address configuration. A computer selects an address at random, and broadcasts a message to determine whether the address is in use. Alternative schemes use servers to manage addresses. See DHCP.</answer>
+        <answer data-type="text">An alternative to packet switching in which the network hardware forms a circuit between two communicating endpoints. The original telephone network used circuit switching.</answer>
+        <answer data-type="text">When two programs communicate over a network, a client is the one that initiates communication, while the program that waits to be contacted is a server. A given program can act as a server for one service and a client for another.</answer>
+        <answer data-type="text">The main Exterior Gateway Protocol used in the Internet, BGP provides routing among Autonomous Systems.</answer>
+      </answers>
+    </question>
+    <question id="50" text="binary exponential backoff" category="Glosor">
+      <answers>
+        <answer data-type="text">The term telephone companies use to denote a channel configured to handle data. ISDN includes D channel service. See B channel.</answer>
+        <answer data-type="text" correct="correct">The scheme used by computers on an Ethernet following a collision. Each computer doubles the time it waits after each successive collision.</answer>
+        <answer data-type="text">A generic reference to any of the services such as ADSL and HDSL that supply broadband data rates over telephone lines.</answer>
+        <answer data-type="text">A telephone company term for the boundary between communication facilities owned by the telephone company and facilities owned by a private organization, See NIU and NTI.</answer>
+      </answers>
+    </question>
+    <question id="51" text="bind" category="Glosor">
+      <answers>
+        <answer data-type="text">The ability of a transport protocol to change its retransmission timer continuously to accommodate variations in internet delay. TCP is the best known protocol that uses adaptive retransmission.</answer>
+        <answer data-type="text">A telephone company term for equipment such as a computer that connects to a network. See DCE.</answer>
+        <answer data-type="text">An object-oriented middleware technology.</answer>
+        <answer data-type="text" correct="correct">The name of a popular program that implements Domain Name Server functionality.</answer>
+      </answers>
+    </question>
+    <question id="52" text="bluetooth" category="Glosor">
+      <answers>
+        <answer data-type="text">The term used to describe a networking technology that uses a small part of the electromagnetic spectrum and sends only one signal at a time over the underlying medium. Most LANs use baseband signaling (e.g., Ethernet and FDDI). See broad- band technology.</answer>
+        <answer data-type="text">A 32-bit value that specifies how an IP address is divided into network and host portions. Address bits not covered by the mask correspond to the host portion. Also called a subnet mask.</answer>
+        <answer data-type="text">A dynamic Web page technology that allows items in a page to come from a conventional database. The server interprets SQL queries embedded in each page whenever the page is requested.</answer>
+        <answer data-type="text" correct="correct">A wireless networking technology used for short distances (e.g., to connect a wireless mouse to a computer).</answer>
+      </answers>
+    </question>
+    <question id="53" text="BNC connector" category="Glosor">
+      <answers>
+        <answer data-type="text">A dynamic Web page technology closely linked to Microsoft's Web server. The server interprets Visual Basic code that is embedded in each page whenever the page is requested.</answer>
+        <answer data-type="text" correct="correct">The type of connector used with thin wire Ethernet.</answer>
+        <answer data-type="text">The rate at which data can be transmitted across a network. The number of bits per second may differ from the baud rate because more than one bit can be encoded in a single baud. See Gbps, Kbps, and Mbps.</answer>
+        <answer data-type="text">A standard that assigns unique values to 128 characters, including upper and lower case letters, digits, punctuation, and control characters. Details can be found in Appendix 2. See EBCDIC.</answer>
+      </answers>
+    </question>
+    <question id="54" text="BOOTP (BOOTstrap Protocol)" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">A protocol that a computer uses when it first starts to obtain information needed to configure the protocol software. BOOTP uses IP and UDP to broadcast a request and receive a response before IP has been completely configured.</answer>
+        <answer data-type="text">An IEEE standard for a security mechanism used with wireless networks.</answer>
+        <answer data-type="text">A library of graphics procedures used with the Java language to manipulate windows on a bit-mapped display. At various times, the designers have expanded AWT to Alternative Window Toolkit and Applet Widget Toolkit.</answer>
+        <answer data-type="text">A World Wide Web document that is a computer program. After downloading an active document, the browser runs the program on the user's computer. The active document can change the display continuously. See dynamic document, static document, and URL.</answer>
+      </answers>
+    </question>
+    <question id="55" text="bps (bits per second)" category="Glosor">
+      <answers>
+        <answer data-type="text">An Internet service that allows multiple users to communicate by entering text that is displayed on the screens of other participants.</answer>
+        <answer data-type="text">The touch tone encoding used with telephones.</answer>
+        <answer data-type="text" correct="correct">The rate at which data can be transmitted across a network. The number of bits per second may differ from the baud rate because more than one bit can be encoded in a single baud. See Gbps, Kbps, and Mbps.</answer>
+        <answer data-type="text">A characteristic of a network system that allows a computer to send data to any other computer at any time. Connectionless networks are analogous to a postal system in which each letter carries the address of the recipient; letters can be sent at any time. See connection-oriented.</answer>
+      </answers>
+    </question>
+    <question id="56" text="BRI (Basic Rate Interface)" category="Glosor">
+      <answers>
+        <answer data-type="text">A type of service offered by ATM.</answer>
+        <answer data-type="text" correct="correct">The ISDN service that provides two B channels plus a data channel. BRI is suitable for small businesses. See PRI.</answer>
+        <answer data-type="text">A message used for testing and debugging. The ping program sends ICMP echo request messages to elicit echo replies. See echo reply.</answer>
+        <answer data-type="text">A standard that assigns unique values to 128 characters, including upper and lower case letters, digits, punctuation, and control characters. Details can be found in Appendix 2. See EBCDIC.</answer>
+      </answers>
+    </question>
+    <question id="57" text="bridge" category="Glosor">
+      <answers>
+        <answer data-type="text">A hardware device that connects two LAN segments and copies frames from one to the other. Most bridge hardware uses physical addresses to learn which computers attach to which segments so the bridge can avoid copying frames unless needed.</answer>
+        <answer data-type="text">Characteristic of a network in which a connection must be established before data can be sent, and terminated after all data has been transferred. The alternative to connection-oriented networking is connectionless networking. Note: the acronym CO is also used to refer to a telephone company Central Office. See connectionless.</answer>
+        <answer data-type="text" correct="correct">A hardware device that connects two LAN segments and copies frames from one to the other. Most bridge hardware uses physical addresses to learn which computers attach to which segments so the bridge can avoid copying frames unless needed.</answer>
+        <answer data-type="text">The name of a popular program that implements Domain Name Server functionality.</answer>
+      </answers>
+    </question>
+    <question id="58" text="broadband technology" category="Glosor">
+      <answers>
+        <answer data-type="text">Characteristic of a network in which a connection must be established before data can be sent, and terminated after all data has been transferred. The alternative to connection-oriented networking is connectionless networking. See connectionless.</answer>
+        <answer data-type="text">A standard for representing data. The SNMP protocol uses ASN.l to represent object names.</answer>
+        <answer data-type="text">An IEEE standard for a security mechanism used with wireless networks.</answer>
+        <answer data-type="text" correct="correct">The term used to describe a networking technology that uses a large part of the electromagnetic spectrum to achieve higher throughput rates. Usually broadband systems employ frequency division multiplexing to allow multiple, independent communications to proceed simultaneously over a single underlying medium. See baseband technology.</answer>
+      </answers>
+    </question>
+    <question id="59" text="broadcast" category="Glosor">
+      <answers>
+        <answer data-type="text">An Internet service that allows multiple users to communicate by entering text that is displayed on the screens of other participants.</answer>
+        <answer data-type="text" correct="correct">A form of delivery in which one copy of a packet is delivered to each computer on a network. See cluster, multicast, and unicast.</answer>
+        <answer data-type="text">The automated system used to translate computer names into equivalent IP addresses. A DNS server responds to a query by looking up the name and returning the address. See domain.</answer>
+        <answer data-type="text">A value used to verify that data is not corrupted during transmission. The sender computes a checksum by adding the binary values of the data, and transmits the result in a packet with the data. A receiver computes a checksum over the data received, and compares the value to the checksum in the packet. See CRC.</answer>
+      </answers>
+    </question>
+    <question id="60" text="broadcast address" category="Glosor">
+      <answers>
+        <answer data-type="text">A wiring scheme often used with asynchronous serial connections between a pair of computers. One pair of wires is used to carry data in one direction and the other pair is used to carry data in the reverse direction. A 4-wire circuit is usually used to span longer distances than a 3-wire circuit.</answer>
+        <answer data-type="text">A message used for testing and debugging. The ping program sends ICMP echo request messages to elicit echo replies. See echo reply.</answer>
+        <answer data-type="text">The path of data transmitted from a satellite to an earth station. See uplink.</answer>
+        <answer data-type="text" correct="correct">A special address that causes the underlying system to deliver a copy of a packet to all computers on a network.</answer>
+      </answers>
+    </question>
+    <question id="61" text="broadcast satellite" category="Glosor">
+      <answers>
+        <answer data-type="text">A technique protocols use for dynamic address configuration. A computer selects an address at random, and broadcasts a message to determine whether the address is in use. Alternative schemes use servers to manage addresses. See DHCP.</answer>
+        <answer data-type="text">An OSPF term for a set of routers that use OSPF to exchange link-status information.</answer>
+        <answer data-type="text" correct="correct">A network system in which a satellite broadcasts all packets and allows individual receivers to discard packets intended for other recipients.</answer>
+        <answer data-type="text">The type of connector used with the original, thick wire Ethernet.</answer>
+      </answers>
+    </question>
+    <question id="62" text="browser" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">A computer program that accesses and displays information from the World Wide Web. A browser contains multiple application programs, and uses an object's name to determine which application should be used to access the object. See URL.</answer>
+        <answer data-type="text">A- connection-oriented technology defined by the ITU and the ATM Forum. At the lowest level, ATM sends data in fixed cells with 48 octets of data per cell.</answer>
+        <answer data-type="text">The main Exterior Gateway Protocol used in the Internet, BGP provides routing among Autonomous Systems.</answer>
+        <answer data-type="text">A standard for sending digital information over a cable modem system.</answer>
+      </answers>
+    </question>
+    <question id="63" text="burst" category="Glosor">
+      <answers>
+        <answer data-type="text">The technical name for 10 Mbps twisted pair Ethernet.</answer>
+        <answer data-type="text">A generic reference to any of the services such as ADSL and HDSL that supply broadband data rates over telephone lines.</answer>
+        <answer data-type="text" correct="correct">A set of packets transmitted back to back. Packet traffic tends to be bursty.</answer>
+        <answer data-type="text">The former name of the ITU.</answer>
+      </answers>
+    </question>
+    <question id="64" text="bus topology" category="Glosor">
+      <answers>
+        <answer data-type="text">A subtree of the computer naming hierarchy used in the Internet. For example, commercial organizations have names registered under the .com domain.</answer>
+        <answer data-type="text">Data encrypted in such a way that the receiver can verify the identity of the sender.</answer>
+        <answer data-type="text">A form of addressing used by IPv6 in which a set of computers is assigned one address; a datagram sent to the address can be delivered to any one of the computers in the set. See broadcast, multicast, and unicast.</answer>
+        <answer data-type="text" correct="correct">A network architecture in which all computers attach to a shared medium, often a single cable. The bus architecture is mainly used for Local Area Networks.</answer>
+      </answers>
+    </question>
+    <question id="65" text="byte stuffing" category="Glosor">
+      <answers>
+        <answer data-type="text">The IP addressing and routing scheme that replaced classful addressing. CIDR uses a 32-bit address mask to denote the boundary between the prefix and suffix of an IP address.</answer>
+        <answer data-type="text">A computer program that accesses and displays information from the World Wide Web. A browser contains multiple application programs, and uses an object's name to determine which application should be used to access the object. See URL.</answer>
+        <answer data-type="text" correct="correct">A protocol technique in which data is changed by inserting additional bytes to distinguish between data values and packet control values (i.e. headers).</answer>
+        <answer data-type="text">Characteristic of a network in which a connection must be established before data can be sent, and terminated after all data has been transferred. The alternative to connection-oriented networking is connectionless networking. See connectionless.</answer>
+      </answers>
+    </question>
+    <question id="66" text="cable modem" category="Glosor">
+      <answers>
+        <answer data-type="text">Data encrypted in such a way that the receiver can verify the identity of the sender.</answer>
+        <answer data-type="text">The scheme used by computers on an Ethernet following a collision. Each computer doubles the time it waits after each successive collision.</answer>
+        <answer data-type="text" correct="correct">A modem used to send digital information over the coaxial cables used for cable television,</answer>
+        <answer data-type="text">A form of delivery in which one copy of a packet is delivered to each computer on a network. See cluster, multicast, and unicast.</answer>
+      </answers>
+    </question>
+    <question id="67" text="carrier signal" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">The basic signal transmitted across a network. A carrier is modulated (i.e., changed) to encode data.</answer>
+        <answer data-type="text">The service used by ATM to transfer an audio or video stream. Data is sent at a steady rate.</answer>
+        <answer data-type="text">A security mechanism that specifies users or computer programs that can access a particular object.</answer>
+        <answer data-type="text">A protocol that computers use to obtain configuration information. DHCP allows a computer to be assigned an IP address without requiring a manager to configure information about the computer in a server's database.</answer>
+      </answers>
+    </question>
+    <question id="68" text="CAT (Cable Address. Translation)" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">A form of NAT proposed by cable TV companies.</answer>
+        <answer data-type="text">The term telephone companies use to denote a channel configured to handle data. ISDN includes D channel service. See B channel.</answer>
+        <answer data-type="text">An algorithm for computing shortest paths in a graph. Routing protocols use Dijkstra's algorithm to compute optimal routes.</answer>
+        <answer data-type="text">A technology used to create dynamic World Wide Web documents. CGI programs run on the server computer.</answer>
+      </answers>
+    </question>
+    <question id="69" text="category 5 cable" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">A type of wiring needed for twisted pair Ethernet. The. electrical characteristics of category 5 make it less susceptible to electrical interference than lower categories.</answer>
+        <answer data-type="text">The name of a popular program that implements Domain Name Server functionality.</answer>
+        <answer data-type="text">A high-speed multiplexing technology used with optical fiber.</answer>
+        <answer data-type="text">A hardware device that connects two LAN segments and copies frames from one to the other. Most bridge hardware uses physical addresses to learn which computers attach to which segments so the bridge can avoid copying frames unless needed.</answer>
+      </answers>
+    </question>
+    <question id="70" text="CATV (Community Antenna Television)" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">The name applied to cable television systems. CATV technology uses frequency division multiplexing to propagate multiple television channels over a single cable simultaneously. See cable modem.</answer>
+        <answer data-type="text">Access to an FTP server using the login name anonymous and the password guest. Not all FTP servers permit anonymous FTP.</answer>
+        <answer data-type="text">The syntactic notation used to express a 32-bit IPv4 address. Each octet is written in decimal with a period separating octets.</answer>
+        <answer data-type="text">The scheme used by computers on an Ethernet following a collision. Each computer doubles the time it waits after each successive collision.</answer>
+      </answers>
+    </question>
+    <question id="71" text="CBR (Constant Bit Rate)" category="Glosor">
+      <answers>
+        <answer data-type="text">A computer program that accesses and displays information from the World Wide Web. A browser contains multiple application programs, and uses an object's name to determine which application should be used to access the object. See URL.</answer>
+        <answer data-type="text" correct="correct">The service used by ATM to transfer an audio or video stream. Data is sent at a steady rate.</answer>
+        <answer data-type="text">A measure of the capacity of a transmission system. Bandwidth is measured in Hertz.</answer>
+        <answer data-type="text">A measure of a network that specifies the amount of data that is present in the network between the sender and receiver.</answer>
+      </answers>
+    </question>
+    <question id="72" text="CBT (Core Based Trees)" category="Glosor">
+      <answers>
+        <answer data-type="text">See DOS.</answer>
+        <answer data-type="text">A unique binary value assigned to a computer; network hardware and software uses the address in a packet to forward the packet to its destination.</answer>
+        <answer data-type="text">The type of connector used with the original, thick wire Ethernet.</answer>
+        <answer data-type="text" correct="correct">A protocol for propagating multicast routing information.</answer>
+      </answers>
+    </question>
+    <question id="73" text="CCITT (Consultative Committee on International Telephone and Telegraph)" category="Glosor">
+      <answers>
+        <answer data-type="text">A 32-bit value that specifies how an IP address is divided into network and host portions. Address bits not covered by the mask correspond to the host portion. Also called a subnet mask.</answer>
+        <answer data-type="text">An algorithm for computing shortest paths in a graph. Routing protocols use Dijkstra's algorithm to compute optimal routes.</answer>
+        <answer data-type="text">The service used by ATM to transfer an audio or video stream. Data is sent at a steady rate.</answer>
+        <answer data-type="text" correct="correct">The former name of the ITU.</answer>
+      </answers>
+    </question>
+    <question id="74" text="cell" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">A small, fixed size packet (e.g., ATM networks send 48-octet cells).</answer>
+        <answer data-type="text">The technical name for gigabit Ethernet.</answer>
+        <answer data-type="text">A CSMA network that has the capability to detect errors that result when multiple stations transmit simultaneously. See collision.</answer>
+        <answer data-type="text">A 32-bit value that specifies how an IP address is divided into network and host portions. Address bits not covered by the mask correspond to the host portion. Also called a subnet mask.</answer>
+      </answers>
+    </question>
+    <question id="75" text="cell tax" category="Glosor">
+      <answers>
+        <answer data-type="text">A type of cable used for computer networks as. well as for. cable television. The name arises from the structure in which a metal shield surrounds a center wire. The shield protects the signal on the inner wire- from electrical interference.</answer>
+        <answer data-type="text" correct="correct">A pejorative term used to refer to the 10% header overhead introduced by ATM.</answer>
+        <answer data-type="text">The algorithm bridges use to avoid a loop.</answer>
+        <answer data-type="text">A conceptual model that explains how TCP/IP Internet protocols are designed.</answer>
+      </answers>
+    </question>
+    <question id="76" text="CGI (Common Gateway Interface)" category="Glosor">
+      <answers>
+        <answer data-type="text">The IP addressing and routing scheme that replaced classful addressing. CIDR uses a 32-bit address mask to denote the boundary between the prefix and suffix of an IP address.</answer>
+        <answer data-type="text" correct="correct">A technology used to create dynamic World Wide Web documents. CGI programs run on the server computer.</answer>
+        <answer data-type="text">The main Exterior Gateway Protocol used in the Internet, BGP provides routing among Autonomous Systems.</answer>
+        <answer data-type="text">A telephone company term for communication equipment such as a modem. See DTE. Note: the acronym is also used for Distributed Computing Environment.</answer>
+      </answers>
+    </question>
+    <question id="77" text="chat" category="Glosor">
+      <answers>
+        <answer data-type="text">A dynamic Web page technology closely linked to Microsoft's Web server. The server interprets Visual Basic code that is embedded in each page whenever the page is requested.</answer>
+        <answer data-type="text" correct="correct">An Internet service that allows multiple users to communicate by entering text that is displayed on the screens of other participants.</answer>
+        <answer data-type="text">The protocol a computer uses to map an IP address into a hardware address. A computer that invokes ARP broadcasts a request to which the target computer re- plies.</answer>
+        <answer data-type="text">The name applied to cable television systems. CATV technology uses frequency division multiplexing to propagate multiple television channels over a single cable simultaneously. See cable modem.</answer>
+      </answers>
+    </question>
+    <question id="78" text="checksum" category="Glosor">
+      <answers>
+        <answer data-type="text">A characteristic of a network system that allows a computer to send data to any other computer at any time. Connectionless networks are analogous to a postal system in which each letter carries the address of the recipient; letters can be sent at any time. See connection-oriented.</answer>
+        <answer data-type="text" correct="correct">A value used to verify that data is not corrupted during transmission. The sender computes a checksum by adding the binary values of the data, and transmits the result in a packet with the data. A receiver computes a checksum over the data received, and compares the value to the checksum in the packet. See CRC.</answer>
+        <answer data-type="text">A technique protocols use for dynamic address configuration. A computer selects an address at random, and broadcasts a message to determine whether the address is in use. Alternative schemes use servers to manage addresses. See DHCP.</answer>
+        <answer data-type="text">A library of graphics procedures used with the Java language to manipulate windows on a bit-mapped display. At various times, the designers have expanded AWT to Alternative Window Toolkit and Applet Widget Toolkit.</answer>
+      </answers>
+    </question>
+    <question id="79" text="CIDR (Classless Inter-Domain Routing)" category="Glosor">
+      <answers>
+        <answer data-type="text">A technology to deliver digital information at high-speed over the same twisted pair wiring used to deliver telephone service. The downstream bit rate is higher than the upstream rate because most subscribers retrieve much more information than they send. See HDSL.</answer>
+        <answer data-type="text">A form of network attack in which a site is flooded with so many packets (usually incorrect or fictitious requests) that the site cannot respond to legitimate requests.</answer>
+        <answer data-type="text">A technology used to create dynamic World Wide Web documents. CGI programs run on the server computer.</answer>
+        <answer data-type="text" correct="correct">The IP addressing and routing scheme that replaced classful addressing. CIDR uses a 32-bit address mask to denote the boundary between the prefix and suffix of an IP address.</answer>
+      </answers>
+    </question>
+    <question id="80" text="circuit switching" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">An alternative to packet switching in which the network hardware forms a circuit between two communicating endpoints. The original telephone network used circuit switching.</answer>
+        <answer data-type="text">The short value used when encrypting data to guarantee confidentiality. In some encryption schemes, the receiver must use the same key to decrypt the data. Other schemes use a pair of keys — one to encrypt and a different key to decrypt.</answer>
+        <answer data-type="text">An Internet service that allows multiple users to communicate by entering text that is displayed on the screens of other participants.</answer>
+        <answer data-type="text">The technical name for 10 Mbps twisted pair Ethernet.</answer>
+      </answers>
+    </question>
+    <question id="81" text="CL (Connectionless)" category="Glosor">
+      <answers>
+        <answer data-type="text">The multicast routing protocol used on the MBONE. DVMRP sends multicast locally, but uses IP-in-IP tunneling to transfer multicast datagrams among sites.</answer>
+        <answer data-type="text">Characteristic of any communication system in which the sender can transmit data without warning. The receiver must be prepared to accept data at any time. See synchronous.</answer>
+        <answer data-type="text">Characteristic of any communication system in which the sender can transmit data without warning. The receiver must be prepared to accept data at any time. See synchronous.</answer>
+        <answer data-type="text" correct="correct">Characteristic of a network in which each transmission is independent. The alternative to connectionless networking is connection-oriented networking. See connection-oriented.</answer>
+      </answers>
+    </question>
+    <question id="82" text="classful addressing" category="Glosor">
+      <answers>
+        <answer data-type="text">A high-speed multiplexing technology used with optical fiber.</answer>
+        <answer data-type="text" correct="correct">Characteristic of the original IP addressing scheme in which unicast addresses were divided into three primary classes. The class of an address determines the division between the prefix and suffix in the address. See classless addressing.</answer>
+        <answer data-type="text">A computer program that forms the central part of an active World Wide Web document. An applet is written in a programming language such as Java.</answer>
+        <answer data-type="text">One of two basic algorithms used by routing protocols. The alternative to distance vector routing is link-status routing.</answer>
+      </answers>
+    </question>
+    <question id="83" text="classless addressing" category="Glosor">
+      <answers>
+        <answer data-type="text">A high-speed multiplexing technology used with optical fiber.</answer>
+        <answer data-type="text">A dynamic Web page technology that allows items in a page to come from a conventional database. The server interprets SQL queries embedded in each page whenever the page is requested.</answer>
+        <answer data-type="text" correct="correct">Characteristic of the current IP addressing scheme in which a 32-bit address mask is used to determine the division between the prefix and suffix of an IP address. See classful addressing.</answer>
+        <answer data-type="text">The protocol a computer uses to map an IP address into a hardware address. A computer that invokes ARP broadcasts a request to which the target computer re- plies.</answer>
+      </answers>
+    </question>
+    <question id="84" text="client" category="Glosor">
+      <answers>
+        <answer data-type="text">The main Exterior Gateway Protocol used in the Internet, BGP provides routing among Autonomous Systems.</answer>
+        <answer data-type="text" correct="correct">When two programs communicate over a network, a client is the one that initiates communication, while the program that waits to be contacted is a server. A given program can act as a server for one service and a client for another.</answer>
+        <answer data-type="text">A computer program, associated with a World Wide Web document, that can generate a document on demand. When a browser requests a dynamic document, the server runs the program and sends the output to the browser. A dynamic document program can generate different output for each request. See active document, static document, and URL.</answer>
+        <answer data-type="text">A high-speed multiplexing technology used with optical fiber.</answer>
+      </answers>
+    </question>
+    <question id="85" text="client-server paradigm" category="Glosor">
+      <answers>
+        <answer data-type="text">The type of connector used with thin wire Ethernet.</answer>
+        <answer data-type="text">A technology used to create dynamic World Wide Web documents. CGI programs run on the server computer.</answer>
+        <answer data-type="text">The syntactic notation used to express an IPv6 address.</answer>
+        <answer data-type="text" correct="correct">The method of interaction used when two application programs communicate over a network. A server application waits at a known address, and a client application contacts the server.</answer>
+      </answers>
+    </question>
+    <question id="86" text="cluster" category="Glosor">
+      <answers>
+        <answer data-type="text">A form of addressing used by IPv6 in which a set of computers is assigned one address; a datagram sent to the address can be delivered to any one of the computers in the set. See broadcast, multicast, and unicast.</answer>
+        <answer data-type="text">A protocol that a computer uses when it first starts to obtain information needed to configure the protocol software. BOOTP uses IP and UDP to broadcast a request and receive a response before IP has been completely configured.</answer>
+        <answer data-type="text" correct="correct">A form of addressing used by IPv6 in which a set of computers is assigned one address; a datagram sent to the address can be delivered to any one of the computers in the set. See broadcast, multicast, and unicast.</answer>
+        <answer data-type="text">The path of data transmitted from a satellite to an earth station. See uplink.</answer>
+      </answers>
+    </question>
+    <question id="87" text="CMTS (Cable Modem Termination System)" category="Glosor">
+      <answers>
+        <answer data-type="text">A World Wide Web document that is a computer program. After downloading an active document, the browser runs the program on the user's computer. The active document can change the display continuously. See dynamic document, static document, and URL.</answer>
+        <answer data-type="text">A measure of a network that specifies the amount of data that is present in the network between the sender and receiver.</answer>
+        <answer data-type="text">A protocol technique in which data is changed by inserting additional bytes to distinguish between data values and packet control values (i.e. headers).</answer>
+        <answer data-type="text" correct="correct">A technology used to control digital cable modems and allow a user to select content.</answer>
+      </answers>
+    </question>
+    <question id="88" text="CO (Connection-Oriented)" category="Glosor">
+      <answers>
+        <answer data-type="text">A measure of a network that specifies the amount of data that is present in the network between the sender and receiver.</answer>
+        <answer data-type="text">An Ethernet interface that can automatically sense the maximum speed of a connected device and choose to operate at 10 Mbps or 100 Mbps.</answer>
+        <answer data-type="text">The main Exterior Gateway Protocol used in the Internet, BGP provides routing among Autonomous Systems.</answer>
+        <answer data-type="text" correct="correct">Characteristic of a network in which a connection must be established before data can be sent, and terminated after all data has been transferred. The alternative to connection-oriented networking is connectionless networking. Note: the acronym CO is also used to refer to a telephone company Central Office. See connectionless.</answer>
+      </answers>
+    </question>
+    <question id="89" text="coaxial cable" category="Glosor">
+      <answers>
+        <answer data-type="text">The algorithm bridges use to avoid a loop.</answer>
+        <answer data-type="text">A characteristic of a network system that allows a computer to send data to any other computer at any time. Connectionless networks are analogous to a postal system in which each letter carries the address of the recipient; letters can be sent at any time. See connection-oriented.</answer>
+        <answer data-type="text" correct="correct">A type of cable used for computer networks as. well as for. cable television. The name arises from the structure in which a metal shield surrounds a center wire. The shield protects the signal on the inner wire- from electrical interference.</answer>
+        <answer data-type="text">A popular application in which a user or computer sends a memo to one or more recipients.</answer>
+      </answers>
+    </question>
+    <question id="90" text="ColdFusion" category="Glosor">
+      <answers>
+        <answer data-type="text">A condition in which,.each packet sent through a network experiences excessive delay because the network is overrun with packets. Unless protocol software detects congestion and reduces the rate at which packets are sent, a network can experience congestion collapse.</answer>
+        <answer data-type="text">A- connection-oriented technology defined by the ITU and the ATM Forum. At the lowest level, ATM sends data in fixed cells with 48 octets of data per cell.</answer>
+        <answer data-type="text">The ISDN service that provides two B channels plus a data channel. BRI is suitable for small businesses. See PRI.</answer>
+        <answer data-type="text" correct="correct">A dynamic Web page technology that allows items in a page to come from a conventional database. The server interprets SQL queries embedded in each page whenever the page is requested.</answer>
+      </answers>
+    </question>
+    <question id="91" text="collision" category="Glosor">
+      <answers>
+        <answer data-type="text">The algorithm bridges use to avoid a loop.</answer>
+        <answer data-type="text">The syntactic notation used to express an IPv6 address.</answer>
+        <answer data-type="text">The multicast routing protocol used on the MBONE. DVMRP sends multicast locally, but uses IP-in-IP tunneling to transfer multicast datagrams among sites.</answer>
+        <answer data-type="text" correct="correct">An event that occurs on a CSMA/CD network when two stations attempt to transmit simultaneously. The signals interfere with each other, forcing the two stations to back off and try again.</answer>
+      </answers>
+    </question>
+    <question id="92" text="colon hexadecimal notation" category="Glosor">
+      <answers>
+        <answer data-type="text">The technical name for 10 Mbps twisted pair Ethernet.</answer>
+        <answer data-type="text">The required header found at the beginning of an IPv6 datagram.</answer>
+        <answer data-type="text">A modem that uses the dialup telephone network to communicate. Dialup modems use an audible tone as a carrier wave, and must be able to dial or answer a telephone call.</answer>
+        <answer data-type="text" correct="correct">The syntactic notation used to express an IPv6 address.</answer>
+      </answers>
+    </question>
+    <question id="93" text="congestion" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">A condition in which,.each packet sent through a network experiences excessive delay because the network is overrun with packets. Unless protocol software detects congestion and reduces the rate at which packets are sent, a network can experience congestion collapse.</answer>
+        <answer data-type="text">A form of delivery in which one copy of a packet is delivered to each computer on a network. See cluster, multicast, and unicast.</answer>
+        <answer data-type="text">A library of graphics procedures used with the Java language to manipulate windows on a bit-mapped display. At various times, the designers have expanded AWT to Alternative Window Toolkit and Applet Widget Toolkit.</answer>
+        <answer data-type="text">An old set of network protocols developed and sold by Apple Computer Corporation.</answer>
+      </answers>
+    </question>
+    <question id="94" text="connection-oriented" category="Glosor">
+      <answers>
+        <answer data-type="text">The ISDN service that provides two B channels plus a data channel. BRI is suitable for small businesses. See PRI.</answer>
+        <answer data-type="text" correct="correct">Characteristic of a network in which a connection must be established before data can be sent, and terminated after all data has been transferred. The alternative to connection-oriented networking is connectionless networking. See connectionless.</answer>
+        <answer data-type="text">A CSMA network that has the capability to detect errors that result when multiple stations transmit simultaneously. See collision.</answer>
+        <answer data-type="text">A World Wide Web document that is a computer program. After downloading an active document, the browser runs the program on the user's computer. The active document can change the display continuously. See dynamic document, static document, and URL.</answer>
+      </answers>
+    </question>
+    <question id="95" text="connectionless" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">A characteristic of a network system that allows a computer to send data to any other computer at any time. Connectionless networks are analogous to a postal system in which each letter carries the address of the recipient; letters can be sent at any time. See connection-oriented.</answer>
+        <answer data-type="text">The technique in which information to be sent is placed inside the data area of a packet or frame. A packet from one protocol can be encapsulated in another (e.g., ICMP can be encapsulated in IP).</answer>
+        <answer data-type="text">A pejorative term used to refer to the 10% header overhead introduced by ATM.</answer>
+        <answer data-type="text">When two programs communicate over a network, a client is the one that initiates communication, while the program that waits to be contacted is a server. A given program can act as a server for one service and a client for another.</answer>
+      </answers>
+    </question>
+    <question id="96" text="cookie" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">A small value a Web server passes to a browser in a reply to help the server identify the user. A browser returns the cookie when sending subsequent requests from the user to the server that issued the cookie.</answer>
+        <answer data-type="text">A protocol that computers use to obtain configuration information. DHCP allows a computer to be assigned an IP address without requiring a manager to configure information about the computer in a server's database.</answer>
+        <answer data-type="text">The number of changes in a signal per second. Each change can encode one or more bits of information.</answer>
+        <answer data-type="text">A telephone company term for equipment such as a computer that connects to a network. See DCE.</answer>
+      </answers>
+    </question>
+    <question id="97" text="CORBA (Common Object Request Broker Architecture)" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">An object-oriented middleware technology.</answer>
+        <answer data-type="text">A value used to verify that data is not corrupted during transmission. The sender computes a CRC and transmits the result in a packet with the data. A receiver computes the CRC over the data received, and compares the value to the CRC in the packet. A CRC is more complex to compute than a checksum, but can detect more transmission errors.</answer>
+        <answer data-type="text">The IEEE standard for Logical Link Control (See LLC and SNAP.), Ethernet, Token Ring and Wi-Fi wireless network.</answer>
+        <answer data-type="text">A general concept that refers to separating information received over a common communication channel into its original components. Demultiplexing occurs both in hardware (i.e., electrical signals can be demultiplexed) and in software (i.e., protocol software can demultiplex incoming messages and pass each to the correct application program). See multiplex.</answer>
+      </answers>
+    </question>
+    <question id="98" text="CRC (Cyclic Redundancy Check)" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">A value used to verify that data is not corrupted during transmission. The sender computes a CRC and transmits the result in a packet with the data. A receiver computes the CRC over the data received, and compares the value to the CRC in the packet. A CRC is more complex to compute than a checksum, but can detect more transmission errors.</answer>
+        <answer data-type="text">Characteristic of a network in which a connection must be established before data can be sent, and terminated after all data has been transferred. The alternative to connection-oriented networking is connectionless networking. Note: the acronym CO is also used to refer to a telephone company Central Office. See connectionless.</answer>
+        <answer data-type="text">The ISDN service that provides two B channels plus a data channel. BRI is suitable for small businesses. See PRI.</answer>
+        <answer data-type="text">A standard for sending digital information over a cable modem system.</answer>
+      </answers>
+    </question>
+    <question id="99" text="CSMA (Carrier Sense Multiple Access)" category="Glosor">
+      <answers>
+        <answer data-type="text">A telephone company term for communication equipment such as a modem. See DTE. Note: the acronym is also used for Distributed Computing Environment.</answer>
+        <answer data-type="text" correct="correct">The technique used with bus architecture networks in which computers attached to the common bus check for the presence of a carrier before transmitting.</answer>
+        <answer data-type="text">A pejorative term used to refer to the 10% header overhead introduced by ATM.</answer>
+        <answer data-type="text">A protocol for propagating multicast routing information.</answer>
+      </answers>
+    </question>
+    <question id="100" text="CSMA/CD (Carrier Sense Multiple Access with Collision Detection)" category="Glosor">
+      <answers>
+        <answer data-type="text">A form of network attack in which a site is flooded with so many packets (usually incorrect or fictitious requests) that the site cannot respond to legitimate requests.</answer>
+        <answer data-type="text">A wiring scheme often used with asynchronous serial connections between a pair of computers. The first wire is used to transmit data from one computer to another, the second wire is used to transmit data in the reverse direction, and the third wire is a common electrical ground.</answer>
+        <answer data-type="text" correct="correct">A CSMA network that has the capability to detect errors that result when multiple stations transmit simultaneously. See collision.</answer>
+        <answer data-type="text">A pejorative term used to refer to the 10% header overhead introduced by ATM.</answer>
+      </answers>
+    </question>
+    <question id="101" text="D channel" category="Glosor">
+      <answers>
+        <answer data-type="text">The number of changes in a signal per second. Each change can encode one or more bits of information.</answer>
+        <answer data-type="text">A wiring scheme often used with asynchronous serial connections between a pair of computers. The first wire is used to transmit data from one computer to another, the second wire is used to transmit data in the reverse direction, and the third wire is a common electrical ground.</answer>
+        <answer data-type="text">A generic reference to any of the services such as ADSL and HDSL that supply broadband data rates over telephone lines.</answer>
+        <answer data-type="text" correct="correct">The term telephone companies use to denote a channel configured to handle data. ISDN includes D channel service. See B channel.</answer>
+      </answers>
+    </question>
+    <question id="102" text="DB connector" category="Glosor">
+      <answers>
+        <answer data-type="text">The designations that telephone companies use for the speeds of popular point-to- point digital circuits. DS-0 denotes a digital voice circuit of 64 Kbps; DS-1 denotes 1.544 Mbps; and DS-3 denotes 44.736 Mbps. See Tl, T3.</answer>
+        <answer data-type="text" correct="correct">A type of physical connector used with computers and communication equipment. The number immediately following the dash specifies the number of pins. For example, DB-9, DB-15, and DB-25 connectors have 9, 15, and 25 pins.</answer>
+        <answer data-type="text">A subtree of the computer naming hierarchy used in the Internet. For example, commercial organizations have names registered under the .com domain.</answer>
+        <answer data-type="text">An algorithm that bridges use when they boot to detect and break cycles.</answer>
+      </answers>
+    </question>
+    <question id="103" text="DCE (Data Communication Equipment)" category="Glosor">
+      <answers>
+        <answer data-type="text">An ISDN service that includes two standard telephone connections plus a data connection.</answer>
+        <answer data-type="text">A dynamic Web page technology closely linked to Microsoft's Web server. The server interprets Visual Basic code that is embedded in each page whenever the page is requested.</answer>
+        <answer data-type="text">The technical name for 10 Mbps twisted pair Ethernet.</answer>
+        <answer data-type="text" correct="correct">A telephone company term for communication equipment such as a modem. See DTE. Note: the acronym is also used for Distributed Computing Environment.</answer>
+      </answers>
+    </question>
+    <question id="104" text="default route" category="Glosor">
+      <answers>
+        <answer data-type="text">The IEEE standard for Logical Link Control (See LLC and SNAP.), Ethernet, Token Ring and Wi-Fi wireless network.</answer>
+        <answer data-type="text" correct="correct">A wild-card entry in a routing table. The routing software follows the default route if the table does not contain an explicit route to the destination.</answer>
+        <answer data-type="text">A telephone company term for communication equipment such as a modem. See DTE. Note: the acronym is also used for Distributed Computing Environment.</answer>
+        <answer data-type="text">An event that occurs on a CSMA/CD network when two stations attempt to transmit simultaneously. The signals interfere with each other, forcing the two stations to back off and try again.</answer>
+      </answers>
+    </question>
+    <question id="105" text="delay-bandwidth product" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">A measure of a network that specifies the amount of data that is present in the network between the sender and receiver.</answer>
+        <answer data-type="text">The rate at which data can be transmitted across a network. The number of bits per second may differ from the baud rate because more than one bit can be encoded in a single baud. See Gbps, Kbps, and Mbps.</answer>
+        <answer data-type="text">A measure of the capacity of a transmission system. Bandwidth is measured in Hertz.</answer>
+        <answer data-type="text">Term applied to any route propagation protocol used to transfer routing information among Autonomous Systems. See IGP.</answer>
+      </answers>
+    </question>
+    <question id="106" text="demarc" category="Glosor">
+      <answers>
+        <answer data-type="text">Characteristic of any communication system in which the sender can transmit data without warning. The receiver must be prepared to accept data at any time. See synchronous.</answer>
+        <answer data-type="text">The service used by ATM to transfer an audio or video stream. Data is sent at a steady rate.</answer>
+        <answer data-type="text">Characteristic of any network system that makes a best attempt to deliver data, but does hot guarantee delivery. Many networks use the best-effort approach.</answer>
+        <answer data-type="text" correct="correct">A telephone company term for the boundary between communication facilities owned by the telephone company and facilities owned by a private organization, See NIU and NTI.</answer>
+      </answers>
+    </question>
+    <question id="107" text="demodulator" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">A device that accepts a modulated carrier wave and extracts the information used to modulate it. See modem.</answer>
+        <answer data-type="text">A condition in which,.each packet sent through a network experiences excessive delay because the network is overrun with packets. Unless protocol software detects congestion and reduces the rate at which packets are sent, a network can experience congestion collapse.</answer>
+        <answer data-type="text">A technology used to control digital cable modems and allow a user to select content.</answer>
+        <answer data-type="text">The designations that telephone companies use for the speeds of popular point-to- point digital circuits. DS-0 denotes a digital voice circuit of 64 Kbps; DS-1 denotes 1.544 Mbps; and DS-3 denotes 44.736 Mbps. See Tl, T3.</answer>
+      </answers>
+    </question>
+    <question id="108" text="demultiplex" category="Glosor">
+      <answers>
+        <answer data-type="text">The mapping from one address to another, usually from a high-level address (e.g., an IP address) to a low-level address (e.g., an Ethernet address).</answer>
+        <answer data-type="text">The designations that telephone companies use for the speeds of popular point-to- point digital circuits. DS-0 denotes a digital voice circuit of 64 Kbps; DS-1 denotes 1.544 Mbps; and DS-3 denotes 44.736 Mbps. See Tl, T3.</answer>
+        <answer data-type="text" correct="correct">A general concept that refers to separating information received over a common communication channel into its original components. Demultiplexing occurs both in hardware (i.e., electrical signals can be demultiplexed) and in software (i.e., protocol software can demultiplex incoming messages and pass each to the correct application program). See multiplex.</answer>
+        <answer data-type="text">The time a network interface waits before it can access a shared network.</answer>
+      </answers>
+    </question>
+    <question id="109" text="denial-of-service attack" category="Glosor">
+      <answers>
+        <answer data-type="text">A form of network attack in which a site is flooded with so many packets (usually incorrect or fictitious requests) that the site cannot respond to legitimate requests.</answer>
+        <answer data-type="text">A standard for representing data. The SNMP protocol uses ASN.l to represent object names.</answer>
+        <answer data-type="text" correct="correct">See DOS.</answer>
+        <answer data-type="text">The algorithm bridges use to avoid a loop.</answer>
+      </answers>
+    </question>
+    <question id="110" text="destination address" category="Glosor">
+      <answers>
+        <answer data-type="text">The name applied to cable television systems. CATV technology uses frequency division multiplexing to propagate multiple television channels over a single cable simultaneously. See cable modem.</answer>
+        <answer data-type="text">A network architecture in which all computers attach to a shared medium, often a single cable. The bus architecture is mainly used for Local Area Networks.</answer>
+        <answer data-type="text">A modem used to send digital information over the coaxial cables used for cable television,</answer>
+        <answer data-type="text" correct="correct">An address in a packet that specifies the ultimate destination to which the packet is sent. In a hardware frame, the destination address must be a hardware address. In an IP datagram, the destination address must be an IP address.</answer>
+      </answers>
+    </question>
+    <question id="111" text="DHCP (Dynamic Host Configuration Protocol)" category="Glosor">
+      <answers>
+        <answer data-type="text">The number of changes in a signal per second. Each change can encode one or more bits of information.</answer>
+        <answer data-type="text">A technique protocols use for dynamic address configuration. A computer selects an address at random, and broadcasts a message to determine whether the address is in use. Alternative schemes use servers to manage addresses. See DHCP.</answer>
+        <answer data-type="text" correct="correct">A protocol that computers use to obtain configuration information. DHCP allows a computer to be assigned an IP address without requiring a manager to configure information about the computer in a server's database.</answer>
+        <answer data-type="text">An OSPF term for a set of routers that use OSPF to exchange link-status information.</answer>
+      </answers>
+    </question>
+    <question id="112" text="dialup modem" category="Glosor">
+      <answers>
+        <answer data-type="text">The type of connector used with thin wire Ethernet.</answer>
+        <answer data-type="text" correct="correct">A modem that uses the dialup telephone network to communicate. Dialup modems use an audible tone as a carrier wave, and must be able to dial or answer a telephone call.</answer>
+        <answer data-type="text">A technology used to control digital cable modems and allow a user to select content.</answer>
+        <answer data-type="text">The protocol an application uses to send data over an ATM network. AAL5, which is part of the ATM stack, accepts and delivers large packets of data (up to 64K bytes).</answer>
+      </answers>
+    </question>
+    <question id="113" text="digital signature" category="Glosor">
+      <answers>
+        <answer data-type="text">The multicast routing protocol used on the MBONE. DVMRP sends multicast locally, but uses IP-in-IP tunneling to transfer multicast datagrams among sites.</answer>
+        <answer data-type="text" correct="correct">Data encrypted in such a way that the receiver can verify the identity of the sender.</answer>
+        <answer data-type="text">A security mechanism that specifies users or computer programs that can access a particular object.</answer>
+        <answer data-type="text">The syntactic notation used to express a 32-bit IPv4 address. Each octet is written in decimal with a period separating octets.</answer>
+      </answers>
+    </question>
+    <question id="114" text="Dijkstra's algorithm" category="Glosor">
+      <answers>
+        <answer data-type="text">The designations that telephone companies use for the speeds of popular point-to- point digital circuits. DS-0 denotes a digital voice circuit of 64 Kbps; DS-1 denotes 1.544 Mbps; and DS-3 denotes 44.736 Mbps. See Tl, T3.</answer>
+        <answer data-type="text">A protocol that a computer uses when it first starts to obtain information needed to configure the protocol software. BOOTP uses IP and UDP to broadcast a request and receive a response before IP has been completely configured.</answer>
+        <answer data-type="text" correct="correct">An algorithm for computing shortest paths in a graph. Routing protocols use Dijkstra's algorithm to compute optimal routes.</answer>
+        <answer data-type="text">The algorithm bridges use to avoid a loop.</answer>
+      </answers>
+    </question>
+    <question id="115" text="directed broadcast" category="Glosor">
+      <answers>
+        <answer data-type="text">A condition in which,.each packet sent through a network experiences excessive delay because the network is overrun with packets. Unless protocol software detects congestion and reduces the rate at which packets are sent, a network can experience congestion collapse.</answer>
+        <answer data-type="text" correct="correct">A broadcast to all computers on a remote network achieved by sending a single copy of the packet to the remote network and broadcasting the packet when it arrives. TCP/IP supports directed broadcast.</answer>
+        <answer data-type="text">The IP addressing and routing scheme that replaced classful addressing. CIDR uses a 32-bit address mask to denote the boundary between the prefix and suffix of an IP address.</answer>
+        <answer data-type="text">A 32-bit value that specifies how an IP address is divided into network and host portions. Address bits not covered by the mask correspond to the host portion. Also called a subnet mask.</answer>
+      </answers>
+    </question>
+    <question id="116" text="distance-vector" category="Glosor">
+      <answers>
+        <answer data-type="text">A value used to verify that data is not corrupted during transmission. The sender computes a checksum by adding the binary values of the data, and transmits the result in a packet with the data. A receiver computes a checksum over the data received, and compares the value to the checksum in the packet. See CRC.</answer>
+        <answer data-type="text">See DOS.</answer>
+        <answer data-type="text">A message used for testing and debugging. The ping program sends ICMP echo request messages to elicit echo replies. See echo reply.</answer>
+        <answer data-type="text" correct="correct">An algorithm that routers use to compute optimal routes to each destination. Periodically, each router receives routing information from neighboring routers. A router replaces a current route if a lower cost route becomes available. See link-status and SPF.</answer>
+      </answers>
+    </question>
+    <question id="117" text="distributed spanning tree" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">An algorithm that bridges use when they boot to detect and break cycles.</answer>
+        <answer data-type="text">The ability of a transport protocol to change its retransmission timer continuously to accommodate variations in internet delay. TCP is the best known protocol that uses adaptive retransmission.</answer>
+        <answer data-type="text">A protocol that computers use to obtain configuration information. DHCP allows a computer to be assigned an IP address without requiring a manager to configure information about the computer in a server's database.</answer>
+        <answer data-type="text">A dynamic Web page technology closely linked to Microsoft's Web server. The server interprets Visual Basic code that is embedded in each page whenever the page is requested.</answer>
+      </answers>
+    </question>
+    <question id="118" text="DIX Ethernet (Digital Intel Xerox Ethernet)" category="Glosor">
+      <answers>
+        <answer data-type="text">A unique binary value assigned to a computer; network hardware and software uses the address in a packet to forward the packet to its destination.</answer>
+        <answer data-type="text" correct="correct">A term used for the original Ethernet because the standard was developed jointly by the three companies.</answer>
+        <answer data-type="text">The mechanism that a 10/100 Ethernet port uses to detect the maximum speed of a computer.</answer>
+        <answer data-type="text">A small value a Web server passes to a browser in a reply to help the server identify the user. A browser returns the cookie when sending subsequent requests from the user to the server that issued the cookie.</answer>
+      </answers>
+    </question>
+    <question id="119" text="DNS (Domain Name System)" category="Glosor">
+      <answers>
+        <answer data-type="text">A message used for testing and debugging. The ping program sends ICMP echo request messages to elicit echo replies. See echo reply.</answer>
+        <answer data-type="text" correct="correct">The automated system used to translate computer names into equivalent IP addresses. A DNS server responds to a query by looking up the name and returning the address. See domain.</answer>
+        <answer data-type="text">A computer program, associated with a World Wide Web document, that can generate a document on demand. When a browser requests a dynamic document, the server runs the program and sends the output to the browser. A dynamic document program can generate different output for each request. See active document, static document, and URL.</answer>
+        <answer data-type="text">A protocol for propagating multicast routing information.</answer>
+      </answers>
+    </question>
+    <question id="120" text="DOCSIS (Data Over Cable System Interface Standard)" category="Glosor">
+      <answers>
+        <answer data-type="text">A form of network attack in which a site is flooded with so many packets (usually incorrect or fictitious requests) that the site cannot respond to legitimate requests.</answer>
+        <answer data-type="text" correct="correct">A standard for sending digital information over a cable modem system.</answer>
+        <answer data-type="text">A conceptual model that explains how TCP/IP Internet protocols are designed.</answer>
+        <answer data-type="text">A technique protocols use for dynamic address configuration. A computer selects an address at random, and broadcasts a message to determine whether the address is in use. Alternative schemes use servers to manage addresses. See DHCP.</answer>
+      </answers>
+    </question>
+    <question id="121" text="domain" category="Glosor">
+      <answers>
+        <answer data-type="text">A wild-card entry in a routing table. The routing software follows the default route if the table does not contain an explicit route to the destination.</answer>
+        <answer data-type="text">The rate at which data can be transmitted across a network. The number of bits per second may differ from the baud rate because more than one bit can be encoded in a single baud. See Gbps, Kbps, and Mbps.</answer>
+        <answer data-type="text">A computer program that accesses and displays information from the World Wide Web. A browser contains multiple application programs, and uses an object's name to determine which application should be used to access the object. See URL.</answer>
+        <answer data-type="text" correct="correct">A subtree of the computer naming hierarchy used in the Internet. For example, commercial organizations have names registered under the .com domain.</answer>
+      </answers>
+    </question>
+    <question id="122" text="DOS (Denial Of Service)" category="Glosor">
+      <answers>
+        <answer data-type="text">A wild-card entry in a routing table. The routing software follows the default route if the table does not contain an explicit route to the destination.</answer>
+        <answer data-type="text">An Internet service that allows multiple users to communicate by entering text that is displayed on the screens of other participants.</answer>
+        <answer data-type="text" correct="correct">A form of network attack in which a site is flooded with so many packets (usually incorrect or fictitious requests) that the site cannot respond to legitimate requests.</answer>
+        <answer data-type="text">The type of connector used with thin wire Ethernet.</answer>
+      </answers>
+    </question>
+    <question id="123" text="dotted decimal notation" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">The syntactic notation used to express a 32-bit IPv4 address. Each octet is written in decimal with a period separating octets.</answer>
+        <answer data-type="text">A type of service offered by ATM.</answer>
+        <answer data-type="text">The IEEE standard for Logical Link Control (See LLC and SNAP.), Ethernet, Token Ring and Wi-Fi wireless network.</answer>
+        <answer data-type="text">An early conceptual model devised by the International Organization for Standardization to specify how a set of protocols work together to provide communication services. The 7-layer model did not include an internet protocol layer.</answer>
+      </answers>
+    </question>
+    <question id="124" text="downlink" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">The path of data transmitted from a satellite to an earth station. See uplink.</answer>
+        <answer data-type="text">A wiring scheme often used with asynchronous serial connections between a pair of computers. The first wire is used to transmit data from one computer to another, the second wire is used to transmit data in the reverse direction, and the third wire is a common electrical ground.</answer>
+        <answer data-type="text">A protocol that a computer uses when it first starts to obtain information needed to configure the protocol software. BOOTP uses IP and UDP to broadcast a request and receive a response before IP has been completely configured.</answer>
+        <answer data-type="text">An event that occurs on a CSMA/CD network when two stations attempt to transmit simultaneously. The signals interfere with each other, forcing the two stations to back off and try again.</answer>
+      </answers>
+    </question>
+    <question id="125" text="downstream" category="Glosor">
+      <answers>
+        <answer data-type="text">An old set of network protocols developed and sold by Apple Computer Corporation.</answer>
+        <answer data-type="text">A telephone company term for communication equipment such as a modem. See DTE. Note: the acronym is also used for Distributed Computing Environment.</answer>
+        <answer data-type="text" correct="correct">The path of data from the Internet to a residential customer. The term is often used with DSL or cable modem technologies. See upstream.</answer>
+        <answer data-type="text">The syntactic notation used to express a 32-bit IPv4 address. Each octet is written in decimal with a period separating octets.</answer>
+      </answers>
+    </question>
+    <question id="126" text="DS-0, DS-1, DS-3 (Digital Signal Level standards)" category="Glosor">
+      <answers>
+        <answer data-type="text">The ability of a transport protocol to change its retransmission timer continuously to accommodate variations in internet delay. TCP is the best known protocol that uses adaptive retransmission.</answer>
+        <answer data-type="text" correct="correct">The designations that telephone companies use for the speeds of popular point-to- point digital circuits. DS-0 denotes a digital voice circuit of 64 Kbps; DS-1 denotes 1.544 Mbps; and DS-3 denotes 44.736 Mbps. See Tl, T3.</answer>
+        <answer data-type="text">The protocol an application uses to send data over an ATM network. AAL5, which is part of the ATM stack, accepts and delivers large packets of data (up to 64K bytes).</answer>
+        <answer data-type="text">An alternative to packet switching in which the network hardware forms a circuit between two communicating endpoints. The original telephone network used circuit switching.</answer>
+      </answers>
+    </question>
+    <question id="127" text="DSL (Digital Subscriber Line)" category="Glosor">
+      <answers>
+        <answer data-type="text">Characteristic of a network in which a connection must be established before data can be sent, and terminated after all data has been transferred. The alternative to connection-oriented networking is connectionless networking. Note: the acronym CO is also used to refer to a telephone company Central Office. See connectionless.</answer>
+        <answer data-type="text">A computer program, associated with a World Wide Web document, that can generate a document on demand. When a browser requests a dynamic document, the server runs the program and sends the output to the browser. A dynamic document program can generate different output for each request. See active document, static document, and URL.</answer>
+        <answer data-type="text">The IEEE standard for Logical Link Control (See LLC and SNAP.), Ethernet, Token Ring and Wi-Fi wireless network.</answer>
+        <answer data-type="text" correct="correct">A generic reference to any of the services such as ADSL and HDSL that supply broadband data rates over telephone lines.</answer>
+      </answers>
+    </question>
+    <question id="128" text="DST (Distributed Spanning Tree)" category="Glosor">
+      <answers>
+        <answer data-type="text">The method of interaction used when two application programs communicate over a network. A server application waits at a known address, and a client application contacts the server.</answer>
+        <answer data-type="text">A CSMA network that has the capability to detect errors that result when multiple stations transmit simultaneously. See collision.</answer>
+        <answer data-type="text" correct="correct">The algorithm bridges use to avoid a loop.</answer>
+        <answer data-type="text">An algorithm for computing shortest paths in a graph. Routing protocols use Dijkstra's algorithm to compute optimal routes.</answer>
+      </answers>
+    </question>
+    <question id="129" text="DSU/CSU (Data Service Unit/Channel Service Unit)" category="Glosor">
+      <answers>
+        <answer data-type="text">A popular application in which a user or computer sends a memo to one or more recipients.</answer>
+        <answer data-type="text">Characteristic of a network in which a connection must be established before data can be sent, and terminated after all data has been transferred. The alternative to connection-oriented networking is connectionless networking. Note: the acronym CO is also used to refer to a telephone company Central Office. See connectionless.</answer>
+        <answer data-type="text" correct="correct">An electronic device that connects a leased digital data circuit to computer equipment. The DSU/CSU translates between the digital format used by the telephone companies and the format used by the computer industry. See modem.</answer>
+        <answer data-type="text">The multicast routing protocol used on the MBONE. DVMRP sends multicast locally, but uses IP-in-IP tunneling to transfer multicast datagrams among sites.</answer>
+      </answers>
+    </question>
+    <question id="130" text="DTE (Data Terminal Equipment)" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">A telephone company term for equipment such as a computer that connects to a network. See DCE.</answer>
+        <answer data-type="text">A term used for the original Ethernet because the standard was developed jointly by the three companies.</answer>
+        <answer data-type="text">The scheme used by computers on an Ethernet following a collision. Each computer doubles the time it waits after each successive collision.</answer>
+        <answer data-type="text">A protocol technique in which data is changed by inserting additional bytes to distinguish between data values and packet control values (i.e. headers).</answer>
+      </answers>
+    </question>
+    <question id="131" text="DTMF (Dual Tone Multi-Frequency)" category="Glosor">
+      <answers>
+        <answer data-type="text">A set of packets transmitted back to back. Packet traffic tends to be bursty.</answer>
+        <answer data-type="text">Access to an FTP server using the login name anonymous and the password guest. Not all FTP servers permit anonymous FTP.</answer>
+        <answer data-type="text">A protocol that computers use to obtain configuration information. DHCP allows a computer to be assigned an IP address without requiring a manager to configure information about the computer in a server's database.</answer>
+        <answer data-type="text" correct="correct">The touch tone encoding used with telephones.</answer>
+      </answers>
+    </question>
+    <question id="132" text="DV (Distance Vector)" category="Glosor">
+      <answers>
+        <answer data-type="text">A network system in which a satellite broadcasts all packets and allows individual receivers to discard packets intended for other recipients.</answer>
+        <answer data-type="text">Characteristic of a network in which a connection must be established before data can be sent, and terminated after all data has been transferred. The alternative to connection-oriented networking is connectionless networking. Note: the acronym CO is also used to refer to a telephone company Central Office. See connectionless.</answer>
+        <answer data-type="text" correct="correct">One of two basic algorithms used by routing protocols. The alternative to distance vector routing is link-status routing.</answer>
+        <answer data-type="text">The protocol a computer uses to map an IP address into a hardware address. A computer that invokes ARP broadcasts a request to which the target computer re- plies.</answer>
+      </answers>
+    </question>
+    <question id="133" text="DVMRP (Distance Vector Multicast Routing Protocol)" category="Glosor">
+      <answers>
+        <answer data-type="text">A World Wide Web document that is a computer program. After downloading an active document, the browser runs the program on the user's computer. The active document can change the display continuously. See dynamic document, static document, and URL.</answer>
+        <answer data-type="text">The technique in which information to be sent is placed inside the data area of a packet or frame. A packet from one protocol can be encapsulated in another (e.g., ICMP can be encapsulated in IP).</answer>
+        <answer data-type="text" correct="correct">The multicast routing protocol used on the MBONE. DVMRP sends multicast locally, but uses IP-in-IP tunneling to transfer multicast datagrams among sites.</answer>
+        <answer data-type="text">A protocol for propagating multicast routing information.</answer>
+      </answers>
+    </question>
+    <question id="134" text="DWDM (Dense Wavelength Division Multiplexing)" category="Glosor">
+      <answers>
+        <answer data-type="text">Characteristic of the original IP addressing scheme in which unicast addresses were divided into three primary classes. The class of an address determines the division between the prefix and suffix in the address. See classless addressing.</answer>
+        <answer data-type="text" correct="correct">A high-speed multiplexing technology used with optical fiber.</answer>
+        <answer data-type="text">The multicast routing protocol used on the MBONE. DVMRP sends multicast locally, but uses IP-in-IP tunneling to transfer multicast datagrams among sites.</answer>
+        <answer data-type="text">A wiring scheme often used with asynchronous serial connections between a pair of computers. One pair of wires is used to carry data in one direction and the other pair is used to carry data in the reverse direction. A 4-wire circuit is usually used to span longer distances than a 3-wire circuit.</answer>
+      </answers>
+    </question>
+    <question id="135" text="dynamic document" category="Glosor">
+      <answers>
+        <answer data-type="text">A dynamic Web page technology closely linked to Microsoft's Web server. The server interprets Visual Basic code that is embedded in each page whenever the page is requested.</answer>
+        <answer data-type="text" correct="correct">A computer program, associated with a World Wide Web document, that can generate a document on demand. When a browser requests a dynamic document, the server runs the program and sends the output to the browser. A dynamic document program can generate different output for each request. See active document, static document, and URL.</answer>
+        <answer data-type="text">Characteristic of a network in which a connection must be established before data can be sent, and terminated after all data has been transferred. The alternative to connection-oriented networking is connectionless networking. See connectionless.</answer>
+        <answer data-type="text">A technology used to control digital cable modems and allow a user to select content.</answer>
+      </answers>
+    </question>
+    <question id="136" text="e-mail (electronic mail)" category="Glosor">
+      <answers>
+        <answer data-type="text">A telephone company term for communication equipment such as a modem. See DTE. Note: the acronym is also used for Distributed Computing Environment.</answer>
+        <answer data-type="text">The technique in which information to be sent is placed inside the data area of a packet or frame. A packet from one protocol can be encapsulated in another (e.g., ICMP can be encapsulated in IP).</answer>
+        <answer data-type="text">A computer program, associated with a World Wide Web document, that can generate a document on demand. When a browser requests a dynamic document, the server runs the program and sends the output to the browser. A dynamic document program can generate different output for each request. See active document, static document, and URL.</answer>
+        <answer data-type="text" correct="correct">A popular application in which a user or computer sends a memo to one or more recipients.</answer>
+      </answers>
+    </question>
+    <question id="137" text="EBCDIC (Extended Binary Coded Decimal Interchange Code)" category="Glosor">
+      <answers>
+        <answer data-type="text">A term used for the original Ethernet because the standard was developed jointly by the three companies.</answer>
+        <answer data-type="text">Characteristic of a network in which a connection must be established before data can be sent, and terminated after all data has been transferred. The alternative to connection-oriented networking is connectionless networking. See connectionless.</answer>
+        <answer data-type="text">A telephone company term for the boundary between communication facilities owned by the telephone company and facilities owned by a private organization, See NIU and NTI.</answer>
+        <answer data-type="text" correct="correct">A standard that assigns unique values to 256 characters, including upper and lower case letters, digits, punctuation, and control characters. See ASCII.</answer>
+      </answers>
+    </question>
+    <question id="138" text="echo reply" category="Glosor">
+      <answers>
+        <answer data-type="text">The rate at which data can be transmitted across a network. The number of bits per second may differ from the baud rate because more than one bit can be encoded in a single baud. See Gbps, Kbps, and Mbps.</answer>
+        <answer data-type="text" correct="correct">A message used for testing and debugging. An ICMP echo reply is returned in answer to an ICMP echo request message. The ping program receives echo replies. See echo request.</answer>
+        <answer data-type="text">The multicast routing protocol used on the MBONE. DVMRP sends multicast locally, but uses IP-in-IP tunneling to transfer multicast datagrams among sites.</answer>
+        <answer data-type="text">A characteristic of a network system that allows a computer to send data to any other computer at any time. Connectionless networks are analogous to a postal system in which each letter carries the address of the recipient; letters can be sent at any time. See connection-oriented.</answer>
+      </answers>
+    </question>
+    <question id="139" text="echo request" category="Glosor">
+      <answers>
+        <answer data-type="text">The type of connector used with the original, thick wire Ethernet.</answer>
+        <answer data-type="text" correct="correct">A message used for testing and debugging. The ping program sends ICMP echo request messages to elicit echo replies. See echo reply.</answer>
+        <answer data-type="text">The syntactic notation used to express an IPv6 address.</answer>
+        <answer data-type="text">A protocol that a computer uses when it first starts to obtain information needed to configure the protocol software. BOOTP uses IP and UDP to broadcast a request and receive a response before IP has been completely configured.</answer>
+      </answers>
+    </question>
+    <question id="140" text="EGP (Exterior Gateway Protocol)" category="Glosor">
+      <answers>
+        <answer data-type="text">The touch tone encoding used with telephones.</answer>
+        <answer data-type="text">A standard that assigns unique values to 256 characters, including upper and lower case letters, digits, punctuation, and control characters. See ASCII.</answer>
+        <answer data-type="text">A measure of the capacity of a transmission system. Bandwidth is measured in Hertz.</answer>
+        <answer data-type="text" correct="correct">Term applied to any route propagation protocol used to transfer routing information among Autonomous Systems. See IGP.</answer>
+      </answers>
+    </question>
+    <question id="141" text="encapsulation" category="Glosor">
+      <answers>
+        <answer data-type="text">A computer program that accesses and displays information from the World Wide Web. A browser contains multiple application programs, and uses an object's name to determine which application should be used to access the object. See URL.</answer>
+        <answer data-type="text">A 32-bit value that specifies how an IP address is divided into network and host portions. Address bits not covered by the mask correspond to the host portion. Also called a subnet mask.</answer>
+        <answer data-type="text" correct="correct">The technique in which information to be sent is placed inside the data area of a packet or frame. A packet from one protocol can be encapsulated in another (e.g., ICMP can be encapsulated in IP).</answer>
+        <answer data-type="text">Characteristic of the current IP addressing scheme in which a 32-bit address mask is used to determine the division between the prefix and suffix of an IP address. See classful addressing.</answer>
+      </answers>
+    </question>
+    <question id="142" text="encryption key" category="Glosor">
+      <answers>
+        <answer data-type="text" correct="correct">The short value used when encrypting data to guarantee confidentiality. In some encryption schemes, the receiver must use the same key to decrypt the data. Other schemes use a pair of keys — one to encrypt and a different key to decrypt.</answer>
+        <answer data-type="text">A standard for sending digital information over a cable modem system.</answer>
+        <answer data-type="text">A wiring scheme often used with asynchronous serial connections between a pair of computers. One pair of wires is used to carry data in one direction and the other pair is used to carry data in the reverse direction. A 4-wire circuit is usually used to span longer distances than a 3-wire circuit.</answer>
+        <answer data-type="text">The term telephone companies use to denote a channel configured to handle a voice telephone circuit. ISDN includes B channel service. See D channel.</answer>
+      </answers>
+    </question>
+  </course>
 </questions>
