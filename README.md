@@ -8,6 +8,7 @@ Originally an assignment for multimedia course at Uppsala University but have no
 - Commit and create pull request
 
 ## ToDo
++ Complete rewrite. `quiz.js` is pretty much spaghetti so it's much needed. Maybe to Angular or React.
 + Test with more browsers.
   + Works in Safari.
   + Works in Firefox.
